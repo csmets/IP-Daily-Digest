@@ -1,6 +1,6 @@
 # IP Daily Digest - APNIC
 
-Daily IP delegations for APNIC. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
+Total IP delegations for APNIC. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
 
 ---
 
