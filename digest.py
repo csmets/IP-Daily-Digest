@@ -1,4 +1,5 @@
 """ Global IP Daily Digest for historic keeping """
+
 def read_lines(func, lines, return_val, start_at=0):
 
     relevant_lines = lines[start_at:]
@@ -33,36 +34,112 @@ def get_line_values(line, line_values):
 
     return line_values
 
-ipv4_stats = (
-    {'available': 0, 'allocated': 0, 'assigned': 0, 'reserved': 0, 'hosts': 0}
-)
-ipv6_stats = {'available': 0, 'allocated': 0, 'assigned': 0, 'reserved': 0}
-asn_stats = (
-    {'available': 0, 'allocated': 0, 'assigned': 0, 'reserved': 0, 'given': 0}
-)
-stats = {'ipv4': ipv4_stats, 'ipv6': ipv6_stats, 'asn': asn_stats}
+def make_stats_dict():
+    """ Create a dictionary to hold the stats data """
 
-afrinic_delegated_raw = open('delegated-afrinic-extended.txt', 'r+')
-afrinic_delegated_lines = afrinic_delegated_raw.readlines()
-afrinic = read_lines(get_line_values, afrinic_delegated_lines, stats, 4)
-print('AFRINIC: ', afrinic)
+    ipv4_stats = (
+        {
+            'available': 0,
+            'allocated': 0,
+            'assigned': 0,
+            'reserved': 0,
+            'hosts': 0
+        }
+    )
 
-apnic_delegated_raw = open('delegated-apnic-extended.txt', 'r+')
-apnic_delegated_lines = apnic_delegated_raw.readlines()
-apnic = read_lines(get_line_values, apnic_delegated_lines, stats, 31)
-print('APNIC: ', apnic)
+    ipv6_stats = (
+        {
+            'available': 0,
+            'allocated': 0,
+            'assigned': 0,
+            'reserved': 0
+        }
+    )
 
-arin_delegated_raw = open('delegated-arin-extended.txt', 'r+')
-arin_delegated_lines = arin_delegated_raw.readlines()
-arin = read_lines(get_line_values, arin_delegated_lines, stats, 4)
-print('ARIN: ', arin)
+    asn_stats = (
+        {
+            'available': 0,
+            'allocated': 0,
+            'assigned': 0,
+            'reserved': 0,
+            'given': 0
+        }
+    )
 
-lacnic_delegated_raw = open('delegated-lacnic-extended.txt', 'r+')
-lacnic_delegated_lines = lacnic_delegated_raw.readlines()
-lacnic = read_lines(get_line_values, lacnic_delegated_lines, stats, 4)
-print('LACNIC: ', lacnic)
+    stats_dict = (
+        {
+            'ipv4': ipv4_stats,
+            'ipv6': ipv6_stats,
+            'asn': asn_stats
+        }
+    )
 
-ripe_delegated_raw = open('delegated-ripencc-extended.txt', 'r+')
-ripe_delegated_lines = ripe_delegated_raw.readlines()
-ripe = read_lines(get_line_values, ripe_delegated_lines, stats, 4)
-print('RIPENCC: ', ripe)
+    return stats_dict
+
+def gather_rir_stats():
+    """ Fetch all 5 RIR data and return them as a dictionary """
+    rirs_results = {}
+    rirs_results['afrinic'] = collect_stats(
+        'delegated-afrinic-extended.txt', 4)
+
+    rirs_results['apnic'] = collect_stats(
+        'delegated-apnic-extended.txt', 31)
+
+    rirs_results['arin'] = collect_stats(
+        'delegated-arin-extended.txt', 4)
+
+    rirs_results['lacnic'] = collect_stats(
+        'delegated-lacnic-extended.txt', 4)
+
+    rirs_results['ripe'] = collect_stats(
+        'delegated-ripencc-extended.txt', 4)
+
+    return rirs_results
+
+def collect_stats(url, start_pos):
+    delegated_raw = open(url, 'r+')
+    delegated_lines = delegated_raw.readlines()
+    stat_dict = make_stats_dict()
+    return read_lines(get_line_values, delegated_lines, stat_dict, start_pos)
+
+def global_stats(rirs_dict):
+    global_dict = make_stats_dict()
+
+    result = merge_rir_stats_to_global(rirs_dict, global_dict)
+
+    return result
+
+def sum_items(obj1, obj2, key, item):
+    obj1[key][item] = obj1[key][item] + obj2[key][item]
+    return obj1
+
+def merge_rir_stats_to_global(r, g, i=0):
+    """ merge the data from the rir into the global stats dict """
+
+    rir_list = ['afrinic', 'apnic', 'arin', 'lacnic', 'ripe']
+
+    if i < len(r):
+        g = sum_items(g, r[rir_list[i]], 'ipv4', 'allocated')
+        g = sum_items(g, r[rir_list[i]], 'ipv4', 'available')
+        g = sum_items(g, r[rir_list[i]], 'ipv4', 'assigned')
+        g = sum_items(g, r[rir_list[i]], 'ipv4', 'reserved')
+        g = sum_items(g, r[rir_list[i]], 'ipv4', 'hosts')
+
+        g = sum_items(g, r[rir_list[i]], 'ipv6', 'allocated')
+        g = sum_items(g, r[rir_list[i]], 'ipv6', 'available')
+        g = sum_items(g, r[rir_list[i]], 'ipv6', 'assigned')
+        g = sum_items(g, r[rir_list[i]], 'ipv6', 'reserved')
+
+        g = sum_items(g, r[rir_list[i]], 'asn', 'allocated')
+        g = sum_items(g, r[rir_list[i]], 'asn', 'available')
+        g = sum_items(g, r[rir_list[i]], 'asn', 'assigned')
+        g = sum_items(g, r[rir_list[i]], 'asn', 'reserved')
+        g = sum_items(g, r[rir_list[i]], 'asn', 'given')
+
+        return merge_rir_stats_to_global(r, g, i + 1)
+
+    return g
+
+rirs = gather_rir_stats()
+global_results = global_stats(rirs)
+print('GLOBAL: ', global_results)
