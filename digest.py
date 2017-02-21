@@ -1,5 +1,7 @@
 """ Global IP Daily Digest for historic keeping """
 
+from datetime import datetime
+
 def read_lines(func, lines, return_val, start_at=0):
 
     relevant_lines = lines[start_at:]
@@ -142,4 +144,54 @@ def merge_rir_stats_to_global(r, g, i=0):
 
 rirs = gather_rir_stats()
 global_results = global_stats(rirs)
-print('GLOBAL: ', global_results)
+
+def ppnum(value):
+    """ pretty print number """
+    pp = "{:,}".format(value)
+    return pp
+
+def markdown_report(report):
+    """ Create a lovely string in markdown format of the stats report """
+    now = datetime.now()
+    markdown = "```\n"
+    markdown += now.strftime('%Y-%m-%d')
+    markdown += "\n==========\n"
+    markdown += "IPv4 |"
+    markdown += " Allocated: " + ppnum(report['ipv4']['allocated'])
+    markdown += " Assigned: " + ppnum(report['ipv4']['assigned'])
+    markdown += " Available: " + ppnum(report['ipv4']['available'])
+    markdown += " Reserved: " + ppnum(report['ipv4']['reserved'])
+    markdown += " Hosts: " + ppnum(report['ipv4']['hosts'])
+    markdown += "\n"
+    markdown += "IPv6 |"
+    markdown += " Allocated: " + ppnum(report['ipv6']['allocated'])
+    markdown += " Assigned: " + ppnum(report['ipv6']['assigned'])
+    markdown += " Available: " + ppnum(report['ipv6']['available'])
+    markdown += " Reserved: " + ppnum(report['ipv6']['reserved'])
+    markdown += "\n"
+    markdown += "ASN  |"
+    markdown += " Allocated: " + ppnum(report['asn']['allocated'])
+    markdown += " Assigned: " + ppnum(report['asn']['assigned'])
+    markdown += " Available: " + ppnum(report['asn']['available'])
+    markdown += " Reserved: " + ppnum(report['asn']['reserved'])
+    markdown += " Given: " + ppnum(report['asn']['given'])
+    markdown += "\n"
+    markdown += "```"
+
+    return markdown
+
+with open('README.md', 'r+') as global_digest_file:
+    global_digest_content = global_digest_file.read()
+    global_digest_split = global_digest_content.split('---')
+    global_digest_header = global_digest_split[0]
+    global_digest_body = global_digest_split[1]
+    updated_global_digest_body = (
+        markdown_report(global_results) + global_digest_body)
+    divider = "---\n\n"
+    updated_global_digest = (
+        global_digest_header + divider + updated_global_digest_body)
+
+    global_digest_file.seek(0)
+    global_digest_file.write(updated_global_digest)
+
+    global_digest_file.truncate()
