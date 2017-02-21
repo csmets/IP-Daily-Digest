@@ -1,10 +1,10 @@
 # IP Daily Digest - Global
 
-Daily IP delegations for the Globe. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
+Total IP delegations for the Globe. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
 
 Links below take you to daily digests for a region.
 
-[AFRINIC](archives/afrinic.md) | [APNIC](archives/apnic.md) | [ARIN](archives/arin.md) | [LACNIC](archives/lacnic.md) | [RIPE NCC](archives/ripencc.md)
+[AFRINIC](./archives/AFRINIC/) | [APNIC](./archives/APNIC/) | [ARIN](./archives/ARIN/) | [LACNIC](./archives/LACNIC/) | [RIPE NCC](./archives/RIPE_NCC/)
 
 ---
 
