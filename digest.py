@@ -1,6 +1,7 @@
 """ Global IP Daily Digest for historic keeping """
 
 from datetime import datetime
+import json
 
 def read_lines(func, lines, return_val, start_at=0):
 
@@ -142,9 +143,6 @@ def merge_rir_stats_to_global(r, g, i=0):
 
     return g
 
-rirs = gather_rir_stats()
-global_results = global_stats(rirs)
-
 def ppnum(value):
     """ pretty print number """
     pp = "{:,}".format(value)
@@ -180,18 +178,55 @@ def markdown_report(report):
 
     return markdown
 
-with open('README.md', 'r+') as global_digest_file:
-    global_digest_content = global_digest_file.read()
-    global_digest_split = global_digest_content.split('---')
-    global_digest_header = global_digest_split[0]
-    global_digest_body = global_digest_split[1]
-    updated_global_digest_body = (
-        markdown_report(global_results) + global_digest_body)
-    divider = "---\n\n"
-    updated_global_digest = (
-        global_digest_header + divider + updated_global_digest_body)
+def write_daily_digest(filename, stats_results):
+    with open(filename, 'r+') as f:
+        digest_content = f.read()
+        digest_split = digest_content.split('---')
+        digest_header = digest_split[0]
+        digest_body = digest_split[1]
+        updated_digest_body = (
+            markdown_report(stats_results) + digest_body)
+        divider = "---\n\n"
+        updated_digest = (
+            digest_header + divider + updated_digest_body)
+        f.seek(0)
+        f.write(updated_digest)
+        f.truncate()
 
-    global_digest_file.seek(0)
-    global_digest_file.write(updated_global_digest)
+def write_json(jsonfile, stats_data):
+    with open(jsonfile, 'r+') as jf:
+        json_content = jf.read()
+        json_obj = json.loads(json_content)
+        current_date = datetime.now()
+        date_string = current_date.strftime('%Y-%m-%d')
+        json_obj[date_string] = stats_data
+        jf.seek(0)
+        jf.write(json.dumps(json_obj, sort_keys=True, indent=4))
+        jf.truncate()
 
-    global_digest_file.truncate()
+rirs = gather_rir_stats()
+global_results = global_stats(rirs)
+
+# Write Global Stats
+write_daily_digest('README.md', global_results)
+write_json('./archives/global.json', global_results)
+
+# AFRINIC Digest
+write_daily_digest('./archives/AFRINIC/README.md', rirs['afrinic'])
+write_json('./archives/AFRINIC/afrinic-delegations.json', rirs['afrinic'])
+
+# APNIC Digest
+write_daily_digest('./archives/APNIC/README.md', rirs['apnic'])
+write_json('./archives/APNIC/apnic-delegations.json', rirs['apnic'])
+
+# ARIN Digest
+write_daily_digest('./archives/ARIN/README.md', rirs['arin'])
+write_json('./archives/ARIN/arin-delegations.json', rirs['arin'])
+
+# LACNIC Digest
+write_daily_digest('./archives/LACNIC/README.md', rirs['lacnic'])
+write_json('./archives/LACNIC/lacnic-delegations.json', rirs['lacnic'])
+
+# RIPE NCC Digest
+write_daily_digest('./archives/RIPE_NCC/README.md', rirs['ripe'])
+write_json('./archives/RIPE_NCC/ripencc-delegations.json', rirs['ripe'])
