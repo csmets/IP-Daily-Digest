@@ -2,13 +2,15 @@
 
 from datetime import datetime
 import json
+import subprocess
+import requests
 
 def read_lines(func, lines, return_val, start_at=0):
 
     relevant_lines = lines[start_at:]
 
     for line in relevant_lines:
-        return_val = func(line, return_val)
+        return_val = func(str(line), return_val)
 
     return return_val
 
@@ -20,6 +22,7 @@ def get_line_values(line, line_values):
 
     # Type of record from the set {available, allocated, assigned, reserved}
     status = values[6].replace('\n', '')
+    status = values[6].replace("'", '') # LACNIC has a strange `'` in this value
 
     # Count number of same status under the specific type
     summed = line_values[stat_type][status] + 1
@@ -83,25 +86,25 @@ def gather_rir_stats():
     """ Fetch all 5 RIR data and return them as a dictionary """
     rirs_results = {}
     rirs_results['afrinic'] = collect_stats(
-        'delegated-afrinic-extended.txt', 4)
+        'https://ftp.apnic.net/stats/afrinic/delegated-afrinic-extended-latest', 4)
 
     rirs_results['apnic'] = collect_stats(
-        'delegated-apnic-extended.txt', 31)
+        'https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest', 31)
 
     rirs_results['arin'] = collect_stats(
-        'delegated-arin-extended.txt', 4)
+        'https://ftp.apnic.net/stats/arin/delegated-arin-extended-latest', 4)
 
     rirs_results['lacnic'] = collect_stats(
-        'delegated-lacnic-extended.txt', 4)
+        'https://ftp.apnic.net/stats/lacnic/delegated-lacnic-latest', 4)
 
     rirs_results['ripe'] = collect_stats(
-        'delegated-ripencc-extended.txt', 4)
+        'https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-latest', 4)
 
     return rirs_results
 
 def collect_stats(url, start_pos):
-    delegated_raw = open(url, 'r+')
-    delegated_lines = delegated_raw.readlines()
+    req = requests.get(url, stream=True, timeout=900)
+    delegated_lines = list(req.iter_lines())
     stat_dict = make_stats_dict()
     return read_lines(get_line_values, delegated_lines, stat_dict, start_pos)
 
@@ -209,7 +212,7 @@ global_results = global_stats(rirs)
 
 # Write Global Stats
 write_daily_digest('README.md', global_results)
-write_json('./archives/global.json', global_results)
+write_json('./archives/global-delegations.json', global_results)
 
 # AFRINIC Digest
 write_daily_digest('./archives/AFRINIC/README.md', rirs['afrinic'])
@@ -230,3 +233,27 @@ write_json('./archives/LACNIC/lacnic-delegations.json', rirs['lacnic'])
 # RIPE NCC Digest
 write_daily_digest('./archives/RIPE_NCC/README.md', rirs['ripe'])
 write_json('./archives/RIPE_NCC/ripencc-delegations.json', rirs['ripe'])
+
+# Add updated daily digest
+print("Git adding new digest...")
+proc = subprocess.Popen(
+    ["/usr/bin/git", "add", "."],
+    stdout=subprocess.PIPE
+)
+print(proc.stdout.read())
+
+# Commit updates
+print("Git committing new world order...")
+proc = subprocess.Popen(
+    ["/usr/bin/git", "commit", '-m "Added new IP daily digest"'],
+    stdout=subprocess.PIPE
+)
+print(proc.stdout.read())
+
+# Push them to the fans
+print("Git pushing boulders...")
+proc = subprocess.Popen(
+    ["/usr/bin/git", "push"],
+    stdout=subprocess.PIPE
+)
+print(proc.stdout.read())
