@@ -1,1 +1,24 @@
-{}
+{
+    "2017-02-25": {
+        "asn": {
+            "allocated": 6670,
+            "assigned": 0,
+            "available": 168,
+            "given": 7935,
+            "reserved": 94
+        },
+        "ipv4": {
+            "allocated": 10533,
+            "assigned": 2211,
+            "available": 3,
+            "hosts": 190767360,
+            "reserved": 311
+        },
+        "ipv6": {
+            "allocated": 4713,
+            "assigned": 812,
+            "available": 13094,
+            "reserved": 5145
+        }
+    }
+}
