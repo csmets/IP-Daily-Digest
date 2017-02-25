@@ -95,10 +95,10 @@ def gather_rir_stats():
         'https://ftp.apnic.net/stats/arin/delegated-arin-extended-latest', 4)
 
     rirs_results['lacnic'] = collect_stats(
-        'https://ftp.apnic.net/stats/lacnic/delegated-lacnic-latest', 4)
+        'https://ftp.apnic.net/stats/lacnic/delegated-lacnic-extended-latest', 4)
 
     rirs_results['ripe'] = collect_stats(
-        'https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-latest', 4)
+        'https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-extended-latest', 4)
 
     return rirs_results
 
