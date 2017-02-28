@@ -11,6 +11,14 @@ Links below take you to daily digests for a region.
 ---
 
 ```
+2017-02-28
+==========
+IPv4 | Allocated: 97,039 Assigned: 74,588 Available: 2,855 Reserved: 2,085 Hosts: 3,702,178,304
+IPv6 | Allocated: 25,153 Assigned: 7,313 Available: 82,681 Reserved: 65,827
+ASN  | Allocated: 46,618 Assigned: 25,003 Available: 6,311 Reserved: 2,100 Given: 91,111
+```
+
+```
 2017-02-27
 ==========
 IPv4 | Allocated: 97,039 Assigned: 74,587 Available: 2,859 Reserved: 2,079 Hosts: 3,702,178,304
