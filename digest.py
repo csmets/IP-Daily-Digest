@@ -10,7 +10,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--path', type=str, default='./', help='Path to project.')
 
-dir_path = parser.parse_args()
+dir_path = parser.parse_args().path
 
 def read_lines(func, lines, return_val, start_at=0):
 
