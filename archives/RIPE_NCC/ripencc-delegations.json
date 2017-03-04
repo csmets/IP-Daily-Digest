@@ -152,5 +152,27 @@
             "available": 10275,
             "reserved": 40165
         }
+    },
+    "2017-03-04": {
+        "asn": {
+            "allocated": 30922,
+            "assigned": 0,
+            "available": 5031,
+            "given": 36376,
+            "reserved": 423
+        },
+        "ipv4": {
+            "allocated": 37260,
+            "assigned": 23866,
+            "available": 2804,
+            "hosts": 822008832,
+            "reserved": 182
+        },
+        "ipv6": {
+            "allocated": 12233,
+            "assigned": 2469,
+            "available": 10270,
+            "reserved": 40182
+        }
     }
 }
