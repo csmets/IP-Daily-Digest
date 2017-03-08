@@ -260,7 +260,7 @@ print(proc.stdout.read())
 # Push them to the fans
 print("Git pushing boulders...")
 proc = subprocess.Popen(
-    ["/usr/bin/git", "push"],
+    ["/usr/bin/git", "push", "origin master"],
     stdout=subprocess.PIPE
 )
 print(proc.stdout.read())
