@@ -334,9 +334,9 @@ def compare_results(value1, value2):
         difference = value1 - value2
 
         if difference > 0:
-            result = "▲ +" + str(difference)
+            result = " ▲ +" + str(difference)
         elif difference < 0:
-            result = "▼ -" + str(difference)
+            result = " ▼ " + str(difference)
         else:
             result = ""
     else:
@@ -417,7 +417,7 @@ def create_report_for_type(stat_type, stats, previous_stats, slash_range):
                  "**\n\n")
 
     markdown += (
-        generate_report_table(slash_range, stats[stat_type], previous_stats))
+        generate_report_table(slash_range, stats[stat_type], previous_stats[stat_type]))
 
     return markdown
 
@@ -452,6 +452,7 @@ def markdown_report(report, previous_report):
                 previous_report['ipv4'] if previous_report is not None else None,
                 ipv4_slash_range))
 
+    markdown += "\n### IPv6\n\n"
     ipv6_slash_range = create_slash_range(64, 24, [])
 
     for t in report_types:
@@ -593,7 +594,14 @@ write_json(
     dir_path + 'archives/RIPE_NCC/ripencc-delegations.json',
     make_non_extended_stats(rirs['ripe']))
 
-"""
+# Pull latest daily digest
+print("Git pulling digest for latest...")
+proc = subprocess.Popen(
+    ["/usr/bin/git", "pull", "."],
+    stdout=subprocess.PIPE
+)
+print(proc.stdout.read())
+
 # Add updated daily digest
 print("Git adding new digest...")
 proc = subprocess.Popen(
@@ -617,4 +625,3 @@ proc = subprocess.Popen(
     stdout=subprocess.PIPE
 )
 print(proc.stdout.read())
-"""
