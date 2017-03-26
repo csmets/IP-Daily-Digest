@@ -328,6 +328,23 @@ def ppnum(value):
     pp = "{:,}".format(value)
     return pp
 
+def compare_results(value1, value2):
+    """ Compare results and return a string showing the difference """
+    if value1 is not None and value2 is not None:
+        difference = value1 - value2
+
+        if difference > 0:
+            result = "▲ +" + str(difference)
+        elif difference < 0:
+            result = "▼ -" + str(difference)
+        else:
+            result = ""
+    else:
+        result = ""
+
+    return result
+
+
 def generate_report_table(items, values, compare):
     """ Create a table """
 
@@ -336,14 +353,7 @@ def generate_report_table(items, values, compare):
 
     for item in items:
         if compare is not None:
-            difference = values[item] - compare[item]
-
-            if difference > 0:
-                result = "▲ +" + difference
-            elif difference < 0:
-                result = "▼ -" + difference
-            else:
-                result = ""
+            result = compare_results(values[item], compare[item])
         else:
             result = ""
 
@@ -351,17 +361,19 @@ def generate_report_table(items, values, compare):
 
     return markdown
 
-def generate_multiple_report_tables(tables, items, values, compare):
-    markdown = ""
-    for table in tables:
-        markdown += "#### " + table + ": **" + ppnum(values[table.lower()]['total']) + "**\n\n"
-        markdown += generate_report_table(items, values, compare)
-    return markdown
+def create_slash_range(start, end, result):
+    if start >= end:
+        result.append('/' + str(start))
+        start = start - 1
+        return create_slash_range(start, end, result)
 
-def markdown_report(report, previous_report):
-    """ Create a lovely string in markdown format of the stats report """
+    else:
+        return result
+
+def markdown_summed_report(report):
+    """ Create quick summary report """
     now = datetime.datetime.now()
-    markdown = "## Global Digest for " + now.strftime('%Y-%m-%d') + "\n"
+    markdown = ""
     markdown += "```\n"
     markdown += now.strftime('%Y-%m-%d')
     markdown += "\n==========\n"
@@ -386,67 +398,69 @@ def markdown_report(report, previous_report):
     markdown += " Given: " + ppnum(report['asn']['given'])
     markdown += "\n"
     markdown += "```\n"
+
+    return markdown
+
+def create_report_for_type(stat_type, stats, previous_stats, slash_range):
+    """ Create report for a particular stat type ie Allocated, Assigned """
+    markdown = ""
+
+    if previous_stats is not None:
+        difference = (compare_results(stats[stat_type]['total'],
+                                      previous_stats[stat_type]['total']))
+    else:
+        difference = ""
+
+    markdown += ("\n#### " + stat_type.title()  + ": **" +
+                 ppnum(stats[stat_type]['total']) +
+                 difference +
+                 "**\n\n")
+
+    markdown += (
+        generate_report_table(slash_range, stats[stat_type], previous_stats))
+
+    return markdown
+
+def markdown_report(report, previous_report):
+    """ Create a lovely string in markdown format of the stats report """
+    now = datetime.datetime.now()
+    markdown = "## Global Digest for " + now.strftime('%Y-%m-%d') + "\n"
+    markdown += markdown_summed_report(report)
     markdown += "\n### Detailed Report\n\n"
     markdown += "### IPv4\n\n"
-    markdown += "#### Hosts: **" + ppnum(report['ipv4']['hosts']) + "**\n\n"
-    markdown += "#### Allocated: **" + ppnum(report['ipv4']['allocated']['total']) + "**\n\n"
+
+    if previous_report is not None:
+        hosts_difference = (
+            compare_results(report['ipv4']['hosts'],
+                            previous_report['ipv4']['hosts']))
+    else:
+        hosts_difference = ""
 
     markdown += (
-        generate_report_table(
-            list(report['ipv4']['allocated'].keys()),
-            report['ipv4']['allocated'],
-            previous_report))
+        "#### Hosts: **" + ppnum(report['ipv4']['hosts']) +
+        hosts_difference + "**\n\n")
 
-    markdown += "\n#### Assigned: **" + ppnum(report['ipv4']['assigned']['total']) + "**\n\n"
-    markdown += (
-        generate_report_table(
-            list(report['ipv4']['assigned'].keys()),
-            report['ipv4']['assigned'],
-            previous_report))
+    ipv4_slash_range = create_slash_range(30, 8, [])
 
-    markdown += "\n#### Available: **" + ppnum(report['ipv4']['available']['total']) + "**\n\n"
-    markdown += (
-        generate_report_table(
-            list(report['ipv4']['available'].keys()),
-            report['ipv4']['available'],
-            previous_report))
+    report_types = ['allocated', 'assigned', 'available', 'reserved']
 
-    markdown += "\n#### Reserved: **" + ppnum(report['ipv4']['reserved']['total']) + "**\n\n"
-    markdown += (
-        generate_report_table(
-            list(report['ipv4']['reserved'].keys()),
-            report['ipv4']['reserved'],
-            previous_report))
+    for t in report_types:
+        markdown += (
+            create_report_for_type(
+                t,
+                report['ipv4'],
+                previous_report['ipv4'] if previous_report is not None else None,
+                ipv4_slash_range))
 
-    markdown += "\n### IPv6\n\n"
-    markdown += "\n#### Allocated: **" + ppnum(report['ipv6']['allocated']['total']) + "**\n\n"
+    ipv6_slash_range = create_slash_range(64, 24, [])
 
-    markdown += (
-        generate_report_table(
-            list(report['ipv6']['allocated'].keys()),
-            report['ipv6']['allocated'],
-            previous_report))
-
-    markdown += "\n#### Assigned: **" + ppnum(report['ipv6']['assigned']['total']) + "**\n\n"
-    markdown += (
-        generate_report_table(
-            list(report['ipv6']['assigned'].keys()),
-            report['ipv6']['assigned'],
-            previous_report))
-
-    markdown += "\n#### Available: **" + ppnum(report['ipv6']['available']['total']) + "**\n\n"
-    markdown += (
-        generate_report_table(
-            list(report['ipv6']['available'].keys()),
-            report['ipv6']['available'],
-            previous_report))
-
-    markdown += "\n#### Reserved: **" + ppnum(report['ipv6']['reserved']['total']) + "**\n\n"
-    markdown += (
-        generate_report_table(
-            list(report['ipv6']['reserved'].keys()),
-            report['ipv6']['reserved'],
-            previous_report))
+    for t in report_types:
+        markdown += (
+            create_report_for_type(
+                t,
+                report['ipv6'],
+                previous_report['ipv6'] if previous_report is not None else None,
+                ipv6_slash_range))
 
     return markdown
 
@@ -517,7 +531,6 @@ write_daily_digest(
     global_results,
     get_previous_report('archives/global-delegations-extended.json'))
 
-"""
 write_json(dir_path + 'archives/global-delegations-extended.json', global_results)
 write_json(
     dir_path + 'archives/global-delegations.json',
@@ -526,25 +539,61 @@ write_json(
 
 
 # AFRINIC Digest
-write_daily_digest(dir_path + 'archives/AFRINIC/README.md', rirs['afrinic'])
-write_json(dir_path + 'archives/AFRINIC/afrinic-delegations.json', rirs['afrinic'])
+write_daily_digest(
+    dir_path + 'archives/AFRINIC/README.md',
+    rirs['afrinic'],
+    get_previous_report('archives/AFRINIC/afrinic-delegations-extended.json'))
+
+write_json(dir_path + 'archives/AFRINIC/afrinic-delegations-extended.json', rirs['afrinic'])
+write_json(
+    dir_path + 'archives/AFRINIC/afrinic-delegations.json',
+    make_non_extended_stats(rirs['afrinic']))
 
 # APNIC Digest
-write_daily_digest(dir_path + 'archives/APNIC/README.md', rirs['apnic'])
-write_json(dir_path + 'archives/APNIC/apnic-delegations.json', rirs['apnic'])
+write_daily_digest(
+    dir_path + 'archives/APNIC/README.md',
+    rirs['apnic'],
+    get_previous_report('archives/APNIC/apnic-delegations-extended.json'))
+
+write_json(dir_path + 'archives/APNIC/apnic-delegations-extended.json', rirs['apnic'])
+write_json(
+    dir_path + 'archives/APNIC/apnic-delegations.json',
+    make_non_extended_stats(rirs['apnic']))
 
 # ARIN Digest
-write_daily_digest(dir_path + 'archives/ARIN/README.md', rirs['arin'])
-write_json(dir_path + 'archives/ARIN/arin-delegations.json', rirs['arin'])
+write_daily_digest(
+    dir_path + 'archives/ARIN/README.md',
+    rirs['arin'],
+    get_previous_report('archives/ARIN/arin-delegations-extended.json'))
+
+write_json(dir_path + 'archives/ARIN/arin-delegations-extended.json', rirs['arin'])
+write_json(
+    dir_path + 'archives/ARIN/arin-delegations.json',
+    make_non_extended_stats(rirs['arin']))
 
 # LACNIC Digest
-write_daily_digest(dir_path + 'archives/LACNIC/README.md', rirs['lacnic'])
-write_json(dir_path + 'archives/LACNIC/lacnic-delegations.json', rirs['lacnic'])
+write_daily_digest(
+    dir_path + 'archives/LACNIC/README.md',
+    rirs['lacnic'],
+    get_previous_report('archives/LACNIC/lacnic-delegations-extended.json'))
+
+write_json(dir_path + 'archives/LACNIC/lacnic-delegations-extended.json', rirs['lacnic'])
+write_json(
+    dir_path + 'archives/LACNIC/lacnic-delegations.json',
+    make_non_extended_stats(rirs['lacnic']))
 
 # RIPE NCC Digest
-write_daily_digest(dir_path + 'archives/RIPE_NCC/README.md', rirs['ripe'])
-write_json(dir_path + 'archives/RIPE_NCC/ripencc-delegations.json', rirs['ripe'])
+write_daily_digest(
+    dir_path + 'archives/RIPE_NCC/README.md',
+    rirs['ripe'],
+    get_previous_report('archives/RIPE_NCC/ripencc-delegations-extended.json'))
 
+write_json(dir_path + 'archives/RIPE_NCC/ripencc-delegations-extended.json', rirs['ripe'])
+write_json(
+    dir_path + 'archives/RIPE_NCC/ripencc-delegations.json',
+    make_non_extended_stats(rirs['ripe']))
+
+"""
 # Add updated daily digest
 print("Git adding new digest...")
 proc = subprocess.Popen(
