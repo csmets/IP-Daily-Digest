@@ -4,242 +4,317 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
+## Global Digest for 2017-03-27
 ```
-2017-03-26
+2017-03-27
 ==========
 IPv4 | Allocated: 25,808 Assigned: 11,233 Available: 15 Reserved: 905 Hosts: 880,658,432
 IPv6 | Allocated: 4,675 Assigned: 1,632 Available: 40,302 Reserved: 480
 ASN  | Allocated: 7,644 Assigned: 0 Available: 453 Reserved: 0 Given: 14,973
 ```
 
-```
-2017-03-25
-==========
-IPv4 | Allocated: 25,808 Assigned: 11,233 Available: 15 Reserved: 905 Hosts: 880,658,432
-IPv6 | Allocated: 4,675 Assigned: 1,632 Available: 40,302 Reserved: 480
-ASN  | Allocated: 7,643 Assigned: 0 Available: 453 Reserved: 0 Given: 14,973
-```
+### Detailed Report
 
-```
-2017-03-24
-==========
-IPv4 | Allocated: 25,797 Assigned: 11,231 Available: 23 Reserved: 905 Hosts: 880,658,432
-IPv6 | Allocated: 4,675 Assigned: 1,632 Available: 40,290 Reserved: 478
-ASN  | Allocated: 7,637 Assigned: 0 Available: 455 Reserved: 0 Given: 14,973
-```
+### IPv4
 
-```
-2017-03-23
-==========
-IPv4 | Allocated: 25,786 Assigned: 11,224 Available: 24 Reserved: 905 Hosts: 880,658,432
-IPv6 | Allocated: 4,673 Assigned: 1,631 Available: 40,273 Reserved: 478
-ASN  | Allocated: 7,635 Assigned: 0 Available: 455 Reserved: 0 Given: 14,973
-```
+#### Hosts: **880,658,432**
 
-```
-2017-03-22
-==========
-IPv4 | Allocated: 25,778 Assigned: 11,217 Available: 24 Reserved: 905 Hosts: 880,658,432
-IPv6 | Allocated: 4,667 Assigned: 1,630 Available: 40,238 Reserved: 478
-ASN  | Allocated: 7,630 Assigned: 0 Available: 455 Reserved: 0 Given: 14,972
-```
 
-```
-2017-03-21
-==========
-IPv4 | Allocated: 25,772 Assigned: 11,213 Available: 23 Reserved: 903 Hosts: 880,658,432
-IPv6 | Allocated: 4,661 Assigned: 1,629 Available: 40,196 Reserved: 477
-ASN  | Allocated: 7,628 Assigned: 0 Available: 454 Reserved: 0 Given: 14,973
-```
+#### Allocated: **25,808**
 
-```
-2017-03-20
-==========
-IPv4 | Allocated: 25,767 Assigned: 11,211 Available: 25 Reserved: 902 Hosts: 880,649,216
-IPv6 | Allocated: 4,660 Assigned: 1,629 Available: 40,191 Reserved: 477
-ASN  | Allocated: 7,625 Assigned: 0 Available: 454 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /30 | 0|
+| /29 | 0|
+| /28 | 0|
+| /27 | 0|
+| /26 | 0|
+| /25 | 0|
+| /24 | 2,092|
+| /23 | 1,330|
+| /22 | 11,833|
+| /21 | 1,840|
+| /20 | 2,003|
+| /19 | 1,816|
+| /18 | 980|
+| /17 | 734|
+| /16 | 1,700|
+| /15 | 615|
+| /14 | 446|
+| /13 | 227|
+| /12 | 119|
+| /11 | 50|
+| /10 | 20|
+| /9 | 1|
+| /8 | 2|
 
-```
-2017-03-19
-==========
-IPv4 | Allocated: 25,765 Assigned: 11,211 Available: 23 Reserved: 902 Hosts: 880,649,216
-IPv6 | Allocated: 4,660 Assigned: 1,629 Available: 40,191 Reserved: 477
-ASN  | Allocated: 7,625 Assigned: 0 Available: 454 Reserved: 0 Given: 14,973
-```
+#### Assigned: **11,233**
 
-```
-2017-03-18
-==========
-IPv4 | Allocated: 25,765 Assigned: 11,211 Available: 23 Reserved: 902 Hosts: 880,649,216
-IPv6 | Allocated: 4,660 Assigned: 1,628 Available: 40,184 Reserved: 477
-ASN  | Allocated: 7,625 Assigned: 0 Available: 454 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /30 | 0|
+| /29 | 0|
+| /28 | 0|
+| /27 | 0|
+| /26 | 0|
+| /25 | 0|
+| /24 | 6,110|
+| /23 | 1,898|
+| /22 | 3,179|
+| /21 | 27|
+| /20 | 9|
+| /19 | 5|
+| /18 | 2|
+| /17 | 2|
+| /16 | 1|
+| /15 | 0|
+| /14 | 0|
+| /13 | 0|
+| /12 | 0|
+| /11 | 0|
+| /10 | 0|
+| /9 | 0|
+| /8 | 0|
 
-```
-2017-03-17
-==========
-IPv4 | Allocated: 25,763 Assigned: 11,206 Available: 24 Reserved: 902 Hosts: 880,649,216
-IPv6 | Allocated: 4,657 Assigned: 1,627 Available: 40,162 Reserved: 477
-ASN  | Allocated: 7,624 Assigned: 0 Available: 454 Reserved: 0 Given: 14,973
-```
+#### Available: **15**
 
-```
-2017-03-16
-==========
-IPv4 | Allocated: 25,750 Assigned: 11,206 Available: 27 Reserved: 902 Hosts: 880,649,216
-IPv6 | Allocated: 4,652 Assigned: 1,627 Available: 40,137 Reserved: 477
-ASN  | Allocated: 7,622 Assigned: 0 Available: 453 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /30 | 0|
+| /29 | 0|
+| /28 | 0|
+| /27 | 0|
+| /26 | 0|
+| /25 | 0|
+| /24 | 3|
+| /23 | 2|
+| /22 | 0|
+| /21 | 1|
+| /20 | 2|
+| /19 | 1|
+| /18 | 1|
+| /17 | 0|
+| /16 | 1|
+| /15 | 1|
+| /14 | 1|
+| /13 | 0|
+| /12 | 0|
+| /11 | 1|
+| /10 | 1|
+| /9 | 0|
+| /8 | 0|
 
-```
-2017-03-15
-==========
-IPv4 | Allocated: 25,746 Assigned: 11,206 Available: 20 Reserved: 902 Hosts: 880,649,216
-IPv6 | Allocated: 4,651 Assigned: 1,627 Available: 40,132 Reserved: 477
-ASN  | Allocated: 7,617 Assigned: 0 Available: 453 Reserved: 0 Given: 14,972
-```
+#### Reserved: **905**
 
-```
-2017-03-14
-==========
-IPv4 | Allocated: 25,742 Assigned: 11,207 Available: 21 Reserved: 894 Hosts: 880,645,120
-IPv6 | Allocated: 4,649 Assigned: 1,628 Available: 40,122 Reserved: 476
-ASN  | Allocated: 7,621 Assigned: 0 Available: 449 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /30 | 0|
+| /29 | 0|
+| /28 | 0|
+| /27 | 0|
+| /26 | 0|
+| /25 | 0|
+| /24 | 429|
+| /23 | 65|
+| /22 | 306|
+| /21 | 27|
+| /20 | 14|
+| /19 | 8|
+| /18 | 4|
+| /17 | 1|
+| /16 | 51|
+| /15 | 0|
+| /14 | 0|
+| /13 | 0|
+| /12 | 0|
+| /11 | 0|
+| /10 | 0|
+| /9 | 0|
+| /8 | 0|
 
-```
-2017-03-13
-==========
-IPv4 | Allocated: 25,737 Assigned: 11,205 Available: 20 Reserved: 894 Hosts: 880,645,120
-IPv6 | Allocated: 4,646 Assigned: 1,627 Available: 40,106 Reserved: 476
-ASN  | Allocated: 7,619 Assigned: 0 Available: 449 Reserved: 0 Given: 14,973
-```
+### IPv6
 
-```
-2017-03-12
-==========
-IPv4 | Allocated: 25,737 Assigned: 11,205 Available: 20 Reserved: 894 Hosts: 880,645,120
-IPv6 | Allocated: 4,646 Assigned: 1,627 Available: 40,106 Reserved: 476
-ASN  | Allocated: 7,619 Assigned: 0 Available: 449 Reserved: 0 Given: 14,973
-```
 
-```
-2017-03-11
-==========
-IPv4 | Allocated: 25,737 Assigned: 11,205 Available: 20 Reserved: 894 Hosts: 880,645,120
-IPv6 | Allocated: 4,646 Assigned: 1,627 Available: 40,106 Reserved: 476
-ASN  | Allocated: 7,619 Assigned: 0 Available: 449 Reserved: 0 Given: 14,973
-```
+#### Allocated: **4,675**
 
-```
-2017-03-10
-==========
-IPv4 | Allocated: 25,730 Assigned: 11,199 Available: 20 Reserved: 894 Hosts: 880,645,120
-IPv6 | Allocated: 4,641 Assigned: 1,624 Available: 40,046 Reserved: 474
-ASN  | Allocated: 7,617 Assigned: 0 Available: 447 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /64 | 0|
+| /63 | 0|
+| /62 | 0|
+| /61 | 0|
+| /60 | 0|
+| /59 | 0|
+| /58 | 0|
+| /57 | 0|
+| /56 | 0|
+| /55 | 0|
+| /54 | 0|
+| /53 | 0|
+| /52 | 0|
+| /51 | 0|
+| /50 | 0|
+| /49 | 0|
+| /48 | 0|
+| /47 | 0|
+| /46 | 0|
+| /45 | 0|
+| /44 | 0|
+| /43 | 0|
+| /42 | 0|
+| /41 | 0|
+| /40 | 0|
+| /39 | 0|
+| /38 | 0|
+| /37 | 0|
+| /36 | 0|
+| /35 | 111|
+| /34 | 55|
+| /33 | 55|
+| /32 | 4,353|
+| /31 | 25|
+| /30 | 15|
+| /29 | 10|
+| /28 | 11|
+| /27 | 4|
+| /26 | 7|
+| /25 | 2|
+| /24 | 6|
 
-```
-2017-03-09
-==========
-IPv4 | Allocated: 25,723 Assigned: 11,193 Available: 22 Reserved: 894 Hosts: 880,641,024
-IPv6 | Allocated: 4,640 Assigned: 1,623 Available: 40,029 Reserved: 473
-ASN  | Allocated: 7,617 Assigned: 0 Available: 446 Reserved: 0 Given: 14,973
-```
+#### Assigned: **1,632**
 
-```
-2017-03-08
-==========
-IPv4 | Allocated: 25,716 Assigned: 11,189 Available: 21 Reserved: 893 Hosts: 880,641,024
-IPv6 | Allocated: 4,636 Assigned: 1,619 Available: 39,982 Reserved: 472
-ASN  | Allocated: 7,614 Assigned: 0 Available: 446 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /64 | 3|
+| /63 | 0|
+| /62 | 0|
+| /61 | 0|
+| /60 | 0|
+| /59 | 0|
+| /58 | 0|
+| /57 | 0|
+| /56 | 0|
+| /55 | 0|
+| /54 | 0|
+| /53 | 0|
+| /52 | 0|
+| /51 | 0|
+| /50 | 0|
+| /49 | 0|
+| /48 | 1,566|
+| /47 | 26|
+| /46 | 6|
+| /45 | 2|
+| /44 | 8|
+| /43 | 2|
+| /42 | 1|
+| /41 | 0|
+| /40 | 2|
+| /39 | 0|
+| /38 | 0|
+| /37 | 0|
+| /36 | 0|
+| /35 | 0|
+| /34 | 0|
+| /33 | 0|
+| /32 | 16|
+| /31 | 0|
+| /30 | 0|
+| /29 | 0|
+| /28 | 0|
+| /27 | 0|
+| /26 | 0|
+| /25 | 0|
+| /24 | 0|
 
-```
-2017-03-07
-==========
-IPv4 | Allocated: 25,709 Assigned: 11,182 Available: 22 Reserved: 893 Hosts: 880,641,024
-IPv6 | Allocated: 4,633 Assigned: 1,618 Available: 39,960 Reserved: 472
-ASN  | Allocated: 7,611 Assigned: 0 Available: 446 Reserved: 0 Given: 14,973
-```
+#### Available: **40,302**
 
-```
-2017-03-06
-==========
-IPv4 | Allocated: 25,707 Assigned: 11,177 Available: 23 Reserved: 891 Hosts: 880,641,024
-IPv6 | Allocated: 4,632 Assigned: 1,617 Available: 39,934 Reserved: 470
-ASN  | Allocated: 7,613 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /64 | 1|
+| /63 | 1|
+| /62 | 0|
+| /61 | 1|
+| /60 | 1|
+| /59 | 1|
+| /58 | 1|
+| /57 | 1|
+| /56 | 1|
+| /55 | 1|
+| /54 | 1|
+| /53 | 1|
+| /52 | 1|
+| /51 | 1|
+| /50 | 1|
+| /49 | 1|
+| /48 | 1,081|
+| /47 | 1,107|
+| /46 | 1,113|
+| /45 | 1,115|
+| /44 | 1,117|
+| /43 | 1,120|
+| /42 | 1,122|
+| /41 | 1,123|
+| /40 | 966|
+| /39 | 23|
+| /38 | 23|
+| /37 | 23|
+| /36 | 23|
+| /35 | 28|
+| /34 | 28|
+| /33 | 14|
+| /32 | 4,485|
+| /31 | 4,535|
+| /30 | 4,554|
+| /29 | 4,344|
+| /28 | 4,349|
+| /27 | 4,345|
+| /26 | 3,569|
+| /25 | 3|
+| /24 | 6|
 
-```
-2017-03-05
-==========
-IPv4 | Allocated: 25,707 Assigned: 11,177 Available: 23 Reserved: 891 Hosts: 880,641,024
-IPv6 | Allocated: 4,632 Assigned: 1,617 Available: 39,934 Reserved: 470
-ASN  | Allocated: 7,613 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
+#### Reserved: **480**
 
-```
-2017-03-04
-==========
-IPv4 | Allocated: 25,707 Assigned: 11,176 Available: 23 Reserved: 891 Hosts: 880,641,024
-IPv6 | Allocated: 4,632 Assigned: 1,617 Available: 39,934 Reserved: 470
-ASN  | Allocated: 7,613 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
-
-```
-2017-03-03
-==========
-IPv4 | Allocated: 25,704 Assigned: 11,173 Available: 22 Reserved: 890 Hosts: 880,641,024
-IPv6 | Allocated: 4,630 Assigned: 1,614 Available: 39,903 Reserved: 470
-ASN  | Allocated: 7,614 Assigned: 0 Available: 442 Reserved: 0 Given: 14,973
-```
-
-```
-2017-03-02
-==========
-IPv4 | Allocated: 25,686 Assigned: 11,170 Available: 16 Reserved: 891 Hosts: 880,632,832
-IPv6 | Allocated: 4,610 Assigned: 1,613 Available: 39,801 Reserved: 471
-ASN  | Allocated: 7,609 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
-
-```
-2017-03-01
-==========
-IPv4 | Allocated: 25,682 Assigned: 11,170 Available: 14 Reserved: 892 Hosts: 880,632,832
-IPv6 | Allocated: 4,606 Assigned: 1,612 Available: 39,774 Reserved: 471
-ASN  | Allocated: 7,605 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
-
-```
-2017-02-28
-==========
-IPv4 | Allocated: 25,678 Assigned: 11,170 Available: 15 Reserved: 892 Hosts: 880,634,880
-IPv6 | Allocated: 4,604 Assigned: 1,612 Available: 39,764 Reserved: 471
-ASN  | Allocated: 7,599 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
-
-```
-2017-02-27
-==========
-IPv4 | Allocated: 25,678 Assigned: 11,169 Available: 16 Reserved: 892 Hosts: 880,634,880
-IPv6 | Allocated: 4,601 Assigned: 1,612 Available: 39,749 Reserved: 471
-ASN  | Allocated: 7,595 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
-
-```
-2017-02-26
-==========
-IPv4 | Allocated: 25,674 Assigned: 11,169 Available: 16 Reserved: 892 Hosts: 880,634,880
-IPv6 | Allocated: 4,601 Assigned: 1,612 Available: 39,749 Reserved: 471
-ASN  | Allocated: 7,595 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
-
-```
-2017-02-25
-==========
-IPv4 | Allocated: 25,674 Assigned: 11,169 Available: 16 Reserved: 892 Hosts: 880,634,880
-IPv6 | Allocated: 4,601 Assigned: 1,611 Available: 39,742 Reserved: 471
-ASN  | Allocated: 7,595 Assigned: 0 Available: 443 Reserved: 0 Given: 14,973
-```
+| Prefix | Count |
+| ------ | ----- |
+| /64 | 2|
+| /63 | 0|
+| /62 | 0|
+| /61 | 0|
+| /60 | 0|
+| /59 | 0|
+| /58 | 0|
+| /57 | 0|
+| /56 | 0|
+| /55 | 0|
+| /54 | 0|
+| /53 | 0|
+| /52 | 0|
+| /51 | 0|
+| /50 | 0|
+| /49 | 0|
+| /48 | 134|
+| /47 | 0|
+| /46 | 1|
+| /45 | 2|
+| /44 | 0|
+| /43 | 2|
+| /42 | 1|
+| /41 | 1|
+| /40 | 0|
+| /39 | 0|
+| /38 | 0|
+| /37 | 0|
+| /36 | 0|
+| /35 | 6|
+| /34 | 1|
+| /33 | 1|
+| /32 | 238|
+| /31 | 12|
+| /30 | 13|
+| /29 | 7|
+| /28 | 9|
+| /27 | 9|
+| /26 | 11|
+| /25 | 11|
+| /24 | 8|
