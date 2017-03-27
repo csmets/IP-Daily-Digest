@@ -417,7 +417,10 @@ def create_report_for_type(stat_type, stats, previous_stats, slash_range):
                  "**\n\n")
 
     markdown += (
-        generate_report_table(slash_range, stats[stat_type], previous_stats[stat_type]))
+        generate_report_table(
+            slash_range,
+            stats[stat_type],
+            previous_stats[stat_type] if previous_stats is not None else None))
 
     return markdown
 
@@ -593,14 +596,6 @@ write_json(dir_path + 'archives/RIPE_NCC/ripencc-delegations-extended.json', rir
 write_json(
     dir_path + 'archives/RIPE_NCC/ripencc-delegations.json',
     make_non_extended_stats(rirs['ripe']))
-
-# Pull latest daily digest
-print("Git pulling digest for latest...")
-proc = subprocess.Popen(
-    ["/usr/bin/git", "pull", "."],
-    stdout=subprocess.PIPE
-)
-print(proc.stdout.read())
 
 # Add updated daily digest
 print("Git adding new digest...")
