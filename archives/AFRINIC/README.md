@@ -4,11 +4,11 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Global Digest for 2017-03-28
+## Global Digest for 2017-03-29
 ```
-2017-03-28
+2017-03-29
 ==========
-IPv4 | Allocated: 1,964 Assigned: 1,216 Available: 43 Reserved: 151 Hosts: 121,242,624
+IPv4 | Allocated: 1,964 Assigned: 1,216 Available: 41 Reserved: 152 Hosts: 121,242,624
 IPv6 | Allocated: 474 Assigned: 174 Available: 64 Reserved: 1,938
 ASN  | Allocated: 1,463 Assigned: 0 Available: 632 Reserved: 207 Given: 2,302
 ```
@@ -76,7 +76,7 @@ ASN  | Allocated: 1,463 Assigned: 0 Available: 632 Reserved: 207 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **43**
+#### Available: **41 ▼ -2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -88,11 +88,11 @@ ASN  | Allocated: 1,463 Assigned: 0 Available: 632 Reserved: 207 Given: 2,302
 | /25 | 0|
 | /24 | 8|
 | /23 | 2|
-| /22 | 10|
+| /22 | 9 ▼ -1|
 | /21 | 7|
 | /20 | 4|
 | /19 | 2|
-| /18 | 1|
+| /18 | 0 ▼ -1|
 | /17 | 4|
 | /16 | 4|
 | /15 | 0|
@@ -104,7 +104,7 @@ ASN  | Allocated: 1,463 Assigned: 0 Available: 632 Reserved: 207 Given: 2,302
 | /9 | 0|
 | /8 | 1|
 
-#### Reserved: **151**
+#### Reserved: **152 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,11 +116,11 @@ ASN  | Allocated: 1,463 Assigned: 0 Available: 632 Reserved: 207 Given: 2,302
 | /25 | 0|
 | /24 | 27|
 | /23 | 4|
-| /22 | 48|
-| /21 | 16|
+| /22 | 47 ▼ -1|
+| /21 | 17 ▲ +1|
 | /20 | 19|
 | /19 | 15|
-| /18 | 7|
+| /18 | 8 ▲ +1|
 | /17 | 5|
 | /16 | 8|
 | /15 | 0|
