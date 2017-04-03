@@ -4,9 +4,9 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
-## Global Digest for 2017-04-02
+## Global Digest for 2017-04-03
 ```
-2017-04-02
+2017-04-03
 ==========
 IPv4 | Allocated: 25,856 Assigned: 11,250 Available: 11 Reserved: 909 Hosts: 880,656,384
 IPv6 | Allocated: 4,694 Assigned: 1,643 Available: 40,466 Reserved: 480
@@ -20,7 +20,7 @@ ASN  | Allocated: 7,659 Assigned: 0 Available: 452 Reserved: 0 Given: 14,974
 #### Hosts: **880,656,384**
 
 
-#### Allocated: **25,856 ▲ +7**
+#### Allocated: **25,856**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -31,8 +31,8 @@ ASN  | Allocated: 7,659 Assigned: 0 Available: 452 Reserved: 0 Given: 14,974
 | /26 | 0|
 | /25 | 0|
 | /24 | 2,095|
-| /23 | 1,333 ▲ +1|
-| /22 | 11,874 ▲ +6|
+| /23 | 1,333|
+| /22 | 11,874|
 | /21 | 1,841|
 | /20 | 2,003|
 | /19 | 1,816|
@@ -48,7 +48,7 @@ ASN  | Allocated: 7,659 Assigned: 0 Available: 452 Reserved: 0 Given: 14,974
 | /9 | 1|
 | /8 | 2|
 
-#### Assigned: **11,250 ▲ +2**
+#### Assigned: **11,250**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,7 +60,7 @@ ASN  | Allocated: 7,659 Assigned: 0 Available: 452 Reserved: 0 Given: 14,974
 | /25 | 0|
 | /24 | 6,116|
 | /23 | 1,901|
-| /22 | 3,187 ▲ +2|
+| /22 | 3,187|
 | /21 | 27|
 | /20 | 9|
 | /19 | 5|
@@ -76,7 +76,7 @@ ASN  | Allocated: 7,659 Assigned: 0 Available: 452 Reserved: 0 Given: 14,974
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **11 ▼ -3**
+#### Available: **11**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -87,12 +87,12 @@ ASN  | Allocated: 7,659 Assigned: 0 Available: 452 Reserved: 0 Given: 14,974
 | /26 | 0|
 | /25 | 0|
 | /24 | 2|
-| /23 | 0 ▼ -1|
-| /22 | 0 ▼ -2|
-| /21 | 1 ▼ -1|
-| /20 | 1 ▲ +1|
-| /19 | 2 ▲ +1|
-| /18 | 1 ▼ -1|
+| /23 | 0|
+| /22 | 0|
+| /21 | 1|
+| /20 | 1|
+| /19 | 2|
+| /18 | 1|
 | /17 | 0|
 | /16 | 0|
 | /15 | 1|
