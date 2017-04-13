@@ -4,13 +4,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Global Digest for 2017-04-12
+## Global Digest for 2017-04-13
 ```
-2017-04-12
+2017-04-13
 ==========
-IPv4 | Allocated: 37,862 Assigned: 23,861 Available: 2,816 Reserved: 189 Hosts: 822,080,000
-IPv6 | Allocated: 12,424 Assigned: 2,499 Available: 10,051 Reserved: 40,864
-ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,376
+IPv4 | Allocated: 37,873 Assigned: 23,861 Available: 2,816 Reserved: 189 Hosts: 822,080,000
+IPv6 | Allocated: 12,432 Assigned: 2,500 Available: 10,040 Reserved: 40,892
+ASN  | Allocated: 31,168 Assigned: 0 Available: 4,802 Reserved: 406 Given: 36,376
 ```
 
 ### Detailed Report
@@ -20,7 +20,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 #### Hosts: **822,080,000**
 
 
-#### Allocated: **37,862 ▲ +20**
+#### Allocated: **37,873 ▲ +11**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -31,10 +31,10 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /26 | 0|
 | /25 | 0|
 | /24 | 2,050|
-| /23 | 1,275 ▲ +2|
-| /22 | 13,893 ▲ +18|
-| /21 | 6,131 ▲ +1|
-| /20 | 4,387 ▼ -1|
+| /23 | 1,275|
+| /22 | 13,904 ▲ +11|
+| /21 | 6,131|
+| /20 | 4,387|
 | /19 | 4,695|
 | /18 | 1,883|
 | /17 | 1,220|
@@ -48,7 +48,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /9 | 1|
 | /8 | 0|
 
-#### Assigned: **23,861 ▲ +1**
+#### Assigned: **23,861**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -58,7 +58,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /27 | 37|
 | /26 | 41|
 | /25 | 71|
-| /24 | 11,279 ▲ +1|
+| /24 | 11,279|
 | /23 | 4,538|
 | /22 | 3,215|
 | /21 | 1,315|
@@ -135,7 +135,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 ### IPv6
 
 
-#### Allocated: **12,424 ▲ +8**
+#### Allocated: **12,432 ▲ +8**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -171,17 +171,17 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,328 ▼ -1|
+| /32 | 6,328|
 | /31 | 52|
 | /30 | 90|
-| /29 | 5,909 ▲ +9|
+| /29 | 5,917 ▲ +8|
 | /28 | 5|
 | /27 | 11|
 | /26 | 8|
 | /25 | 4|
 | /24 | 4|
 
-#### Assigned: **2,499**
+#### Assigned: **2,500 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -201,7 +201,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 2,432|
+| /48 | 2,433 ▲ +1|
 | /47 | 38|
 | /46 | 15|
 | /45 | 6|
@@ -227,7 +227,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **10,051 ▼ -9**
+#### Available: **10,040 ▼ -11**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -249,7 +249,7 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /49 | 0|
 | /48 | 2|
 | /47 | 0|
-| /46 | 4|
+| /46 | 3 ▼ -1|
 | /45 | 2|
 | /44 | 3|
 | /43 | 3|
@@ -266,14 +266,14 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /32 | 3|
 | /31 | 2|
 | /30 | 0|
-| /29 | 4,501 ▼ -1|
-| /28 | 4,405 ▼ -1|
-| /27 | 310 ▲ +1|
-| /26 | 766 ▼ -8|
+| /29 | 4,500 ▼ -1|
+| /28 | 4,404 ▼ -1|
+| /27 | 310|
+| /26 | 758 ▼ -8|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **40,864 ▲ +20**
+#### Reserved: **40,892 ▲ +28**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -293,8 +293,8 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 2,224|
-| /47 | 2,263|
+| /48 | 2,225 ▲ +1|
+| /47 | 2,264 ▲ +1|
 | /46 | 76|
 | /45 | 21|
 | /44 | 8|
@@ -309,12 +309,12 @@ ASN  | Allocated: 31,163 Assigned: 0 Available: 4,803 Reserved: 410 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,327 ▼ -1|
-| /31 | 6,379 ▼ -1|
-| /30 | 6,469 ▼ -1|
-| /29 | 5,799 ▲ +7|
-| /28 | 5,716 ▲ +8|
-| /27 | 5,434 ▲ +8|
+| /32 | 6,327|
+| /31 | 6,379|
+| /30 | 6,469|
+| /29 | 5,808 ▲ +9|
+| /28 | 5,725 ▲ +9|
+| /27 | 5,442 ▲ +8|
 | /26 | 70|
 | /25 | 23|
 | /24 | 16|
