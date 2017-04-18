@@ -4,12 +4,12 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
-## Global Digest for 2017-04-17
+## Global Digest for 2017-04-18
 ```
-2017-04-17
+2017-04-18
 ==========
-IPv4 | Allocated: 25,914 Assigned: 11,275 Available: 8 Reserved: 928 Hosts: 880,656,384
-IPv6 | Allocated: 4,706 Assigned: 1,663 Available: 40,724 Reserved: 491
+IPv4 | Allocated: 25,916 Assigned: 11,275 Available: 8 Reserved: 928 Hosts: 880,656,384
+IPv6 | Allocated: 4,707 Assigned: 1,663 Available: 40,729 Reserved: 491
 ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 ```
 
@@ -20,7 +20,7 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 #### Hosts: **880,656,384**
 
 
-#### Allocated: **25,914**
+#### Allocated: **25,916 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -32,7 +32,7 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 | /25 | 0|
 | /24 | 2,091|
 | /23 | 1,342|
-| /22 | 11,926|
+| /22 | 11,928 ▲ +2|
 | /21 | 1,842|
 | /20 | 2,003|
 | /19 | 1,816|
@@ -89,8 +89,8 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 | /24 | 1|
 | /23 | 1|
 | /22 | 0|
-| /21 | 0|
-| /20 | 1|
+| /21 | 1 ▲ +1|
+| /20 | 0 ▼ -1|
 | /19 | 0|
 | /18 | 1|
 | /17 | 0|
@@ -135,7 +135,7 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 ### IPv6
 
 
-#### Allocated: **4,706 ▲ +2**
+#### Allocated: **4,707 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -171,7 +171,7 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 | /35 | 111|
 | /34 | 55|
 | /33 | 55|
-| /32 | 4,384 ▲ +2|
+| /32 | 4,385 ▲ +1|
 | /31 | 25|
 | /30 | 15|
 | /29 | 10|
@@ -227,7 +227,7 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **40,724 ▲ +10**
+#### Available: **40,729 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -263,13 +263,13 @@ ASN  | Allocated: 7,675 Assigned: 0 Available: 462 Reserved: 0 Given: 14,975
 | /35 | 28|
 | /34 | 28|
 | /33 | 14|
-| /32 | 4,524 ▲ +2|
-| /31 | 4,574 ▲ +2|
-| /30 | 4,593 ▲ +2|
-| /29 | 4,383 ▲ +2|
-| /28 | 4,388 ▲ +2|
-| /27 | 4,384 ▲ +2|
-| /26 | 3,530 ▼ -2|
+| /32 | 4,525 ▲ +1|
+| /31 | 4,575 ▲ +1|
+| /30 | 4,594 ▲ +1|
+| /29 | 4,384 ▲ +1|
+| /28 | 4,389 ▲ +1|
+| /27 | 4,385 ▲ +1|
+| /26 | 3,529 ▼ -1|
 | /25 | 3|
 | /24 | 6|
 
