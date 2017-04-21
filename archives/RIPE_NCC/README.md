@@ -4,13 +4,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Global Digest for 2017-04-20
+## Global Digest for 2017-04-21
 ```
-2017-04-20
+2017-04-21
 ==========
-IPv4 | Allocated: 37,926 Assigned: 23,861 Available: 2,816 Reserved: 192 Hosts: 822,080,000
-IPv6 | Allocated: 12,458 Assigned: 2,502 Available: 10,013 Reserved: 40,970
-ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,376
+IPv4 | Allocated: 37,952 Assigned: 23,863 Available: 2,816 Reserved: 192 Hosts: 822,080,000
+IPv6 | Allocated: 12,473 Assigned: 2,502 Available: 9,999 Reserved: 41,030
+ASN  | Allocated: 31,196 Assigned: 0 Available: 4,778 Reserved: 402 Given: 36,376
 ```
 
 ### Detailed Report
@@ -20,7 +20,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 #### Hosts: **822,080,000**
 
 
-#### Allocated: **37,926 ▲ +10**
+#### Allocated: **37,952 ▲ +26**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -30,12 +30,12 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 2,052|
+| /24 | 2,053 ▲ +1|
 | /23 | 1,274|
-| /22 | 13,950 ▲ +10|
-| /21 | 6,134|
-| /20 | 4,390|
-| /19 | 4,696|
+| /22 | 13,973 ▲ +23|
+| /21 | 6,136 ▲ +2|
+| /20 | 4,391 ▲ +1|
+| /19 | 4,695 ▼ -1|
 | /18 | 1,883|
 | /17 | 1,219|
 | /16 | 1,461|
@@ -48,7 +48,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /9 | 1|
 | /8 | 0|
 
-#### Assigned: **23,861 ▼ -1**
+#### Assigned: **23,863 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -58,10 +58,10 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /27 | 37|
 | /26 | 41|
 | /25 | 71|
-| /24 | 11,277 ▼ -1|
-| /23 | 4,537|
-| /22 | 3,216|
-| /21 | 1,315|
+| /24 | 11,278 ▲ +1|
+| /23 | 4,538 ▲ +1|
+| /22 | 3,217 ▲ +1|
+| /21 | 1,314 ▼ -1|
 | /20 | 670|
 | /19 | 383|
 | /18 | 99|
@@ -104,7 +104,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **192 ▲ +1**
+#### Reserved: **192**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -114,7 +114,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /27 | 0|
 | /26 | 1|
 | /25 | 0|
-| /24 | 87 ▲ +1|
+| /24 | 87|
 | /23 | 13|
 | /22 | 62|
 | /21 | 18|
@@ -135,7 +135,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 ### IPv6
 
 
-#### Allocated: **12,458 ▲ +6**
+#### Allocated: **12,473 ▲ +15**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -171,17 +171,17 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,325|
+| /32 | 6,330 ▲ +5|
 | /31 | 52|
 | /30 | 90|
-| /29 | 5,946 ▲ +6|
+| /29 | 5,955 ▲ +9|
 | /28 | 5|
 | /27 | 11|
 | /26 | 8|
 | /25 | 4|
-| /24 | 4|
+| /24 | 5 ▲ +1|
 
-#### Assigned: **2,502 ▲ +2**
+#### Assigned: **2,502**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -201,7 +201,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 2,435 ▲ +2|
+| /48 | 2,435|
 | /47 | 38|
 | /46 | 15|
 | /45 | 6|
@@ -227,7 +227,7 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **10,013 ▼ -8**
+#### Available: **9,999 ▼ -14**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -249,8 +249,8 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /49 | 0|
 | /48 | 2|
 | /47 | 0|
-| /46 | 5 ▲ +1|
-| /45 | 2 ▼ -1|
+| /46 | 5|
+| /45 | 2|
 | /44 | 2|
 | /43 | 3|
 | /42 | 4|
@@ -266,14 +266,14 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /32 | 3|
 | /31 | 2|
 | /30 | 0|
-| /29 | 4,499 ▼ -1|
-| /28 | 4,403 ▼ -1|
+| /29 | 4,499|
+| /28 | 4,403|
 | /27 | 310|
-| /26 | 732 ▼ -6|
+| /26 | 718 ▼ -14|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **40,970 ▲ +23**
+#### Reserved: **41,030 ▲ +60**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -293,9 +293,9 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 2,227 ▲ +2|
-| /47 | 2,266 ▲ +2|
-| /46 | 76 ▼ -1|
+| /48 | 2,227|
+| /47 | 2,266|
+| /46 | 76|
 | /45 | 21|
 | /44 | 8|
 | /43 | 3|
@@ -309,12 +309,12 @@ ASN  | Allocated: 31,185 Assigned: 0 Available: 4,789 Reserved: 402 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,324|
-| /31 | 6,376|
-| /30 | 6,466|
-| /29 | 5,837 ▲ +7|
-| /28 | 5,753 ▲ +7|
-| /27 | 5,469 ▲ +6|
+| /32 | 6,329 ▲ +5|
+| /31 | 6,381 ▲ +5|
+| /30 | 6,471 ▲ +5|
+| /29 | 5,851 ▲ +14|
+| /28 | 5,767 ▲ +14|
+| /27 | 5,483 ▲ +14|
 | /26 | 69|
 | /25 | 23|
-| /24 | 16|
+| /24 | 17 ▲ +1|

@@ -4,13 +4,13 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
-## Global Digest for 2017-04-20
+## Global Digest for 2017-04-21
 ```
-2017-04-20
+2017-04-21
 ==========
-IPv4 | Allocated: 25,923 Assigned: 11,280 Available: 6 Reserved: 927 Hosts: 880,656,384
-IPv6 | Allocated: 4,712 Assigned: 1,666 Available: 40,765 Reserved: 491
-ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
+IPv4 | Allocated: 25,933 Assigned: 11,286 Available: 9 Reserved: 927 Hosts: 880,656,384
+IPv6 | Allocated: 4,717 Assigned: 1,671 Available: 40,825 Reserved: 491
+ASN  | Allocated: 7,685 Assigned: 0 Available: 458 Reserved: 0 Given: 14,975
 ```
 
 ### Detailed Report
@@ -20,7 +20,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 #### Hosts: **880,656,384**
 
 
-#### Allocated: **25,923**
+#### Allocated: **25,933 ▲ +10**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -30,9 +30,9 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 2,091|
+| /24 | 2,092 ▲ +1|
 | /23 | 1,346|
-| /22 | 11,931|
+| /22 | 11,940 ▲ +9|
 | /21 | 1,842|
 | /20 | 2,003|
 | /19 | 1,816|
@@ -48,7 +48,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /9 | 1|
 | /8 | 2|
 
-#### Assigned: **11,280 ▲ +2**
+#### Assigned: **11,286 ▲ +6**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -58,9 +58,9 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 6,135 ▲ +2|
+| /24 | 6,137 ▲ +2|
 | /23 | 1,903|
-| /22 | 3,196|
+| /22 | 3,200 ▲ +4|
 | /21 | 27|
 | /20 | 9|
 | /19 | 5|
@@ -76,7 +76,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **6 ▼ -1**
+#### Available: **9 ▲ +3**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -86,15 +86,15 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 0|
-| /23 | 0 ▼ -1|
+| /24 | 1 ▲ +1|
+| /23 | 0|
 | /22 | 0|
-| /21 | 0|
+| /21 | 1 ▲ +1|
 | /20 | 1|
 | /19 | 1|
-| /18 | 0|
-| /17 | 0|
-| /16 | 1|
+| /18 | 1 ▲ +1|
+| /17 | 1 ▲ +1|
+| /16 | 0 ▼ -1|
 | /15 | 0|
 | /14 | 1|
 | /13 | 0|
@@ -135,7 +135,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 ### IPv6
 
 
-#### Allocated: **4,712 ▲ +6**
+#### Allocated: **4,717 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -171,7 +171,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /35 | 111|
 | /34 | 55|
 | /33 | 55|
-| /32 | 4,390 ▲ +6|
+| /32 | 4,395 ▲ +5|
 | /31 | 25|
 | /30 | 15|
 | /29 | 10|
@@ -181,7 +181,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /25 | 2|
 | /24 | 6|
 
-#### Assigned: **1,666**
+#### Assigned: **1,671 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -201,7 +201,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 1,598|
+| /48 | 1,603 ▲ +5|
 | /47 | 27|
 | /46 | 7|
 | /45 | 2|
@@ -227,7 +227,7 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **40,765 ▲ +30**
+#### Available: **40,825 ▲ +60**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -247,15 +247,15 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /51 | 1|
 | /50 | 1|
 | /49 | 1|
-| /48 | 1,111|
-| /47 | 1,140|
-| /46 | 1,147|
-| /45 | 1,149|
-| /44 | 1,151|
-| /43 | 1,154|
-| /42 | 1,156|
-| /41 | 1,157|
-| /40 | 932|
+| /48 | 1,116 ▲ +5|
+| /47 | 1,145 ▲ +5|
+| /46 | 1,152 ▲ +5|
+| /45 | 1,154 ▲ +5|
+| /44 | 1,156 ▲ +5|
+| /43 | 1,159 ▲ +5|
+| /42 | 1,161 ▲ +5|
+| /41 | 1,162 ▲ +5|
+| /40 | 927 ▼ -5|
 | /39 | 23|
 | /38 | 23|
 | /37 | 23|
@@ -263,13 +263,13 @@ ASN  | Allocated: 7,682 Assigned: 0 Available: 459 Reserved: 0 Given: 14,975
 | /35 | 28|
 | /34 | 28|
 | /33 | 14|
-| /32 | 4,531 ▲ +6|
-| /31 | 4,581 ▲ +6|
-| /30 | 4,600 ▲ +6|
-| /29 | 4,390 ▲ +6|
-| /28 | 4,395 ▲ +6|
-| /27 | 4,391 ▲ +6|
-| /26 | 3,523 ▼ -6|
+| /32 | 4,536 ▲ +5|
+| /31 | 4,586 ▲ +5|
+| /30 | 4,605 ▲ +5|
+| /29 | 4,395 ▲ +5|
+| /28 | 4,400 ▲ +5|
+| /27 | 4,396 ▲ +5|
+| /26 | 3,518 ▼ -5|
 | /25 | 3|
 | /24 | 6|
 
