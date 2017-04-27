@@ -2,9 +2,11 @@
 
 Total IP delegations for LACNIC. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
 
+[Global](../../) | [AFRINIC](./archives/AFRINIC/) | [APNIC](./archives/APNIC/) | [ARIN](./archives/ARIN/) | [LACNIC](.) | [RIPE NCC](./archives/RIPE_NCC/)
+
 ---
 
-## Global Digest for 2017-04-27
+## Digest for 2017-04-27
 ```
 2017-04-27
 ==========

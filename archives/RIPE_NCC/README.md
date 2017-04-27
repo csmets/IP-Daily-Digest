@@ -2,9 +2,10 @@
 
 Total IP delegations for RIPE NCC. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
 
+[Global](../../) | [AFRINIC](./archives/AFRINIC/) | [APNIC](./archives/APNIC/) | [ARIN](./archives/ARIN/) | [LACNIC](./archives/LACNIC/) | [RIPE NCC](.)
 ---
 
-## Global Digest for 2017-04-27
+## Digest for 2017-04-27
 ```
 2017-04-27
 ==========

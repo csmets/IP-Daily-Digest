@@ -10,7 +10,7 @@ Links below take you to daily digests for a region.
 
 ---
 
-## Global Digest for 2017-04-27
+## Digest for 2017-04-27
 ```
 2017-04-27
 ==========

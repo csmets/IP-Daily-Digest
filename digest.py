@@ -427,7 +427,7 @@ def create_report_for_type(stat_type, stats, previous_stats, slash_range):
 def markdown_report(report, previous_report):
     """ Create a lovely string in markdown format of the stats report """
     now = datetime.datetime.now()
-    markdown = "## Global Digest for " + now.strftime('%Y-%m-%d') + "\n"
+    markdown = "## Digest for " + now.strftime('%Y-%m-%d') + "\n"
     markdown += markdown_summed_report(report)
     markdown += "\n### Detailed Report\n\n"
     markdown += "### IPv4\n\n"
