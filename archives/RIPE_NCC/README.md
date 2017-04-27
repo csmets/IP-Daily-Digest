@@ -2,7 +2,8 @@
 
 Total IP delegations for RIPE NCC. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
 
-[Global](../../) | [AFRINIC](./archives/AFRINIC/) | [APNIC](./archives/APNIC/) | [ARIN](./archives/ARIN/) | [LACNIC](./archives/LACNIC/) | [RIPE NCC](.)
+[Global](https://github.com/csmets/IP-Daily-Digest) | [AFRINIC](https://github.com/csmets/IP-Daily-Digest/tree/master/archives/AFRINIC) | [APNIC](https://github.com/csmets/IP-Daily-Digest/tree/master/archives/APNIC) | [ARIN](https://github.com/csmets/IP-Daily-Digest/tree/master/archives/ARIN) | [LACNIC](https://github.com/csmets/IP-Daily-Digest/tree/master/archives/LACNIC) | [RIPE NCC](https://github.com/csmets/IP-Daily-Digest/tree/master/archives/RIPE_NCC)
+
 ---
 
 ## Digest for 2017-04-27
