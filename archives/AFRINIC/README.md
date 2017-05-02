@@ -6,9 +6,9 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-05-01
+## Digest for 2017-05-02
 ```
-2017-05-01
+2017-05-02
 ==========
 IPv4 | Allocated: 1,985 Assigned: 1,224 Available: 30 Reserved: 164 Hosts: 121,242,624
 IPv6 | Allocated: 480 Assigned: 181 Available: 64 Reserved: 1,971
@@ -78,7 +78,7 @@ ASN  | Allocated: 1,479 Assigned: 0 Available: 617 Reserved: 206 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **30 ▼ -1**
+#### Available: **30**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -96,7 +96,7 @@ ASN  | Allocated: 1,479 Assigned: 0 Available: 617 Reserved: 206 Given: 2,302
 | /19 | 2|
 | /18 | 0|
 | /17 | 5|
-| /16 | 1 ▼ -1|
+| /16 | 1|
 | /15 | 0|
 | /14 | 0|
 | /13 | 0|
@@ -106,7 +106,7 @@ ASN  | Allocated: 1,479 Assigned: 0 Available: 617 Reserved: 206 Given: 2,302
 | /9 | 1|
 | /8 | 0|
 
-#### Reserved: **164 ▲ +1**
+#### Reserved: **164**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -124,7 +124,7 @@ ASN  | Allocated: 1,479 Assigned: 0 Available: 617 Reserved: 206 Given: 2,302
 | /19 | 17|
 | /18 | 7|
 | /17 | 4|
-| /16 | 6 ▲ +1|
+| /16 | 6|
 | /15 | 0|
 | /14 | 0|
 | /13 | 1|
