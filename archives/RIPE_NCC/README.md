@@ -6,13 +6,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-05-07
+## Digest for 2017-05-08
 ```
-2017-05-07
+2017-05-08
 ==========
 IPv4 | Allocated: 38,144 Assigned: 23,861 Available: 2,825 Reserved: 184 Hosts: 822,212,096
-IPv6 | Allocated: 12,550 Assigned: 2,514 Available: 9,913 Reserved: 41,296
-ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,376
+IPv6 | Allocated: 12,550 Assigned: 2,514 Available: 9,912 Reserved: 41,295
+ASN  | Allocated: 31,286 Assigned: 0 Available: 4,716 Reserved: 374 Given: 36,376
 ```
 
 ### Detailed Report
@@ -78,7 +78,7 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /9 | 0|
 | /8 | 3|
 
-#### Available: **2,825 ▲ +2**
+#### Available: **2,825**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -88,9 +88,9 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /27 | 5|
 | /26 | 8|
 | /25 | 24|
-| /24 | 979 ▲ +1|
+| /24 | 979|
 | /23 | 596|
-| /22 | 331 ▲ +1|
+| /22 | 331|
 | /21 | 212|
 | /20 | 114|
 | /19 | 48|
@@ -106,7 +106,7 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **184 ▼ -2**
+#### Reserved: **184**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,9 +116,9 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /27 | 0|
 | /26 | 1|
 | /25 | 0|
-| /24 | 82 ▼ -1|
+| /24 | 82|
 | /23 | 13|
-| /22 | 60 ▼ -1|
+| /22 | 60|
 | /21 | 16|
 | /20 | 7|
 | /19 | 2|
@@ -229,7 +229,7 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **9,913 ▲ +1**
+#### Available: **9,912 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -268,14 +268,14 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /32 | 3|
 | /31 | 2|
 | /30 | 0|
-| /29 | 4,494|
-| /28 | 4,398|
-| /27 | 312|
-| /26 | 642 ▲ +1|
+| /29 | 4,493 ▼ -1|
+| /28 | 4,397 ▼ -1|
+| /27 | 313 ▲ +1|
+| /26 | 642|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **41,296 ▼ -1**
+#### Reserved: **41,295 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -314,9 +314,9 @@ ASN  | Allocated: 31,286 Assigned: 0 Available: 4,715 Reserved: 375 Given: 36,37
 | /32 | 6,331|
 | /31 | 6,383|
 | /30 | 6,473|
-| /29 | 5,931|
+| /29 | 5,930 ▼ -1|
 | /28 | 5,848|
 | /27 | 5,561|
-| /26 | 67 ▼ -1|
+| /26 | 67|
 | /25 | 23|
 | /24 | 17|
