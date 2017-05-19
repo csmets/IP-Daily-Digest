@@ -6,11 +6,11 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-05-18
+## Digest for 2017-05-19
 ```
-2017-05-18
+2017-05-19
 ==========
-IPv4 | Allocated: 1,990 Assigned: 1,227 Available: 33 Reserved: 164 Hosts: 121,242,624
+IPv4 | Allocated: 1,992 Assigned: 1,227 Available: 35 Reserved: 163 Hosts: 121,242,624
 IPv6 | Allocated: 482 Assigned: 183 Available: 63 Reserved: 1,981
 ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 ```
@@ -22,7 +22,7 @@ ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 #### Hosts: **121,242,624**
 
 
-#### Allocated: **1,990**
+#### Allocated: **1,992 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,7 +34,7 @@ ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 | /25 | 0|
 | /24 | 0|
 | /23 | 0|
-| /22 | 650|
+| /22 | 651 ▲ +1|
 | /21 | 263|
 | /20 | 272|
 | /19 | 292|
@@ -43,7 +43,7 @@ ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 | /16 | 145|
 | /15 | 41|
 | /14 | 40|
-| /13 | 29|
+| /13 | 30 ▲ +1|
 | /12 | 25|
 | /11 | 10|
 | /10 | 0|
@@ -78,7 +78,7 @@ ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **33 ▲ +4**
+#### Available: **35 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -88,25 +88,25 @@ ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 10 ▲ +1|
-| /23 | 2 ▲ +1|
-| /22 | 5 ▲ +1|
-| /21 | 3 ▲ +1|
-| /20 | 4 ▲ +1|
-| /19 | 1 ▼ -1|
+| /24 | 10|
+| /23 | 2|
+| /22 | 5|
+| /21 | 3|
+| /20 | 4|
+| /19 | 1|
 | /18 | 2|
 | /17 | 3|
 | /16 | 0|
 | /15 | 0|
 | /14 | 0|
-| /13 | 0|
-| /12 | 0|
-| /11 | 1|
-| /10 | 1|
+| /13 | 1 ▲ +1|
+| /12 | 1 ▲ +1|
+| /11 | 2 ▲ +1|
+| /10 | 0 ▼ -1|
 | /9 | 1|
 | /8 | 0|
 
-#### Reserved: **164 ▲ +1**
+#### Reserved: **163 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,9 +116,9 @@ ASN  | Allocated: 1,485 Assigned: 0 Available: 611 Reserved: 206 Given: 2,302
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 32 ▲ +1|
+| /24 | 32|
 | /23 | 7|
-| /22 | 53|
+| /22 | 52 ▼ -1|
 | /21 | 17|
 | /20 | 18|
 | /19 | 17|
