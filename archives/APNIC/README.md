@@ -6,12 +6,12 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
-## Digest for 2017-05-21
+## Digest for 2017-05-22
 ```
-2017-05-21
+2017-05-22
 ==========
 IPv4 | Allocated: 26,089 Assigned: 11,360 Available: 6 Reserved: 929 Hosts: 880,795,648
-IPv6 | Allocated: 4,786 Assigned: 1,706 Available: 41,484 Reserved: 504
+IPv6 | Allocated: 4,787 Assigned: 1,706 Available: 41,489 Reserved: 504
 ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 ```
 
@@ -50,7 +50,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /9 | 1|
 | /8 | 2|
 
-#### Assigned: **11,360 ▲ +1**
+#### Assigned: **11,360**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -62,7 +62,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /25 | 0|
 | /24 | 6,171|
 | /23 | 1,911|
-| /22 | 3,232 ▲ +1|
+| /22 | 3,232|
 | /21 | 27|
 | /20 | 9|
 | /19 | 5|
@@ -78,7 +78,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **6 ▼ -1**
+#### Available: **6**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -90,7 +90,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /25 | 0|
 | /24 | 1|
 | /23 | 0|
-| /22 | 0 ▼ -1|
+| /22 | 0|
 | /21 | 1|
 | /20 | 0|
 | /19 | 0|
@@ -137,7 +137,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 ### IPv6
 
 
-#### Allocated: **4,786**
+#### Allocated: **4,787 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,7 +173,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /35 | 111|
 | /34 | 55|
 | /33 | 55|
-| /32 | 4,466|
+| /32 | 4,467 ▲ +1|
 | /31 | 24|
 | /30 | 14|
 | /29 | 10|
@@ -229,7 +229,7 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **41,484**
+#### Available: **41,489 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -265,13 +265,13 @@ ASN  | Allocated: 7,751 Assigned: 0 Available: 467 Reserved: 0 Given: 14,976
 | /35 | 28|
 | /34 | 28|
 | /33 | 14|
-| /32 | 4,616|
-| /31 | 4,666|
-| /30 | 4,685|
-| /29 | 4,475|
-| /28 | 4,480|
-| /27 | 4,476|
-| /26 | 3,438|
+| /32 | 4,617 ▲ +1|
+| /31 | 4,667 ▲ +1|
+| /30 | 4,686 ▲ +1|
+| /29 | 4,476 ▲ +1|
+| /28 | 4,481 ▲ +1|
+| /27 | 4,477 ▲ +1|
+| /26 | 3,437 ▼ -1|
 | /25 | 3|
 | /24 | 6|
 
