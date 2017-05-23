@@ -6,11 +6,11 @@ Total IP delegations for LACNIC. This is kept as a record for historical purpose
 
 ---
 
-## Digest for 2017-05-22
+## Digest for 2017-05-23
 ```
-2017-05-22
+2017-05-23
 ==========
-IPv4 | Allocated: 10,881 Assigned: 2,228 Available: 15 Reserved: 265 Hosts: 190,775,552
+IPv4 | Allocated: 10,881 Assigned: 2,228 Available: 16 Reserved: 271 Hosts: 190,775,552
 IPv6 | Allocated: 5,068 Assigned: 834 Available: 13,852 Reserved: 5,507
 ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 ```
@@ -22,7 +22,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 #### Hosts: **190,775,552**
 
 
-#### Allocated: **10,881 ▲ +7**
+#### Allocated: **10,881**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,7 +34,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /25 | 0|
 | /24 | 34|
 | /23 | 28|
-| /22 | 5,390 ▲ +7|
+| /22 | 5,390|
 | /21 | 1,233|
 | /20 | 1,962|
 | /19 | 743|
@@ -78,7 +78,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **15 ▼ -2**
+#### Available: **16 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -88,14 +88,14 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 0 ▼ -1|
-| /23 | 3 ▲ +2|
-| /22 | 1 ▼ -1|
-| /21 | 1 ▼ -1|
-| /20 | 0 ▼ -1|
-| /19 | 0|
-| /18 | 0|
-| /17 | 1|
+| /24 | 1 ▲ +1|
+| /23 | 1 ▼ -2|
+| /22 | 1|
+| /21 | 1|
+| /20 | 1 ▲ +1|
+| /19 | 1 ▲ +1|
+| /18 | 1 ▲ +1|
+| /17 | 0 ▼ -1|
 | /16 | 6|
 | /15 | 1|
 | /14 | 0|
@@ -106,7 +106,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **265 ▼ -1**
+#### Reserved: **271 ▲ +6**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,9 +116,9 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 29 ▲ +1|
-| /23 | 8 ▼ -2|
-| /22 | 84|
+| /24 | 30 ▲ +1|
+| /23 | 9 ▲ +1|
+| /22 | 88 ▲ +4|
 | /21 | 40|
 | /20 | 79|
 | /19 | 16|
@@ -137,7 +137,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 ### IPv6
 
 
-#### Allocated: **5,068 ▲ +7**
+#### Allocated: **5,068**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,7 +173,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 5,018 ▲ +7|
+| /32 | 5,018|
 | /31 | 10|
 | /30 | 13|
 | /29 | 9|
@@ -229,7 +229,7 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **13,852 ▲ +10**
+#### Available: **13,852**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -265,17 +265,17 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /35 | 42|
 | /34 | 41|
 | /33 | 41|
-| /32 | 4,091 ▲ +4|
-| /31 | 4,040 ▲ +4|
+| /32 | 4,091|
+| /31 | 4,040|
 | /30 | 167|
 | /29 | 80|
-| /28 | 963 ▲ +2|
-| /27 | 961 ▲ +3|
-| /26 | 80 ▼ -3|
+| /28 | 963|
+| /27 | 961|
+| /26 | 80|
 | /25 | 10|
 | /24 | 10|
 
-#### Reserved: **5,507 ▲ +12**
+#### Reserved: **5,507**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -311,10 +311,10 @@ ASN  | Allocated: 7,003 Assigned: 0 Available: 169 Reserved: 94 Given: 7,935
 | /35 | 1|
 | /34 | 1|
 | /33 | 1|
-| /32 | 1,177 ▲ +3|
-| /31 | 1,098 ▲ +3|
-| /30 | 1,100 ▲ +3|
-| /29 | 1,082 ▲ +3|
+| /32 | 1,177|
+| /31 | 1,098|
+| /30 | 1,100|
+| /29 | 1,082|
 | /28 | 5|
 | /27 | 0|
 | /26 | 0|
