@@ -1978,5 +1978,27 @@
             "available": 85321,
             "reserved": 70503
         }
+    },
+    "2017-05-26": {
+        "asn": {
+            "allocated": 47651,
+            "assigned": 25204,
+            "available": 5869,
+            "given": 91115,
+            "reserved": 2141
+        },
+        "ipv4": {
+            "allocated": 99588,
+            "assigned": 74920,
+            "available": 2889,
+            "hosts": 3702219264,
+            "reserved": 2137
+        },
+        "ipv6": {
+            "allocated": 26299,
+            "assigned": 7541,
+            "available": 85347,
+            "reserved": 70516
+        }
     }
 }
