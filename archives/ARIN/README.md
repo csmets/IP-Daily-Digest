@@ -6,23 +6,23 @@ Total IP delegations for ARIN. This is kept as a record for historical purposes.
 
 ---
 
-## Digest for 2017-05-31
+## Digest for 2017-06-01
 ```
-2017-05-31
+2017-06-01
 ==========
-IPv4 | Allocated: 22,171 Assigned: 36,227 Available: 0 Reserved: 590 Hosts: 1,687,022,080
-IPv6 | Allocated: 3,298 Assigned: 2,286 Available: 20,020 Reserved: 20,902
-ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
+IPv4 | Allocated: 22,172 Assigned: 36,228 Available: 0 Reserved: 591 Hosts: 1,687,013,888
+IPv6 | Allocated: 3,298 Assigned: 2,289 Available: 20,035 Reserved: 20,914
+ASN  | Allocated: 0 Assigned: 25,217 Available: 1 Reserved: 1,485 Given: 29,525
 ```
 
 ### Detailed Report
 
 ### IPv4
 
-#### Hosts: **1,687,022,080**
+#### Hosts: **1,687,013,888 ▼ -8192**
 
 
-#### Allocated: **22,171**
+#### Allocated: **22,172 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -32,15 +32,15 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 2,314|
-| /23 | 1,322|
+| /24 | 2,315 ▲ +1|
+| /23 | 1,321 ▼ -1|
 | /22 | 3,903|
 | /21 | 2,468|
-| /20 | 4,016|
-| /19 | 3,018|
+| /20 | 4,018 ▲ +2|
+| /19 | 3,016 ▼ -2|
 | /18 | 1,581|
 | /17 | 852|
-| /16 | 1,667|
+| /16 | 1,668 ▲ +1|
 | /15 | 421|
 | /14 | 285|
 | /13 | 136|
@@ -50,7 +50,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /9 | 7|
 | /8 | 16|
 
-#### Assigned: **36,227**
+#### Assigned: **36,228 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,7 +60,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 21,912|
+| /24 | 21,914 ▲ +2|
 | /23 | 3,062|
 | /22 | 2,827|
 | /21 | 1,315|
@@ -68,7 +68,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /19 | 553|
 | /18 | 286|
 | /17 | 143|
-| /16 | 4,617|
+| /16 | 4,616 ▼ -1|
 | /15 | 92|
 | /14 | 68|
 | /13 | 40|
@@ -106,7 +106,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **590**
+#### Reserved: **591 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -183,7 +183,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /25 | 0|
 | /24 | 22|
 
-#### Assigned: **2,286**
+#### Assigned: **2,289 ▲ +3**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -203,7 +203,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 1,227|
+| /48 | 1,229 ▲ +2|
 | /47 | 23|
 | /46 | 16|
 | /45 | 15|
@@ -211,7 +211,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /43 | 8|
 | /42 | 12|
 | /41 | 11|
-| /40 | 318|
+| /40 | 319 ▲ +1|
 | /39 | 0|
 | /38 | 1|
 | /37 | 1|
@@ -229,7 +229,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **20,020**
+#### Available: **20,035 ▲ +15**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -253,16 +253,16 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /47 | 71|
 | /46 | 67|
 | /45 | 63|
-| /44 | 1,185|
-| /43 | 1,142|
-| /42 | 1,143|
-| /41 | 1,142|
-| /40 | 1,658|
-| /39 | 1,655|
-| /38 | 1,652|
-| /37 | 1,641|
-| /36 | 1,183|
-| /35 | 899|
+| /44 | 1,187 ▲ +2|
+| /43 | 1,144 ▲ +2|
+| /42 | 1,145 ▲ +2|
+| /41 | 1,144 ▲ +2|
+| /40 | 1,660 ▲ +2|
+| /39 | 1,657 ▲ +2|
+| /38 | 1,654 ▲ +2|
+| /37 | 1,643 ▲ +2|
+| /36 | 1,184 ▲ +1|
+| /35 | 897 ▼ -2|
 | /34 | 7|
 | /33 | 8|
 | /32 | 18|
@@ -275,7 +275,7 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /25 | 22|
 | /24 | 30|
 
-#### Reserved: **20,902**
+#### Reserved: **20,914 ▲ +12**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -295,18 +295,18 @@ ASN  | Allocated: 0 Assigned: 25,213 Available: 1 Reserved: 1,485 Given: 29,525
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 1,289|
-| /47 | 1,241|
-| /46 | 1,250|
-| /45 | 1,257|
+| /48 | 1,291 ▲ +2|
+| /47 | 1,243 ▲ +2|
+| /46 | 1,252 ▲ +2|
+| /45 | 1,259 ▲ +2|
 | /44 | 503|
 | /43 | 504|
 | /42 | 516|
 | /41 | 526|
-| /40 | 313|
-| /39 | 309|
-| /38 | 304|
-| /37 | 305|
+| /40 | 314 ▲ +1|
+| /39 | 310 ▲ +1|
+| /38 | 305 ▲ +1|
+| /37 | 306 ▲ +1|
 | /36 | 399|
 | /35 | 385|
 | /34 | 385|
