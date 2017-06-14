@@ -6,23 +6,23 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
-## Digest for 2017-06-13
+## Digest for 2017-06-14
 ```
-2017-06-13
+2017-06-14
 ==========
-IPv4 | Allocated: 26,151 Assigned: 11,414 Available: 9 Reserved: 944 Hosts: 880,937,984
-IPv6 | Allocated: 4,860 Assigned: 1,746 Available: 42,157 Reserved: 516
-ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
+IPv4 | Allocated: 26,155 Assigned: 11,419 Available: 11 Reserved: 944 Hosts: 880,937,984
+IPv6 | Allocated: 4,865 Assigned: 1,750 Available: 42,210 Reserved: 516
+ASN  | Allocated: 7,804 Assigned: 0 Available: 464 Reserved: 0 Given: 14,979
 ```
 
 ### Detailed Report
 
 ### IPv4
 
-#### Hosts: **880,937,984 ▲ +131072**
+#### Hosts: **880,937,984**
 
 
-#### Allocated: **26,151 ▲ +7**
+#### Allocated: **26,155 ▲ +4**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -32,16 +32,16 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 2,116|
-| /23 | 1,365 ▲ +2|
-| /22 | 12,103 ▲ +4|
+| /24 | 2,117 ▲ +1|
+| /23 | 1,366 ▲ +1|
+| /22 | 12,105 ▲ +2|
 | /21 | 1,841|
 | /20 | 2,007|
 | /19 | 1,819|
 | /18 | 982|
 | /17 | 736|
 | /16 | 1,701|
-| /15 | 617 ▲ +1|
+| /15 | 617|
 | /14 | 445|
 | /13 | 227|
 | /12 | 119|
@@ -50,7 +50,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /9 | 1|
 | /8 | 2|
 
-#### Assigned: **11,414 ▲ +3**
+#### Assigned: **11,419 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,9 +60,9 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 6,195|
-| /23 | 1,921 ▲ +1|
-| /22 | 3,252 ▲ +2|
+| /24 | 6,196 ▲ +1|
+| /23 | 1,925 ▲ +4|
+| /22 | 3,252|
 | /21 | 27|
 | /20 | 9|
 | /19 | 5|
@@ -78,7 +78,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **9 ▼ -2**
+#### Available: **11 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -88,15 +88,15 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 0 ▼ -1|
-| /23 | 0 ▼ -1|
-| /22 | 3 ▲ +1|
+| /24 | 0|
+| /23 | 0|
+| /22 | 2 ▼ -1|
 | /21 | 2|
-| /20 | 1|
-| /19 | 0 ▼ -1|
-| /18 | 0|
-| /17 | 0|
-| /16 | 1|
+| /20 | 2 ▲ +1|
+| /19 | 1 ▲ +1|
+| /18 | 1 ▲ +1|
+| /17 | 1 ▲ +1|
+| /16 | 0 ▼ -1|
 | /15 | 0|
 | /14 | 0|
 | /13 | 0|
@@ -106,7 +106,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **944 ▲ +1**
+#### Reserved: **944**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,7 +116,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 447 ▲ +1|
+| /24 | 447|
 | /23 | 69|
 | /22 | 324|
 | /21 | 27|
@@ -137,7 +137,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 ### IPv6
 
 
-#### Allocated: **4,860 ▲ +2**
+#### Allocated: **4,865 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,7 +173,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /35 | 111|
 | /34 | 55|
 | /33 | 55|
-| /32 | 4,539 ▲ +2|
+| /32 | 4,544 ▲ +5|
 | /31 | 24|
 | /30 | 14|
 | /29 | 11|
@@ -183,7 +183,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /25 | 2|
 | /24 | 6|
 
-#### Assigned: **1,746 ▲ +2**
+#### Assigned: **1,750 ▲ +4**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -203,7 +203,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 1,677 ▲ +2|
+| /48 | 1,681 ▲ +4|
 | /47 | 28|
 | /46 | 7|
 | /45 | 2|
@@ -229,7 +229,7 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **42,157 ▲ +24**
+#### Available: **42,210 ▲ +53**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -249,15 +249,15 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /51 | 1|
 | /50 | 1|
 | /49 | 1|
-| /48 | 1,191 ▲ +2|
-| /47 | 1,222 ▲ +2|
-| /46 | 1,229 ▲ +2|
-| /45 | 1,231 ▲ +2|
-| /44 | 1,233 ▲ +2|
-| /43 | 1,236 ▲ +2|
-| /42 | 1,238 ▲ +2|
-| /41 | 1,239 ▲ +2|
-| /40 | 850 ▼ -2|
+| /48 | 1,195 ▲ +4|
+| /47 | 1,226 ▲ +4|
+| /46 | 1,233 ▲ +4|
+| /45 | 1,235 ▲ +4|
+| /44 | 1,237 ▲ +4|
+| /43 | 1,240 ▲ +4|
+| /42 | 1,242 ▲ +4|
+| /41 | 1,243 ▲ +4|
+| /40 | 846 ▼ -4|
 | /39 | 23|
 | /38 | 23|
 | /37 | 23|
@@ -265,13 +265,13 @@ ASN  | Allocated: 7,798 Assigned: 0 Available: 467 Reserved: 0 Given: 14,979
 | /35 | 28|
 | /34 | 28|
 | /33 | 14|
-| /32 | 4,693 ▲ +2|
-| /31 | 4,745 ▲ +2|
-| /30 | 4,764 ▲ +2|
-| /29 | 4,555 ▲ +2|
-| /28 | 4,560 ▲ +2|
-| /27 | 4,556 ▲ +2|
-| /26 | 3,358 ▼ -2|
+| /32 | 4,698 ▲ +5|
+| /31 | 4,750 ▲ +5|
+| /30 | 4,769 ▲ +5|
+| /29 | 4,560 ▲ +5|
+| /28 | 4,565 ▲ +5|
+| /27 | 4,561 ▲ +5|
+| /26 | 3,353 ▼ -5|
 | /25 | 3|
 | /24 | 6|
 
