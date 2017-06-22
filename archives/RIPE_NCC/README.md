@@ -6,13 +6,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-06-21
+## Digest for 2017-06-22
 ```
-2017-06-21
+2017-06-22
 ==========
-IPv4 | Allocated: 38,756 Assigned: 23,885 Available: 2,839 Reserved: 187 Hosts: 822,702,336
-IPv6 | Allocated: 12,766 Assigned: 2,538 Available: 9,669 Reserved: 42,027
-ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,376
+IPv4 | Allocated: 38,769 Assigned: 23,883 Available: 2,839 Reserved: 189 Hosts: 822,702,336
+IPv6 | Allocated: 12,774 Assigned: 2,538 Available: 9,663 Reserved: 42,052
+ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,376
 ```
 
 ### Detailed Report
@@ -22,7 +22,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 #### Hosts: **822,702,336**
 
 
-#### Allocated: **38,756 ▲ +11**
+#### Allocated: **38,769 ▲ +13**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -32,10 +32,10 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /27 | 0|
 | /26 | 0|
 | /25 | 1|
-| /24 | 2,104 ▲ +1|
+| /24 | 2,104|
 | /23 | 1,314|
-| /22 | 14,598 ▲ +11|
-| /21 | 6,180 ▼ -1|
+| /22 | 14,611 ▲ +13|
+| /21 | 6,180|
 | /20 | 4,415|
 | /19 | 4,704|
 | /18 | 1,886|
@@ -50,7 +50,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /9 | 1|
 | /8 | 0|
 
-#### Assigned: **23,885 ▼ -1**
+#### Assigned: **23,883 ▼ -2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,16 +60,16 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /27 | 37|
 | /26 | 40|
 | /25 | 70|
-| /24 | 11,301|
+| /24 | 11,299 ▼ -2|
 | /23 | 4,535|
-| /22 | 3,211 ▼ -1|
+| /22 | 3,211|
 | /21 | 1,318|
 | /20 | 672|
 | /19 | 382|
 | /18 | 102|
 | /17 | 53|
-| /16 | 1,549 ▼ -2|
-| /15 | 42 ▲ +1|
+| /16 | 1,549|
+| /15 | 42|
 | /14 | 15|
 | /13 | 6|
 | /12 | 3|
@@ -106,7 +106,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **187**
+#### Reserved: **189 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,10 +116,10 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /27 | 0|
 | /26 | 2|
 | /25 | 0|
-| /24 | 79|
+| /24 | 81 ▲ +2|
 | /23 | 12|
-| /22 | 66 ▼ -1|
-| /21 | 16 ▲ +1|
+| /22 | 66|
+| /21 | 16|
 | /20 | 7|
 | /19 | 2|
 | /18 | 1|
@@ -137,7 +137,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 ### IPv6
 
 
-#### Allocated: **12,766 ▲ +2**
+#### Allocated: **12,774 ▲ +8**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,10 +173,10 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,331 ▼ -1|
+| /32 | 6,332 ▲ +1|
 | /31 | 52|
 | /30 | 91|
-| /29 | 6,246 ▲ +3|
+| /29 | 6,253 ▲ +7|
 | /28 | 5|
 | /27 | 11|
 | /26 | 8|
@@ -229,7 +229,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **9,669 ▼ -1**
+#### Available: **9,663 ▼ -6**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -251,7 +251,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /49 | 0|
 | /48 | 2|
 | /47 | 0|
-| /46 | 6 ▲ +1|
+| /46 | 5 ▼ -1|
 | /45 | 3|
 | /44 | 2|
 | /43 | 2|
@@ -268,14 +268,14 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /32 | 3|
 | /31 | 2|
 | /30 | 0|
-| /29 | 4,478 ▼ -1|
-| /28 | 4,380 ▼ -1|
-| /27 | 320 ▲ +1|
-| /26 | 422 ▼ -1|
+| /29 | 4,478|
+| /28 | 4,380|
+| /27 | 320|
+| /26 | 417 ▼ -5|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **42,027 ▲ +3**
+#### Reserved: **42,052 ▲ +25**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -297,7 +297,7 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /49 | 0|
 | /48 | 2,264|
 | /47 | 2,302|
-| /46 | 74 ▼ -1|
+| /46 | 75 ▲ +1|
 | /45 | 22|
 | /44 | 8|
 | /43 | 3|
@@ -311,12 +311,12 @@ ASN  | Allocated: 31,538 Assigned: 0 Available: 4,496 Reserved: 342 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,330 ▼ -1|
-| /31 | 6,382 ▼ -1|
-| /30 | 6,473 ▼ -1|
-| /29 | 6,161 ▲ +3|
-| /28 | 6,081 ▲ +3|
-| /27 | 5,786 ▲ +3|
-| /26 | 63 ▼ -2|
+| /32 | 6,331 ▲ +1|
+| /31 | 6,383 ▲ +1|
+| /30 | 6,474 ▲ +1|
+| /29 | 6,169 ▲ +8|
+| /28 | 6,089 ▲ +8|
+| /27 | 5,794 ▲ +8|
+| /26 | 60 ▼ -3|
 | /25 | 23|
 | /24 | 17|
