@@ -6,13 +6,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-06-22
+## Digest for 2017-06-23
 ```
-2017-06-22
+2017-06-23
 ==========
-IPv4 | Allocated: 38,769 Assigned: 23,883 Available: 2,839 Reserved: 189 Hosts: 822,702,336
-IPv6 | Allocated: 12,774 Assigned: 2,538 Available: 9,663 Reserved: 42,052
-ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,376
+IPv4 | Allocated: 38,782 Assigned: 23,883 Available: 2,839 Reserved: 189 Hosts: 822,702,336
+IPv6 | Allocated: 12,785 Assigned: 2,540 Available: 9,652 Reserved: 42,091
+ASN  | Allocated: 31,554 Assigned: 0 Available: 4,476 Reserved: 346 Given: 36,376
 ```
 
 ### Detailed Report
@@ -22,7 +22,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 #### Hosts: **822,702,336**
 
 
-#### Allocated: **38,769 ▲ +13**
+#### Allocated: **38,782 ▲ +13**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,7 +34,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /25 | 1|
 | /24 | 2,104|
 | /23 | 1,314|
-| /22 | 14,611 ▲ +13|
+| /22 | 14,624 ▲ +13|
 | /21 | 6,180|
 | /20 | 4,415|
 | /19 | 4,704|
@@ -50,7 +50,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /9 | 1|
 | /8 | 0|
 
-#### Assigned: **23,883 ▼ -2**
+#### Assigned: **23,883**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,7 +60,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /27 | 37|
 | /26 | 40|
 | /25 | 70|
-| /24 | 11,299 ▼ -2|
+| /24 | 11,299|
 | /23 | 4,535|
 | /22 | 3,211|
 | /21 | 1,318|
@@ -106,7 +106,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **189 ▲ +2**
+#### Reserved: **189**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,7 +116,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /27 | 0|
 | /26 | 2|
 | /25 | 0|
-| /24 | 81 ▲ +2|
+| /24 | 81|
 | /23 | 12|
 | /22 | 66|
 | /21 | 16|
@@ -137,7 +137,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 ### IPv6
 
 
-#### Allocated: **12,774 ▲ +8**
+#### Allocated: **12,785 ▲ +11**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,17 +173,17 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,332 ▲ +1|
+| /32 | 6,334 ▲ +2|
 | /31 | 52|
 | /30 | 91|
-| /29 | 6,253 ▲ +7|
+| /29 | 6,262 ▲ +9|
 | /28 | 5|
 | /27 | 11|
 | /26 | 8|
 | /25 | 4|
 | /24 | 5|
 
-#### Assigned: **2,538**
+#### Assigned: **2,540 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -203,7 +203,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 2,470|
+| /48 | 2,472 ▲ +2|
 | /47 | 38|
 | /46 | 16|
 | /45 | 6|
@@ -229,7 +229,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **9,663 ▼ -6**
+#### Available: **9,652 ▼ -11**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -251,7 +251,7 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /49 | 0|
 | /48 | 2|
 | /47 | 0|
-| /46 | 5 ▼ -1|
+| /46 | 3 ▼ -2|
 | /45 | 3|
 | /44 | 2|
 | /43 | 2|
@@ -268,14 +268,14 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /32 | 3|
 | /31 | 2|
 | /30 | 0|
-| /29 | 4,478|
-| /28 | 4,380|
-| /27 | 320|
-| /26 | 417 ▼ -5|
+| /29 | 4,477 ▼ -1|
+| /28 | 4,379 ▼ -1|
+| /27 | 321 ▲ +1|
+| /26 | 409 ▼ -8|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **42,052 ▲ +25**
+#### Reserved: **42,091 ▲ +39**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -295,9 +295,9 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 2,264|
-| /47 | 2,302|
-| /46 | 75 ▲ +1|
+| /48 | 2,266 ▲ +2|
+| /47 | 2,304 ▲ +2|
+| /46 | 75|
 | /45 | 22|
 | /44 | 8|
 | /43 | 3|
@@ -311,12 +311,12 @@ ASN  | Allocated: 31,543 Assigned: 0 Available: 4,490 Reserved: 343 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,331 ▲ +1|
-| /31 | 6,383 ▲ +1|
-| /30 | 6,474 ▲ +1|
-| /29 | 6,169 ▲ +8|
-| /28 | 6,089 ▲ +8|
-| /27 | 5,794 ▲ +8|
-| /26 | 60 ▼ -3|
+| /32 | 6,333 ▲ +2|
+| /31 | 6,385 ▲ +2|
+| /30 | 6,476 ▲ +2|
+| /29 | 6,179 ▲ +10|
+| /28 | 6,100 ▲ +11|
+| /27 | 5,805 ▲ +11|
+| /26 | 57 ▼ -3|
 | /25 | 23|
 | /24 | 17|
