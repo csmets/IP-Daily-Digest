@@ -6,9 +6,9 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-07-08
+## Digest for 2017-07-09
 ```
-2017-07-08
+2017-07-09
 ==========
 IPv4 | Allocated: 2,009 Assigned: 1,229 Available: 35 Reserved: 171 Hosts: 121,242,624
 IPv6 | Allocated: 494 Assigned: 185 Available: 53 Reserved: 2,030
@@ -22,7 +22,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 #### Hosts: **121,242,624**
 
 
-#### Allocated: **2,009 ▲ +1**
+#### Allocated: **2,009**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -38,7 +38,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /21 | 264|
 | /20 | 275|
 | /19 | 295|
-| /18 | 147 ▲ +1|
+| /18 | 147|
 | /17 | 76|
 | /16 | 148|
 | /15 | 41|
@@ -106,7 +106,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /9 | 1|
 | /8 | 0|
 
-#### Reserved: **171 ▼ -1**
+#### Reserved: **171**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -122,7 +122,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /21 | 16|
 | /20 | 18|
 | /19 | 15|
-| /18 | 8 ▼ -1|
+| /18 | 8|
 | /17 | 4|
 | /16 | 7|
 | /15 | 1|
@@ -137,7 +137,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 ### IPv6
 
 
-#### Allocated: **494 ▲ +2**
+#### Allocated: **494**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,7 +173,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 481 ▲ +2|
+| /32 | 481|
 | /31 | 2|
 | /30 | 0|
 | /29 | 2|
@@ -269,13 +269,13 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /31 | 1|
 | /30 | 1|
 | /29 | 20|
-| /28 | 1 ▲ +1|
-| /27 | 0 ▼ -1|
+| /28 | 1|
+| /27 | 0|
 | /26 | 0|
 | /25 | 0|
 | /24 | 1|
 
-#### Reserved: **2,030 ▲ +6**
+#### Reserved: **2,030**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -311,9 +311,9 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 479 ▲ +2|
-| /31 | 482 ▲ +2|
-| /30 | 482 ▲ +2|
+| /32 | 479|
+| /31 | 482|
+| /30 | 482|
 | /29 | 13|
 | /28 | 0|
 | /27 | 1|
