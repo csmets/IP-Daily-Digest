@@ -6,13 +6,13 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-07-11
+## Digest for 2017-07-12
 ```
-2017-07-11
+2017-07-12
 ==========
-IPv4 | Allocated: 2,009 Assigned: 1,229 Available: 35 Reserved: 171 Hosts: 121,242,624
+IPv4 | Allocated: 2,010 Assigned: 1,229 Available: 27 Reserved: 180 Hosts: 121,242,624
 IPv6 | Allocated: 494 Assigned: 185 Available: 53 Reserved: 2,030
-ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
+ASN  | Allocated: 1,492 Assigned: 0 Available: 586 Reserved: 224 Given: 2,302
 ```
 
 ### Detailed Report
@@ -22,7 +22,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 #### Hosts: **121,242,624**
 
 
-#### Allocated: **2,009**
+#### Allocated: **2,010 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,7 +34,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /25 | 0|
 | /24 | 0|
 | /23 | 0|
-| /22 | 652|
+| /22 | 653 ▲ +1|
 | /21 | 264|
 | /20 | 275|
 | /19 | 295|
@@ -78,7 +78,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **35**
+#### Available: **27 ▼ -8**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -89,11 +89,11 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /26 | 0|
 | /25 | 0|
 | /24 | 10|
-| /23 | 2|
-| /22 | 6|
-| /21 | 2|
-| /20 | 5|
-| /19 | 4|
+| /23 | 1 ▼ -1|
+| /22 | 3 ▼ -3|
+| /21 | 1 ▼ -1|
+| /20 | 3 ▼ -2|
+| /19 | 3 ▼ -1|
 | /18 | 1|
 | /17 | 0|
 | /16 | 0|
@@ -106,7 +106,7 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /9 | 1|
 | /8 | 0|
 
-#### Reserved: **171**
+#### Reserved: **180 ▲ +9**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,12 +116,12 @@ ASN  | Allocated: 1,491 Assigned: 0 Available: 587 Reserved: 224 Given: 2,302
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 38|
+| /24 | 40 ▲ +2|
 | /23 | 5|
-| /22 | 57|
+| /22 | 61 ▲ +4|
 | /21 | 16|
-| /20 | 18|
-| /19 | 15|
+| /20 | 20 ▲ +2|
+| /19 | 16 ▲ +1|
 | /18 | 8|
 | /17 | 4|
 | /16 | 7|
