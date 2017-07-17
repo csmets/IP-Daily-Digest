@@ -6,9 +6,9 @@ Total IP delegations for APNIC. This is kept as a record for historical purposes
 
 ---
 
-## Digest for 2017-07-16
+## Digest for 2017-07-17
 ```
-2017-07-16
+2017-07-17
 ==========
 IPv4 | Allocated: 26,272 Assigned: 11,483 Available: 17 Reserved: 976 Hosts: 881,123,328
 IPv6 | Allocated: 4,925 Assigned: 1,796 Available: 42,866 Reserved: 526
