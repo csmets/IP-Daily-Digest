@@ -6,23 +6,23 @@ Total IP delegations for ARIN. This is kept as a record for historical purposes.
 
 ---
 
-## Digest for 2017-07-25
+## Digest for 2017-07-26
 ```
-2017-07-25
+2017-07-26
 ==========
-IPv4 | Allocated: 22,849 Assigned: 36,316 Available: 0 Reserved: 591 Hosts: 1,686,417,664
-IPv6 | Allocated: 3,364 Assigned: 2,328 Available: 20,319 Reserved: 21,361
-ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,525
+IPv4 | Allocated: 22,854 Assigned: 36,314 Available: 0 Reserved: 592 Hosts: 1,686,409,216
+IPv6 | Allocated: 3,365 Assigned: 2,329 Available: 20,317 Reserved: 21,369
+ASN  | Allocated: 0 Assigned: 25,374 Available: 97 Reserved: 1,376 Given: 29,525
 ```
 
 ### Detailed Report
 
 ### IPv4
 
-#### Hosts: **1,686,417,664**
+#### Hosts: **1,686,409,216 ▼ -8448**
 
 
-#### Allocated: **22,849**
+#### Allocated: **22,854 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -32,14 +32,14 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 2,598|
-| /23 | 1,515|
+| /24 | 2,600 ▲ +2|
+| /23 | 1,514 ▼ -1|
 | /22 | 4,023|
-| /21 | 2,515|
-| /20 | 4,038|
+| /21 | 2,516 ▲ +1|
+| /20 | 4,041 ▲ +3|
 | /19 | 3,016|
-| /18 | 1,577|
-| /17 | 847|
+| /18 | 1,578 ▲ +1|
+| /17 | 846 ▼ -1|
 | /16 | 1,689|
 | /15 | 422|
 | /14 | 285|
@@ -50,7 +50,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /9 | 7|
 | /8 | 16|
 
-#### Assigned: **36,316**
+#### Assigned: **36,314 ▼ -2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -63,8 +63,8 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /24 | 21,959|
 | /23 | 3,091|
 | /22 | 2,830|
-| /21 | 1,320|
-| /20 | 1,268|
+| /21 | 1,319 ▼ -1|
+| /20 | 1,267 ▼ -1|
 | /19 | 559|
 | /18 | 284|
 | /17 | 146|
@@ -106,7 +106,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **591**
+#### Reserved: **592 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -137,7 +137,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 ### IPv6
 
 
-#### Allocated: **3,364**
+#### Allocated: **3,365 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -169,7 +169,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /39 | 0|
 | /38 | 0|
 | /37 | 0|
-| /36 | 307|
+| /36 | 308 ▲ +1|
 | /35 | 2|
 | /34 | 0|
 | /33 | 2|
@@ -183,7 +183,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /25 | 0|
 | /24 | 22|
 
-#### Assigned: **2,328**
+#### Assigned: **2,329 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -211,7 +211,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /43 | 8|
 | /42 | 12|
 | /41 | 11|
-| /40 | 328|
+| /40 | 329 ▲ +1|
 | /39 | 0|
 | /38 | 1|
 | /37 | 1|
@@ -229,7 +229,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **20,319**
+#### Available: **20,317 ▼ -2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -261,11 +261,11 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /39 | 1,692|
 | /38 | 1,689|
 | /37 | 1,678|
-| /36 | 1,209|
+| /36 | 1,208 ▼ -1|
 | /35 | 874|
 | /34 | 7|
 | /33 | 7|
-| /32 | 16|
+| /32 | 15 ▼ -1|
 | /31 | 11|
 | /30 | 12|
 | /29 | 60|
@@ -275,7 +275,7 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /25 | 22|
 | /24 | 30|
 
-#### Reserved: **21,361**
+#### Reserved: **21,369 ▲ +8**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -303,14 +303,14 @@ ASN  | Allocated: 0 Assigned: 25,369 Available: 102 Reserved: 1,376 Given: 29,52
 | /43 | 514|
 | /42 | 526|
 | /41 | 536|
-| /40 | 325|
-| /39 | 320|
-| /38 | 315|
-| /37 | 316|
-| /36 | 420|
-| /35 | 405|
-| /34 | 405|
-| /33 | 405|
+| /40 | 326 ▲ +1|
+| /39 | 321 ▲ +1|
+| /38 | 316 ▲ +1|
+| /37 | 317 ▲ +1|
+| /36 | 421 ▲ +1|
+| /35 | 406 ▲ +1|
+| /34 | 406 ▲ +1|
+| /33 | 406 ▲ +1|
 | /32 | 2,965|
 | /31 | 2,886|
 | /30 | 2,892|
