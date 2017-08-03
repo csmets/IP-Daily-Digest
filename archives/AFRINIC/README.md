@@ -6,11 +6,11 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-08-02
+## Digest for 2017-08-03
 ```
-2017-08-02
+2017-08-03
 ==========
-IPv4 | Allocated: 2,023 Assigned: 1,231 Available: 34 Reserved: 168 Hosts: 121,242,624
+IPv4 | Allocated: 2,023 Assigned: 1,231 Available: 33 Reserved: 169 Hosts: 121,242,624
 IPv6 | Allocated: 499 Assigned: 187 Available: 55 Reserved: 2,048
 ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 ```
@@ -22,7 +22,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 #### Hosts: **121,242,624**
 
 
-#### Allocated: **2,023 ▲ +3**
+#### Allocated: **2,023**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,10 +34,10 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /25 | 0|
 | /24 | 0|
 | /23 | 0|
-| /22 | 660 ▲ +2|
+| /22 | 660|
 | /21 | 265|
 | /20 | 277|
-| /19 | 298 ▲ +1|
+| /19 | 298|
 | /18 | 147|
 | /17 | 76|
 | /16 | 148|
@@ -78,7 +78,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **34 ▼ -1**
+#### Available: **33 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -91,8 +91,8 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /24 | 11|
 | /23 | 1|
 | /22 | 4|
-| /21 | 2 ▼ -1|
-| /20 | 4|
+| /21 | 2|
+| /20 | 3 ▼ -1|
 | /19 | 2|
 | /18 | 2|
 | /17 | 1|
@@ -106,7 +106,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /9 | 1|
 | /8 | 0|
 
-#### Reserved: **168 ▼ -2**
+#### Reserved: **169 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -118,10 +118,10 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /25 | 0|
 | /24 | 37|
 | /23 | 5|
-| /22 | 57 ▼ -2|
-| /21 | 18 ▲ +1|
-| /20 | 18|
-| /19 | 16 ▼ -1|
+| /22 | 57|
+| /21 | 18|
+| /20 | 19 ▲ +1|
+| /19 | 16|
 | /18 | 7|
 | /17 | 4|
 | /16 | 4|
@@ -137,7 +137,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 ### IPv6
 
 
-#### Allocated: **499 ▲ +1**
+#### Allocated: **499**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,7 +173,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 486 ▲ +1|
+| /32 | 486|
 | /31 | 2|
 | /30 | 0|
 | /29 | 2|
@@ -183,7 +183,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /25 | 0|
 | /24 | 1|
 
-#### Assigned: **187 ▲ +1**
+#### Assigned: **187**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -203,7 +203,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 173 ▲ +1|
+| /48 | 173|
 | /47 | 1|
 | /46 | 3|
 | /45 | 1|
@@ -268,14 +268,14 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /32 | 1|
 | /31 | 1|
 | /30 | 1|
-| /29 | 21 ▲ +1|
-| /28 | 0 ▼ -1|
+| /29 | 21|
+| /28 | 0|
 | /27 | 1|
 | /26 | 1|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **2,048 ▲ +2**
+#### Reserved: **2,048**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -295,7 +295,7 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 123 ▼ -1|
+| /48 | 123|
 | /47 | 143|
 | /46 | 147|
 | /45 | 149|
@@ -311,9 +311,9 @@ ASN  | Allocated: 1,501 Assigned: 0 Available: 577 Reserved: 224 Given: 2,302
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 484 ▲ +1|
-| /31 | 487 ▲ +1|
-| /30 | 487 ▲ +1|
+| /32 | 484|
+| /31 | 487|
+| /30 | 487|
 | /29 | 13|
 | /28 | 0|
 | /27 | 1|
