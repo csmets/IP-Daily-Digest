@@ -6,13 +6,13 @@ Total IP delegations for LACNIC. This is kept as a record for historical purpose
 
 ---
 
-## Digest for 2017-08-20
+## Digest for 2017-08-21
 ```
-2017-08-20
+2017-08-21
 ==========
-IPv4 | Allocated: 11,200 Assigned: 2,256 Available: 7 Reserved: 305 Hosts: 190,775,552
-IPv6 | Allocated: 5,405 Assigned: 865 Available: 14,607 Reserved: 5,913
-ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
+IPv4 | Allocated: 11,205 Assigned: 2,256 Available: 12 Reserved: 305 Hosts: 190,775,552
+IPv6 | Allocated: 5,411 Assigned: 865 Available: 14,614 Reserved: 5,917
+ASN  | Allocated: 7,332 Assigned: 0 Available: 173 Reserved: 132 Given: 9,983
 ```
 
 ### Detailed Report
@@ -22,7 +22,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 #### Hosts: **190,775,552**
 
 
-#### Allocated: **11,200 ▲ +11**
+#### Allocated: **11,205 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -32,11 +32,11 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 33 ▼ -1|
-| /23 | 27 ▼ -1|
-| /22 | 5,716 ▲ +13|
+| /24 | 33|
+| /23 | 27|
+| /22 | 5,722 ▲ +6|
 | /21 | 1,230|
-| /20 | 1,957|
+| /20 | 1,956 ▼ -1|
 | /19 | 742|
 | /18 | 371|
 | /17 | 299|
@@ -50,7 +50,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /9 | 0|
 | /8 | 0|
 
-#### Assigned: **2,256 ▲ +2**
+#### Assigned: **2,256**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,8 +60,8 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 1,265 ▲ +1|
-| /23 | 284 ▲ +1|
+| /24 | 1,265|
+| /23 | 284|
 | /22 | 246|
 | /21 | 64|
 | /20 | 156|
@@ -78,7 +78,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **7 ▼ -2**
+#### Available: **12 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -88,13 +88,13 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 0|
-| /23 | 0|
-| /22 | 1 ▼ -1|
-| /21 | 0 ▼ -1|
-| /20 | 1 ▲ +1|
-| /19 | 0 ▼ -1|
-| /18 | 1|
+| /24 | 1 ▲ +1|
+| /23 | 2 ▲ +2|
+| /22 | 3 ▲ +2|
+| /21 | 0|
+| /20 | 1|
+| /19 | 1 ▲ +1|
+| /18 | 0 ▼ -1|
 | /17 | 1|
 | /16 | 0|
 | /15 | 1|
@@ -106,7 +106,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **305 ▼ -6**
+#### Reserved: **305**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,11 +116,11 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 31|
-| /23 | 9|
-| /22 | 111 ▼ -6|
+| /24 | 32 ▲ +1|
+| /23 | 8 ▼ -1|
+| /22 | 110 ▼ -1|
 | /21 | 45|
-| /20 | 83|
+| /20 | 84 ▲ +1|
 | /19 | 17|
 | /18 | 5|
 | /17 | 3|
@@ -137,7 +137,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 ### IPv6
 
 
-#### Allocated: **5,405 ▲ +13**
+#### Allocated: **5,411 ▲ +6**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,7 +173,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 5,356 ▲ +13|
+| /32 | 5,362 ▲ +6|
 | /31 | 11|
 | /30 | 13|
 | /29 | 9|
@@ -229,7 +229,7 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **14,607 ▲ +16**
+#### Available: **14,614 ▲ +7**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -265,17 +265,17 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /35 | 42|
 | /34 | 42|
 | /33 | 42|
-| /32 | 4,366 ▲ +8|
-| /31 | 4,312 ▲ +8|
+| /32 | 4,369 ▲ +3|
+| /31 | 4,316 ▲ +4|
 | /30 | 166|
 | /29 | 80|
-| /28 | 1,041 ▲ +5|
-| /27 | 1,018 ▼ -4|
-| /26 | 11 ▼ -1|
+| /28 | 1,043 ▲ +2|
+| /27 | 1,016 ▼ -2|
+| /26 | 11|
 | /25 | 10|
 | /24 | 10|
 
-#### Reserved: **5,913 ▲ +20**
+#### Reserved: **5,917 ▲ +4**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -311,10 +311,10 @@ ASN  | Allocated: 7,329 Assigned: 0 Available: 173 Reserved: 131 Given: 9,983
 | /35 | 1|
 | /34 | 1|
 | /33 | 1|
-| /32 | 1,304 ▲ +5|
-| /31 | 1,174 ▲ +5|
-| /30 | 1,175 ▲ +5|
-| /29 | 1,161 ▲ +5|
+| /32 | 1,305 ▲ +1|
+| /31 | 1,175 ▲ +1|
+| /30 | 1,176 ▲ +1|
+| /29 | 1,162 ▲ +1|
 | /28 | 5|
 | /27 | 0|
 | /26 | 0|
