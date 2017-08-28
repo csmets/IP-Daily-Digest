@@ -6,13 +6,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-08-27
+## Digest for 2017-08-28
 ```
-2017-08-27
+2017-08-28
 ==========
 IPv4 | Allocated: 39,406 Assigned: 23,890 Available: 2,877 Reserved: 260 Hosts: 822,299,392
 IPv6 | Allocated: 13,004 Assigned: 2,559 Available: 9,349 Reserved: 42,906
-ASN  | Allocated: 31,742 Assigned: 0 Available: 4,182 Reserved: 452 Given: 36,376
+ASN  | Allocated: 31,741 Assigned: 0 Available: 4,182 Reserved: 453 Given: 36,376
 ```
 
 ### Detailed Report
