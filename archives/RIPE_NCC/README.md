@@ -6,9 +6,9 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-09-02
+## Digest for 2017-09-03
 ```
-2017-09-02
+2017-09-03
 ==========
 IPv4 | Allocated: 39,447 Assigned: 23,894 Available: 2,878 Reserved: 263 Hosts: 822,304,512
 IPv6 | Allocated: 13,013 Assigned: 2,559 Available: 9,335 Reserved: 42,936
@@ -34,8 +34,8 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /25 | 1|
 | /24 | 2,140|
 | /23 | 1,344|
-| /22 | 15,222 ▲ +1|
-| /21 | 6,182 ▼ -1|
+| /22 | 15,222|
+| /21 | 6,182|
 | /20 | 4,424|
 | /19 | 4,706|
 | /18 | 1,883|
@@ -106,7 +106,7 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **263 ▲ +1**
+#### Reserved: **263**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -119,7 +119,7 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /24 | 73|
 | /23 | 13|
 | /22 | 135|
-| /21 | 23 ▲ +1|
+| /21 | 23|
 | /20 | 10|
 | /19 | 3|
 | /18 | 0|
@@ -173,10 +173,10 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,322 ▼ -1|
+| /32 | 6,322|
 | /31 | 51|
 | /30 | 90|
-| /29 | 6,504 ▲ +1|
+| /29 | 6,504|
 | /28 | 5|
 | /27 | 11|
 | /26 | 8|
@@ -229,7 +229,7 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **9,335 ▼ -1**
+#### Available: **9,335**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -271,11 +271,11 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /29 | 4,455|
 | /28 | 4,356|
 | /27 | 332|
-| /26 | 125 ▼ -1|
+| /26 | 125|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **42,936 ▲ +1**
+#### Reserved: **42,936**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -311,12 +311,12 @@ ASN  | Allocated: 31,738 Assigned: 0 Available: 4,158 Reserved: 480 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,321 ▼ -1|
-| /31 | 6,372 ▼ -1|
-| /30 | 6,462 ▼ -1|
-| /29 | 6,467 ▲ +2|
-| /28 | 6,372 ▲ +1|
-| /27 | 6,072 ▲ +1|
+| /32 | 6,321|
+| /31 | 6,372|
+| /30 | 6,462|
+| /29 | 6,467|
+| /28 | 6,372|
+| /27 | 6,072|
 | /26 | 76|
 | /25 | 24|
 | /24 | 17|
