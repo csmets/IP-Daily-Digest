@@ -6,13 +6,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-09-10
+## Digest for 2017-09-11
 ```
-2017-09-10
+2017-09-11
 ==========
 IPv4 | Allocated: 39,504 Assigned: 23,887 Available: 2,886 Reserved: 268 Hosts: 822,316,800
 IPv6 | Allocated: 13,025 Assigned: 2,559 Available: 9,311 Reserved: 42,988
-ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,376
+ASN  | Allocated: 31,733 Assigned: 0 Available: 4,137 Reserved: 506 Given: 36,376
 ```
 
 ### Detailed Report
@@ -78,7 +78,7 @@ ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,37
 | /9 | 0|
 | /8 | 3|
 
-#### Available: **2,886 ▲ +1**
+#### Available: **2,886**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -90,7 +90,7 @@ ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,37
 | /25 | 24|
 | /24 | 1,003|
 | /23 | 611|
-| /22 | 336 ▲ +1|
+| /22 | 336|
 | /21 | 222|
 | /20 | 117|
 | /19 | 49|
@@ -106,7 +106,7 @@ ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **268 ▼ -1**
+#### Reserved: **268**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -118,7 +118,7 @@ ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,37
 | /25 | 0|
 | /24 | 76|
 | /23 | 14|
-| /22 | 136 ▼ -1|
+| /22 | 136|
 | /21 | 23|
 | /20 | 10|
 | /19 | 4|
@@ -268,14 +268,14 @@ ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,37
 | /32 | 3|
 | /31 | 2|
 | /30 | 0|
-| /29 | 4,452 ▼ -1|
-| /28 | 4,353 ▼ -1|
-| /27 | 333 ▲ +1|
-| /26 | 107 ▲ +1|
+| /29 | 4,452|
+| /28 | 4,353|
+| /27 | 333|
+| /26 | 107|
 | /25 | 1|
 | /24 | 0|
 
-#### Reserved: **42,988 ▼ -2**
+#### Reserved: **42,988**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -314,9 +314,9 @@ ASN  | Allocated: 31,733 Assigned: 0 Available: 4,136 Reserved: 507 Given: 36,37
 | /32 | 6,320|
 | /31 | 6,370|
 | /30 | 6,460|
-| /29 | 6,486 ▼ -1|
+| /29 | 6,486|
 | /28 | 6,389|
 | /27 | 6,087|
-| /26 | 79 ▼ -1|
+| /26 | 79|
 | /25 | 24|
 | /24 | 17|
