@@ -6,13 +6,13 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-09-12
+## Digest for 2017-09-13
 ```
-2017-09-12
+2017-09-13
 ==========
-IPv4 | Allocated: 2,038 Assigned: 1,238 Available: 34 Reserved: 174 Hosts: 121,246,720
+IPv4 | Allocated: 2,039 Assigned: 1,240 Available: 35 Reserved: 174 Hosts: 121,246,720
 IPv6 | Allocated: 508 Assigned: 192 Available: 59 Reserved: 2,095
-ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
+ASN  | Allocated: 1,524 Assigned: 0 Available: 554 Reserved: 224 Given: 2,302
 ```
 
 ### Detailed Report
@@ -22,7 +22,7 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 #### Hosts: **121,246,720**
 
 
-#### Allocated: **2,038**
+#### Allocated: **2,039 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,7 +34,7 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 | /25 | 0|
 | /24 | 0|
 | /23 | 0|
-| /22 | 671|
+| /22 | 672 ▲ +1|
 | /21 | 267|
 | /20 | 278|
 | /19 | 299|
@@ -50,7 +50,7 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Assigned: **1,238**
+#### Assigned: **1,240 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,9 +60,9 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 871|
-| /23 | 109|
-| /22 | 62|
+| /24 | 872 ▲ +1|
+| /23 | 110 ▲ +1|
+| /22 | 63 ▲ +1|
 | /21 | 23|
 | /20 | 31|
 | /19 | 12|
@@ -78,7 +78,7 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 | /9 | 0|
 | /8 | 0|
 
-#### Available: **34**
+#### Available: **35 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -93,9 +93,9 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 | /22 | 6|
 | /21 | 1|
 | /20 | 3|
-| /19 | 1|
-| /18 | 0|
-| /17 | 1|
+| /19 | 2 ▲ +1|
+| /18 | 1 ▲ +1|
+| /17 | 0 ▼ -1|
 | /16 | 1|
 | /15 | 1|
 | /14 | 0|
@@ -118,10 +118,10 @@ ASN  | Allocated: 1,523 Assigned: 0 Available: 555 Reserved: 224 Given: 2,302
 | /25 | 0|
 | /24 | 38|
 | /23 | 7|
-| /22 | 57|
+| /22 | 56 ▼ -1|
 | /21 | 16|
 | /20 | 19|
-| /19 | 16|
+| /19 | 17 ▲ +1|
 | /18 | 9|
 | /17 | 5|
 | /16 | 5|
