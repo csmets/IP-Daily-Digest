@@ -6,23 +6,23 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-09-18
+## Digest for 2017-09-19
 ```
-2017-09-18
+2017-09-19
 ==========
-IPv4 | Allocated: 39,587 Assigned: 23,858 Available: 2,888 Reserved: 273 Hosts: 822,332,160
-IPv6 | Allocated: 13,047 Assigned: 2,559 Available: 9,307 Reserved: 43,083
-ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,376
+IPv4 | Allocated: 39,603 Assigned: 23,857 Available: 2,888 Reserved: 275 Hosts: 822,340,352
+IPv6 | Allocated: 13,052 Assigned: 2,559 Available: 9,343 Reserved: 43,101
+ASN  | Allocated: 31,775 Assigned: 0 Available: 4,092 Reserved: 509 Given: 36,376
 ```
 
 ### Detailed Report
 
 ### IPv4
 
-#### Hosts: **822,332,160**
+#### Hosts: **822,340,352 ▲ +8192**
 
 
-#### Allocated: **39,587**
+#### Allocated: **39,603 ▲ +16**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -34,7 +34,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /25 | 1|
 | /24 | 2,150|
 | /23 | 1,347|
-| /22 | 15,343|
+| /22 | 15,359 ▲ +16|
 | /21 | 6,183|
 | /20 | 4,426|
 | /19 | 4,708|
@@ -50,7 +50,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /9 | 1|
 | /8 | 0|
 
-#### Assigned: **23,858**
+#### Assigned: **23,857 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,12 +60,12 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /27 | 37|
 | /26 | 40|
 | /25 | 70|
-| /24 | 11,286|
+| /24 | 11,284 ▼ -2|
 | /23 | 4,523|
 | /22 | 3,203|
 | /21 | 1,317|
 | /20 | 671|
-| /19 | 381|
+| /19 | 382 ▲ +1|
 | /18 | 102|
 | /17 | 55|
 | /16 | 1,554|
@@ -78,7 +78,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /9 | 0|
 | /8 | 3|
 
-#### Available: **2,888 ▲ +1**
+#### Available: **2,888**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -93,7 +93,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /22 | 336|
 | /21 | 222|
 | /20 | 117|
-| /19 | 50 ▲ +1|
+| /19 | 50|
 | /18 | 23|
 | /17 | 2|
 | /16 | 7|
@@ -106,7 +106,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **273 ▼ -1**
+#### Reserved: **275 ▲ +2**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,12 +116,12 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /27 | 0|
 | /26 | 1|
 | /25 | 0|
-| /24 | 76|
+| /24 | 78 ▲ +2|
 | /23 | 15|
 | /22 | 141|
 | /21 | 23|
 | /20 | 10|
-| /19 | 3 ▼ -1|
+| /19 | 3|
 | /18 | 0|
 | /17 | 0|
 | /16 | 2|
@@ -137,7 +137,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 ### IPv6
 
 
-#### Allocated: **13,047**
+#### Allocated: **13,052 ▲ +5**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -173,10 +173,10 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,321|
+| /32 | 6,322 ▲ +1|
 | /31 | 50|
 | /30 | 89|
-| /29 | 6,541|
+| /29 | 6,545 ▲ +4|
 | /28 | 5|
 | /27 | 11|
 | /26 | 8|
@@ -229,7 +229,7 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **9,307**
+#### Available: **9,343 ▲ +36**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -271,11 +271,11 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /29 | 4,450|
 | /28 | 4,351|
 | /27 | 334|
-| /26 | 76|
-| /25 | 4|
-| /24 | 3|
+| /26 | 81 ▲ +5|
+| /25 | 9 ▲ +5|
+| /24 | 8 ▲ +5|
 
-#### Reserved: **43,083**
+#### Reserved: **43,101 ▲ +18**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -311,12 +311,12 @@ ASN  | Allocated: 31,764 Assigned: 0 Available: 4,107 Reserved: 505 Given: 36,37
 | /35 | 0|
 | /34 | 0|
 | /33 | 0|
-| /32 | 6,320|
-| /31 | 6,370|
-| /30 | 6,459|
-| /29 | 6,518|
-| /28 | 6,417|
-| /27 | 6,116|
+| /32 | 6,321 ▲ +1|
+| /31 | 6,371 ▲ +1|
+| /30 | 6,460 ▲ +1|
+| /29 | 6,523 ▲ +5|
+| /28 | 6,422 ▲ +5|
+| /27 | 6,121 ▲ +5|
 | /26 | 86|
 | /25 | 25|
 | /24 | 17|
