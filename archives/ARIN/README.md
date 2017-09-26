@@ -6,9 +6,9 @@ Total IP delegations for ARIN. This is kept as a record for historical purposes.
 
 ---
 
-## Digest for 2017-09-25
+## Digest for 2017-09-26
 ```
-2017-09-25
+2017-09-26
 ==========
 IPv4 | Allocated: 23,073 Assigned: 36,398 Available: 0 Reserved: 594 Hosts: 1,686,017,280
 IPv6 | Allocated: 3,428 Assigned: 2,377 Available: 20,594 Reserved: 21,836
