@@ -10,13 +10,13 @@ Links below take you to daily digests for a region.
 
 ---
 
-## Digest for 2017-10-02
+## Digest for 2017-10-03
 ```
-2017-10-02
+2017-10-03
 ==========
-IPv4 | Allocated: 102,900 Assigned: 75,402 Available: 2,957 Reserved: 2,373 Hosts: 3,702,239,744
-IPv6 | Allocated: 27,694 Assigned: 7,906 Available: 89,507 Reserved: 73,908
-ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given: 93,171
+IPv4 | Allocated: 102,913 Assigned: 75,402 Available: 2,956 Reserved: 2,382 Hosts: 3,702,239,744
+IPv6 | Allocated: 27,701 Assigned: 7,906 Available: 89,543 Reserved: 73,931
+ASN  | Allocated: 48,834 Assigned: 25,608 Available: 5,580 Reserved: 1,757 Given: 93,171
 ```
 
 ### Detailed Report
@@ -26,7 +26,7 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 #### Hosts: **3,702,239,744**
 
 
-#### Allocated: **102,900 ▲ +1**
+#### Allocated: **102,913 ▲ +13**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -36,10 +36,10 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /27 | 0|
 | /26 | 0|
 | /25 | 1|
-| /24 | 7,106|
+| /24 | 7,110 ▲ +4|
 | /23 | 4,392|
-| /22 | 38,491 ▲ +1|
-| /21 | 12,066|
+| /22 | 38,501 ▲ +10|
+| /21 | 12,065 ▼ -1|
 | /20 | 12,736|
 | /19 | 10,587|
 | /18 | 4,964|
@@ -82,7 +82,7 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /9 | 5|
 | /8 | 12|
 
-#### Available: **2,957 ▼ -2**
+#### Available: **2,956 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -92,12 +92,12 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /27 | 5|
 | /26 | 9|
 | /25 | 24|
-| /24 | 1,026 ▲ +1|
-| /23 | 621 ▲ +1|
-| /22 | 345 ▼ -3|
-| /21 | 226 ▼ -1|
+| /24 | 1,026|
+| /23 | 621|
+| /22 | 345|
+| /21 | 226|
 | /20 | 119|
-| /19 | 54|
+| /19 | 53 ▼ -1|
 | /18 | 25|
 | /17 | 4|
 | /16 | 9|
@@ -110,7 +110,7 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /9 | 1|
 | /8 | 0|
 
-#### Reserved: **2,373 ▲ +2**
+#### Reserved: **2,382 ▲ +9**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -120,9 +120,9 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /27 | 0|
 | /26 | 1|
 | /25 | 0|
-| /24 | 730 ▼ -1|
-| /23 | 195 ▼ -1|
-| /22 | 773 ▲ +4|
+| /24 | 730|
+| /23 | 195|
+| /22 | 782 ▲ +9|
 | /21 | 161|
 | /20 | 166|
 | /19 | 62|
@@ -141,7 +141,7 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 ### IPv6
 
 
-#### Allocated: **27,694 ▲ +2**
+#### Allocated: **27,701 ▲ +7**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -177,10 +177,10 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /35 | 113|
 | /34 | 55|
 | /33 | 57|
-| /32 | 19,893 ▲ +2|
+| /32 | 19,892 ▼ -1|
 | /31 | 115|
 | /30 | 126|
-| /29 | 6,622|
+| /29 | 6,630 ▲ +8|
 | /28 | 90|
 | /27 | 19|
 | /26 | 16|
@@ -233,7 +233,7 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **89,507 ▲ +3**
+#### Available: **89,543 ▲ +36**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -269,17 +269,17 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /35 | 918|
 | /34 | 82|
 | /33 | 70|
-| /32 | 9,440 ▲ +2|
-| /31 | 9,435 ▲ +2|
+| /32 | 9,440|
+| /31 | 9,435|
 | /30 | 5,172|
-| /29 | 9,395 ▼ -1|
+| /29 | 9,395|
 | /28 | 12,481|
 | /27 | 8,356|
-| /26 | 5,076|
-| /25 | 91|
-| /24 | 101|
+| /26 | 5,085 ▲ +9|
+| /25 | 100 ▲ +9|
+| /24 | 110 ▲ +9|
 
-#### Reserved: **73,908**
+#### Reserved: **73,931 ▲ +23**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -315,12 +315,12 @@ ASN  | Allocated: 48,821 Assigned: 25,608 Available: 5,592 Reserved: 1,758 Given
 | /35 | 439|
 | /34 | 434|
 | /33 | 434|
-| /32 | 11,471|
-| /31 | 11,030|
-| /30 | 11,129|
-| /29 | 10,038|
-| /28 | 6,526|
-| /27 | 6,218|
-| /26 | 142|
+| /32 | 11,470 ▼ -1|
+| /31 | 11,029 ▼ -1|
+| /30 | 11,128 ▼ -1|
+| /29 | 10,047 ▲ +9|
+| /28 | 6,534 ▲ +8|
+| /27 | 6,226 ▲ +8|
+| /26 | 143 ▲ +1|
 | /25 | 78|
 | /24 | 37|
