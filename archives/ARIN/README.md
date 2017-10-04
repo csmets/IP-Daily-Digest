@@ -6,13 +6,13 @@ Total IP delegations for ARIN. This is kept as a record for historical purposes.
 
 ---
 
-## Digest for 2017-10-03
+## Digest for 2017-10-04
 ```
-2017-10-03
+2017-10-04
 ==========
-IPv4 | Allocated: 23,092 Assigned: 36,403 Available: 0 Reserved: 592 Hosts: 1,685,952,768
-IPv6 | Allocated: 3,434 Assigned: 2,382 Available: 20,640 Reserved: 21,894
-ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
+IPv4 | Allocated: 23,092 Assigned: 36,404 Available: 0 Reserved: 591 Hosts: 1,685,952,768
+IPv6 | Allocated: 3,434 Assigned: 2,383 Available: 20,648 Reserved: 21,894
+ASN  | Allocated: 0 Assigned: 25,609 Available: 367 Reserved: 854 Given: 29,525
 ```
 
 ### Detailed Report
@@ -50,7 +50,7 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /9 | 7|
 | /8 | 16|
 
-#### Assigned: **36,403**
+#### Assigned: **36,404 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -60,7 +60,7 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 22,019|
+| /24 | 22,020 ▲ +1|
 | /23 | 3,111|
 | /22 | 2,837|
 | /21 | 1,328|
@@ -106,7 +106,7 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /9 | 0|
 | /8 | 0|
 
-#### Reserved: **592**
+#### Reserved: **591 ▼ -1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -116,7 +116,7 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /27 | 0|
 | /26 | 0|
 | /25 | 0|
-| /24 | 123|
+| /24 | 122 ▼ -1|
 | /23 | 87|
 | /22 | 82|
 | /21 | 46|
@@ -173,17 +173,17 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /35 | 2|
 | /34 | 0|
 | /33 | 2|
-| /32 | 2,792|
+| /32 | 2,791 ▼ -1|
 | /31 | 27|
 | /30 | 8|
 | /29 | 13|
-| /28 | 60|
+| /28 | 61 ▲ +1|
 | /27 | 2|
 | /26 | 0|
 | /25 | 0|
 | /24 | 23|
 
-#### Assigned: **2,382**
+#### Assigned: **2,383 ▲ +1**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -203,7 +203,7 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 1,272|
+| /48 | 1,273 ▲ +1|
 | /47 | 23|
 | /46 | 16|
 | /45 | 15|
@@ -229,7 +229,7 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /25 | 0|
 | /24 | 0|
 
-#### Available: **20,640**
+#### Available: **20,648 ▲ +8**
 
 | Prefix | Count |
 | ------ | ----- |
@@ -253,16 +253,16 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /47 | 72|
 | /46 | 67|
 | /45 | 64|
-| /44 | 1,239|
-| /43 | 1,197|
-| /42 | 1,198|
-| /41 | 1,197|
-| /40 | 1,736|
-| /39 | 1,733|
-| /38 | 1,730|
-| /37 | 1,719|
-| /36 | 1,240|
-| /35 | 843|
+| /44 | 1,240 ▲ +1|
+| /43 | 1,198 ▲ +1|
+| /42 | 1,199 ▲ +1|
+| /41 | 1,198 ▲ +1|
+| /40 | 1,737 ▲ +1|
+| /39 | 1,734 ▲ +1|
+| /38 | 1,731 ▲ +1|
+| /37 | 1,720 ▲ +1|
+| /36 | 1,241 ▲ +1|
+| /35 | 842 ▼ -1|
 | /34 | 6|
 | /33 | 8|
 | /32 | 16|
@@ -295,10 +295,10 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /51 | 0|
 | /50 | 0|
 | /49 | 0|
-| /48 | 1,350|
-| /47 | 1,294|
-| /46 | 1,303|
-| /45 | 1,310|
+| /48 | 1,351 ▲ +1|
+| /47 | 1,295 ▲ +1|
+| /46 | 1,304 ▲ +1|
+| /45 | 1,311 ▲ +1|
 | /44 | 527|
 | /43 | 525|
 | /42 | 537|
@@ -311,10 +311,10 @@ ASN  | Allocated: 0 Assigned: 25,608 Available: 368 Reserved: 854 Given: 29,525
 | /35 | 432|
 | /34 | 432|
 | /33 | 432|
-| /32 | 3,015|
-| /31 | 2,931|
-| /30 | 2,937|
-| /29 | 2,242|
+| /32 | 3,014 ▼ -1|
+| /31 | 2,930 ▼ -1|
+| /30 | 2,936 ▼ -1|
+| /29 | 2,241 ▼ -1|
 | /28 | 47|
 | /27 | 44|
 | /26 | 43|
