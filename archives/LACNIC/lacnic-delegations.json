@@ -4951,24 +4951,24 @@
     },
     "2017-10-08": {
         "asn": {
-            "allocated": 7515,
+            "allocated": 7519,
             "assigned": 0,
             "available": 178,
             "given": 9983,
             "reserved": 144
         },
         "ipv4": {
-            "allocated": 11404,
+            "allocated": 11410,
             "assigned": 2269,
-            "available": 15,
+            "available": 9,
             "hosts": 190779648,
-            "reserved": 331
+            "reserved": 336
         },
         "ipv6": {
-            "allocated": 5610,
+            "allocated": 5616,
             "assigned": 875,
-            "available": 14971,
-            "reserved": 6155
+            "available": 14978,
+            "reserved": 6163
         }
     }
 }
