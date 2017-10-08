@@ -344,23 +344,6 @@ def compare_results(value1, value2):
 
     return result
 
-
-def generate_report_table(items, values, compare):
-    """ Create a table """
-
-    markdown = "| Prefix | Count |\n"
-    markdown += "| ------ | ----- |\n"
-
-    for item in items:
-        if compare is not None:
-            result = compare_results(values[item], compare[item])
-        else:
-            result = ""
-
-        markdown += "| " + item + " | " + ppnum(values[item]) + result + "|\n"
-
-    return markdown
-
 def create_slash_range(start, end, result):
     if start >= end:
         result.append('/' + str(start))
