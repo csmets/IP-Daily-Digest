@@ -425,8 +425,8 @@ def create_report_table(stats, previous_stats, slash_range):
         markdown += " |\n"
 
     # create row for totals
+    markdown += "| **Total**"
     for rt in report_types:
-        markdown += "| **Total**"
         if previous_stats is not None:
             result = compare_results(
                 stats[rt]['total'],
@@ -436,7 +436,6 @@ def create_report_table(stats, previous_stats, slash_range):
             result = ""
 
         markdown += " | **" + ppnum(stats[rt]['total']) + result + "**"
-
     markdown += " |\n"
 
     return markdown
