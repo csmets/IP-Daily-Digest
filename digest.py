@@ -403,6 +403,7 @@ def markdown_summed_report(report):
 
 def create_report_table(stats, previous_stats, slash_range):
     """ Create a report table for a stat type i.e. ipv4 / ipv6 """
+
     markdown = "| Prefix | Allocated | Assigned | Available | Reserved |\n"
     markdown += "| ----- | ----- | ----- | ----- | ----- |\n"
 
@@ -412,7 +413,10 @@ def create_report_table(stats, previous_stats, slash_range):
         markdown += "| " + slash
         for rt in report_types:
             if previous_stats is not None:
-                result = compare_results(stats[rt][slash], previous_stats[rt][slash])
+                result = compare_results(
+                    stats[rt][slash],
+                    previous_stats[rt][slash]
+                )
             else:
                 result = ""
 
@@ -420,28 +424,20 @@ def create_report_table(stats, previous_stats, slash_range):
 
         markdown += " |\n"
 
-    return markdown
+    # create row for totals
+    for rt in report_types:
+        markdown += "| **Total**"
+        if previous_stats is not None:
+            result = compare_results(
+                stats[rt]['total'],
+                previous_stats[rt]['total']
+            )
+        else:
+            result = ""
 
-def create_report_for_type(stat_type, stats, previous_stats, slash_range):
-    """ Create report for a particular stat type ie Allocated, Assigned """
-    markdown = ""
+        markdown += " | **" + ppnum(stats[rt]['total']) + result + "**"
 
-    if previous_stats is not None:
-        difference = (compare_results(stats[stat_type]['total'],
-                                      previous_stats[stat_type]['total']))
-    else:
-        difference = ""
-
-    markdown += ("\n#### " + stat_type.title()  + ": **" +
-                 ppnum(stats[stat_type]['total']) +
-                 difference +
-                 "**\n\n")
-
-    markdown += (
-        generate_report_table(
-            slash_range,
-            stats[stat_type],
-            previous_stats[stat_type] if previous_stats is not None else None))
+    markdown += " |\n"
 
     return markdown
 
@@ -466,8 +462,6 @@ def markdown_report(report, previous_report):
 
     ipv4_slash_range = create_slash_range(30, 8, [])
 
-    report_types = ['allocated', 'assigned', 'available', 'reserved']
-
     markdown += create_report_table(
         report['ipv4'],
         previous_report['ipv4'] if previous_report is not None else None,
@@ -476,13 +470,10 @@ def markdown_report(report, previous_report):
     markdown += "\n### IPv6\n\n"
     ipv6_slash_range = create_slash_range(64, 24, [])
 
-    for t in report_types:
-        markdown += (
-            create_report_for_type(
-                t,
-                report['ipv6'],
-                previous_report['ipv6'] if previous_report is not None else None,
-                ipv6_slash_range))
+    markdown += create_report_table(
+        report['ipv6'],
+        previous_report['ipv6'] if previous_report is not None else None,
+        ipv6_slash_range)
 
     return markdown
 
