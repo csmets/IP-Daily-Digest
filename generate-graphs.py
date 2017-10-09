@@ -47,12 +47,14 @@ with open('archives/global-delegations.json') as json_data:
     assigned_past = []
 
     for d in dates:
-        assigned.append(data[d]['ipv4']['assigned'])
+        assigned.append(data[d]['ipv4']['available'])
     plt.plot(assigned)
 
     for pd in past_dates:
-        assigned_past.append(data[pd]['ipv4']['assigned'])
+        assigned_past.append(data[pd]['ipv4']['available'])
     plt.plot(assigned_past)
 
     plt.ylabel('Number of IP blocks Assigned')
+    plt.xlabel('Days in month')
+    plt.legend(['current month', 'last month'])
     plt.savefig('test.png')
