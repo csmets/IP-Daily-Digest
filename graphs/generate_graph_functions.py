@@ -110,4 +110,3 @@ with open('archives/global-delegations.json') as json_data:
         'Number of block Reserved',
         224
     )
-    plt.savefig('ipv4.png')

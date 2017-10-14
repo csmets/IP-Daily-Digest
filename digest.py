@@ -5,6 +5,7 @@ import json
 import subprocess
 import argparse
 import requests
+from graphs.generate_graphs import generate_graphs
 
 # CLI argument parser for setting path of files to write to.
 parser = argparse.ArgumentParser(description='Process some integers.')
@@ -449,6 +450,8 @@ def markdown_report(report, previous_report):
         previous_report['ipv4'] if previous_report is not None else None,
         ipv4_slash_range)
 
+    markdown += "\n[ipv4-image]\n"
+
     markdown += "\n### IPv6\n\n"
     ipv6_slash_range = create_slash_range(64, 24, [])
 
@@ -456,6 +459,8 @@ def markdown_report(report, previous_report):
         report['ipv6'],
         previous_report['ipv6'] if previous_report is not None else None,
         ipv6_slash_range)
+
+    markdown += "\n[ipv6-image]"
 
     return markdown
 
@@ -469,15 +474,25 @@ def get_previous_report(filename):
         else:
             return None
 
-def write_daily_digest(filename, stats_results, previous_report):
-    with open(filename, 'r+') as f:
+def replace_image_tags(ipv4_image, ipv6_image, raw_markdown):
+    first_markdown = raw_markdown.replace("[ipv4-image]", ipv4_image)
+    final_markdown = first_markdown.replace("[ipv6-image]", ipv6_image)
+    return final_markdown
+
+def write_daily_digest(path, filename, stats_results, previous_report):
+    with open(path + filename, 'r+') as f:
         digest_content = f.read()
         digest_split = digest_content.split('---')
         digest_header = digest_split[0]
         updated_digest_body = markdown_report(stats_results, previous_report)
         divider = "---\n\n"
+        final_updated_body = replace_image_tags(
+            path + 'ipv4-figure.png',
+            path + 'ipv6-figure.png',
+            updated_digest_body
+        )
         updated_digest = (
-            digest_header + divider + updated_digest_body)
+            digest_header + divider + final_updated_body)
         f.seek(0)
         f.write(updated_digest)
         f.truncate()
@@ -521,72 +536,79 @@ rirs = gather_rir_stats()
 global_results = global_stats(rirs)
 
 # Write Global Stats
-write_daily_digest(
-    dir_path + 'README.md',
-    global_results,
-    get_previous_report('archives/global-delegations-extended.json'))
-
 write_json(dir_path + 'archives/global-delegations-extended.json', global_results)
 write_json(
     dir_path + 'archives/global-delegations.json',
     make_non_extended_stats(global_results)
 )
-
+generate_graphs('ipv4', 'global', dir_path + 'ipv4-figure.png')
+generate_graphs('ipv6', 'global', dir_path + 'ipv6-figure.png')
+write_daily_digest(
+    dir_path,
+    'README.md',
+    global_results,
+    get_previous_report('archives/global-delegations-extended.json'))
 
 # AFRINIC Digest
-write_daily_digest(
-    dir_path + 'archives/AFRINIC/README.md',
-    rirs['afrinic'],
-    get_previous_report('archives/AFRINIC/afrinic-delegations-extended.json'))
-
 write_json(dir_path + 'archives/AFRINIC/afrinic-delegations-extended.json', rirs['afrinic'])
 write_json(
     dir_path + 'archives/AFRINIC/afrinic-delegations.json',
     make_non_extended_stats(rirs['afrinic']))
+generate_graphs('ipv4', 'afrinic', dir_path + 'archives/AFRINIC/ipv4-figure.png')
+generate_graphs('ipv6', 'afrinic', dir_path + 'archives/AFRINIC/ipv6-figure.png')
+write_daily_digest(
+    dir_path + 'archives/AFRINIC/',
+    'README.md',
+    rirs['afrinic'],
+    get_previous_report('archives/AFRINIC/afrinic-delegations-extended.json'))
 
 # APNIC Digest
-write_daily_digest(
-    dir_path + 'archives/APNIC/README.md',
-    rirs['apnic'],
-    get_previous_report('archives/APNIC/apnic-delegations-extended.json'))
-
 write_json(dir_path + 'archives/APNIC/apnic-delegations-extended.json', rirs['apnic'])
 write_json(
     dir_path + 'archives/APNIC/apnic-delegations.json',
     make_non_extended_stats(rirs['apnic']))
+generate_graphs('ipv4', 'apnic', dir_path + 'archives/APNIC/ipv4-figure.png')
+generate_graphs('ipv6', 'apnic', dir_path + 'archives/APNIC/ipv6-figure.png')
+write_daily_digest(
+    dir_path + 'archives/APNIC/',
+    'README.md',
+    rirs['apnic'],
+    get_previous_report('archives/APNIC/apnic-delegations-extended.json'))
 
 # ARIN Digest
-write_daily_digest(
-    dir_path + 'archives/ARIN/README.md',
-    rirs['arin'],
-    get_previous_report('archives/ARIN/arin-delegations-extended.json'))
-
 write_json(dir_path + 'archives/ARIN/arin-delegations-extended.json', rirs['arin'])
 write_json(
     dir_path + 'archives/ARIN/arin-delegations.json',
     make_non_extended_stats(rirs['arin']))
+generate_graphs('ipv4', 'arin', dir_path + 'archives/APNIC/ipv4-figure.png')
+generate_graphs('ipv6', 'arin', dir_path + 'archives/APNIC/ipv6-figure.png')
+write_daily_digest(
+    dir_path + 'archives/ARIN/',
+    'README.md',
+    rirs['arin'],
+    get_previous_report('archives/ARIN/arin-delegations-extended.json'))
 
 # LACNIC Digest
-write_daily_digest(
-    dir_path + 'archives/LACNIC/README.md',
-    rirs['lacnic'],
-    get_previous_report('archives/LACNIC/lacnic-delegations-extended.json'))
-
 write_json(dir_path + 'archives/LACNIC/lacnic-delegations-extended.json', rirs['lacnic'])
 write_json(
     dir_path + 'archives/LACNIC/lacnic-delegations.json',
     make_non_extended_stats(rirs['lacnic']))
+write_daily_digest(
+    dir_path + 'archives/LACNIC/',
+    'README.md',
+    rirs['lacnic'],
+    get_previous_report('archives/LACNIC/lacnic-delegations-extended.json'))
 
 # RIPE NCC Digest
-write_daily_digest(
-    dir_path + 'archives/RIPE_NCC/README.md',
-    rirs['ripe'],
-    get_previous_report('archives/RIPE_NCC/ripencc-delegations-extended.json'))
-
 write_json(dir_path + 'archives/RIPE_NCC/ripencc-delegations-extended.json', rirs['ripe'])
 write_json(
     dir_path + 'archives/RIPE_NCC/ripencc-delegations.json',
     make_non_extended_stats(rirs['ripe']))
+write_daily_digest(
+    dir_path + 'archives/RIPE_NCC/',
+    'README.md',
+    rirs['ripe'],
+    get_previous_report('archives/RIPE_NCC/ripencc-delegations-extended.json'))
 
 # Add updated daily digest
 print("Git adding new digest...")
