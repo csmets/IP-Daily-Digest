@@ -1,6 +1,8 @@
 """ This file is used to create the graphs for the 4 different stats """
 
 import json
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from graphs.generate_graph_functions import current_dates, past_month_dates, create_graph
 
