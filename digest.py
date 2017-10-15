@@ -541,8 +541,8 @@ write_json(
     dir_path + 'archives/global-delegations.json',
     make_non_extended_stats(global_results)
 )
-generate_graphs('ipv4', 'global', dir_path + 'ipv4-figure.png')
-generate_graphs('ipv6', 'global', dir_path + 'ipv6-figure.png')
+generate_graphs('ipv4', 'global', dir_path, 'ipv4-figure.png')
+generate_graphs('ipv6', 'global', dir_path, 'ipv6-figure.png')
 write_daily_digest(
     dir_path,
     'README.md',
@@ -554,8 +554,8 @@ write_json(dir_path + 'archives/AFRINIC/afrinic-delegations-extended.json', rirs
 write_json(
     dir_path + 'archives/AFRINIC/afrinic-delegations.json',
     make_non_extended_stats(rirs['afrinic']))
-generate_graphs('ipv4', 'afrinic', dir_path + 'archives/AFRINIC/ipv4-figure.png')
-generate_graphs('ipv6', 'afrinic', dir_path + 'archives/AFRINIC/ipv6-figure.png')
+generate_graphs('ipv4', 'afrinic', dir_path + 'archives/AFRINIC/', 'ipv4-figure.png')
+generate_graphs('ipv6', 'afrinic', dir_path + 'archives/AFRINIC/', 'ipv6-figure.png')
 write_daily_digest(
     dir_path + 'archives/AFRINIC/',
     'README.md',
@@ -567,8 +567,8 @@ write_json(dir_path + 'archives/APNIC/apnic-delegations-extended.json', rirs['ap
 write_json(
     dir_path + 'archives/APNIC/apnic-delegations.json',
     make_non_extended_stats(rirs['apnic']))
-generate_graphs('ipv4', 'apnic', dir_path + 'archives/APNIC/ipv4-figure.png')
-generate_graphs('ipv6', 'apnic', dir_path + 'archives/APNIC/ipv6-figure.png')
+generate_graphs('ipv4', 'apnic', dir_path + 'archives/APNIC/', 'ipv4-figure.png')
+generate_graphs('ipv6', 'apnic', dir_path + 'archives/APNIC/', 'ipv6-figure.png')
 write_daily_digest(
     dir_path + 'archives/APNIC/',
     'README.md',
@@ -580,8 +580,8 @@ write_json(dir_path + 'archives/ARIN/arin-delegations-extended.json', rirs['arin
 write_json(
     dir_path + 'archives/ARIN/arin-delegations.json',
     make_non_extended_stats(rirs['arin']))
-generate_graphs('ipv4', 'arin', dir_path + 'archives/APNIC/ipv4-figure.png')
-generate_graphs('ipv6', 'arin', dir_path + 'archives/APNIC/ipv6-figure.png')
+generate_graphs('ipv4', 'arin', dir_path + 'archives/ARIN/', 'ipv4-figure.png')
+generate_graphs('ipv6', 'arin', dir_path + 'archives/ARIN/', 'ipv6-figure.png')
 write_daily_digest(
     dir_path + 'archives/ARIN/',
     'README.md',
@@ -593,6 +593,8 @@ write_json(dir_path + 'archives/LACNIC/lacnic-delegations-extended.json', rirs['
 write_json(
     dir_path + 'archives/LACNIC/lacnic-delegations.json',
     make_non_extended_stats(rirs['lacnic']))
+generate_graphs('ipv4', 'lacnic', dir_path + 'archives/LACNIC/', 'ipv4-figure.png')
+generate_graphs('ipv6', 'lacnic', dir_path + 'archives/LACNIC/', 'ipv6-figure.png')
 write_daily_digest(
     dir_path + 'archives/LACNIC/',
     'README.md',
@@ -604,6 +606,8 @@ write_json(dir_path + 'archives/RIPE_NCC/ripencc-delegations-extended.json', rir
 write_json(
     dir_path + 'archives/RIPE_NCC/ripencc-delegations.json',
     make_non_extended_stats(rirs['ripe']))
+generate_graphs('ipv4', 'ripe', dir_path + 'archives/RIPE_NCC/', 'ipv4-figure.png')
+generate_graphs('ipv6', 'ripe', dir_path + 'archives/RIPE_NCC/', 'ipv6-figure.png')
 write_daily_digest(
     dir_path + 'archives/RIPE_NCC/',
     'README.md',
