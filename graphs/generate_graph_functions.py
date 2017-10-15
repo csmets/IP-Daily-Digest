@@ -43,8 +43,8 @@ def current_dates():
 
 def create_graph(graph_title, current_data, past_data, y_label, position):
     plt.subplot(position)
-    plt.plot(current_data, label='current month')
-    plt.plot(past_data, label='last month')
+    plt.plot(current_data, label='Current month')
+    plt.plot(past_data, label='Last month')
     plt.ylabel(y_label)
     plt.xlabel('Days in month')
     plt.legend(fancybox=True, prop={'size': 6})
