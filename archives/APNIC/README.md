@@ -48,8 +48,6 @@ ASN  | Allocated: 8,025 Assigned: 0 Available: 463 Reserved: 0 Given: 14,985
 | /8 | 2 | 0 | 0 | 0 |
 | **Total** | **26,624** | **11,656** | **12** | **1,010** |
 
-![ipv4-stats](ipv4-figure.png)
-
 ### IPv6
 
 | Prefix | Allocated | Assigned | Available | Reserved |
@@ -96,5 +94,3 @@ ASN  | Allocated: 8,025 Assigned: 0 Available: 463 Reserved: 0 Given: 14,985
 | /25 | 2 | 0 | 3 | 11 |
 | /24 | 6 | 0 | 6 | 8 |
 | **Total** | **5,096** | **1,908** | **44,599** | **556** |
-
-![ipv6-stats](ipv6-figure.png)
