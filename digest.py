@@ -491,8 +491,8 @@ def write_daily_digest(path, filename, stats_results, previous_report):
         updated_digest_body = markdown_report(stats_results, previous_report)
         divider = "---\n\n"
         final_updated_body = replace_image_tags(
-            path + 'ipv4-figure.png',
-            path + 'ipv6-figure.png',
+            'ipv4-figure.png',
+            'ipv6-figure.png',
             updated_digest_body
         )
         updated_digest = (
