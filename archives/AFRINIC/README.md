@@ -48,6 +48,8 @@ ASN  | Allocated: 1,535 Assigned: 0 Available: 542 Reserved: 225 Given: 2,302
 | /8 | 0 | 0 | 0 | 0 |
 | **Total** | **2,049** | **1,246 ▲ +2** | **33** | **171 ▲ +1** |
 
+![ipv4-stats](./archives/AFRINIC/ipv4-figure.png)
+
 ### IPv6
 
 | Prefix | Allocated | Assigned | Available | Reserved |
@@ -94,3 +96,5 @@ ASN  | Allocated: 1,535 Assigned: 0 Available: 542 Reserved: 225 Given: 2,302
 | /25 | 0 | 0 | 1 | 0 |
 | /24 | 1 | 0 | 1 | 1 |
 | **Total** | **518 ▲ +1** | **193 ▲ +1** | **64 ▲ +1** | **2,129 ▲ +7** |
+
+![ipv6-stats](./archives/AFRINIC/ipv6-figure.png)

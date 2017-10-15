@@ -5112,17 +5112,17 @@
             "reserved": 1824
         },
         "ipv4": {
-            "allocated": 103236,
+            "allocated": 103238,
             "assigned": 75448,
-            "available": 2954,
+            "available": 2955,
             "hosts": 3702239744,
-            "reserved": 2420
+            "reserved": 2416
         },
         "ipv6": {
-            "allocated": 27849,
+            "allocated": 27851,
             "assigned": 7940,
             "available": 90205,
-            "reserved": 74340
+            "reserved": 74348
         }
     }
 }
