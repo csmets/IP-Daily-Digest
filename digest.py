@@ -475,8 +475,12 @@ def get_previous_report(filename):
             return None
 
 def replace_image_tags(ipv4_image, ipv6_image, raw_markdown):
-    first_markdown = raw_markdown.replace("[ipv4-image]", ipv4_image)
-    final_markdown = first_markdown.replace("[ipv6-image]", ipv6_image)
+    first_markdown = raw_markdown.replace(
+        "[ipv4-image]",
+        "![ipv4-stats](" + ipv4_image + ")")
+    final_markdown = first_markdown.replace(
+        "[ipv6-image]",
+        "![ipv6-stats](" + ipv6_image + ")")
     return final_markdown
 
 def write_daily_digest(path, filename, stats_results, previous_report):
@@ -606,8 +610,8 @@ write_json(dir_path + 'archives/RIPE_NCC/ripencc-delegations-extended.json', rir
 write_json(
     dir_path + 'archives/RIPE_NCC/ripencc-delegations.json',
     make_non_extended_stats(rirs['ripe']))
-generate_graphs('ipv4', 'ripe', dir_path + 'archives/RIPE_NCC/', 'ipv4-figure.png')
-generate_graphs('ipv6', 'ripe', dir_path + 'archives/RIPE_NCC/', 'ipv6-figure.png')
+generate_graphs('ipv4', 'ripencc', dir_path + 'archives/RIPE_NCC/', 'ipv4-figure.png')
+generate_graphs('ipv6', 'ripencc', dir_path + 'archives/RIPE_NCC/', 'ipv6-figure.png')
 write_daily_digest(
     dir_path + 'archives/RIPE_NCC/',
     'README.md',

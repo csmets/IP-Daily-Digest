@@ -19,6 +19,8 @@ def generate_graphs(category, rir, path, filename):
     ]
 
     if rir in rirs:
+        if rir == 'global':
+            path = path + 'archives/'
         delegations_file = path + rir + '-delegations.json'
     else:
         return False
