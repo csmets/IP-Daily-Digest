@@ -48,7 +48,7 @@ ASN  | Allocated: 7,548 Assigned: 0 Available: 176 Reserved: 143 Given: 9,983
 | /8 | 0 | 0 | 0 | 0 |
 | **Total** | **11,443 ▲ +3** | **2,269** | **10 ▼ -3** | **340 ▲ +1** |
 
-![ipv4-stats](./archives/LACNIC/ipv4-figure.png)
+![ipv4-stats](ipv4-figure.png)
 
 ### IPv6
 
@@ -97,4 +97,4 @@ ASN  | Allocated: 7,548 Assigned: 0 Available: 176 Reserved: 143 Given: 9,983
 | /24 | 4 | 0 | 9 | 0 |
 | **Total** | **5,647 ▲ +3** | **875** | **15,022** | **6,203 ▲ +12** |
 
-![ipv6-stats](./archives/LACNIC/ipv6-figure.png)
+![ipv6-stats](ipv6-figure.png)

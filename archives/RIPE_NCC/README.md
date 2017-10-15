@@ -48,7 +48,7 @@ ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,37
 | /8 | 0 | 3 | 0 | 0 |
 | **Total** | **40,019** | **23,856** | **2,900** | **288** |
 
-![ipv4-stats](./archives/RIPE_NCC/ipv4-figure.png)
+![ipv4-stats](ipv4-figure.png)
 
 ### IPv6
 
@@ -97,4 +97,4 @@ ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,37
 | /24 | 5 | 0 | 125 | 17 |
 | **Total** | **13,147** | **2,571** | **9,778** | **43,444** |
 
-![ipv6-stats](./archives/RIPE_NCC/ipv6-figure.png)
+![ipv6-stats](ipv6-figure.png)
