@@ -15,13 +15,14 @@ def generate_graphs(category, rir, path, filename):
         'apnic',
         'arin',
         'lacnic',
-        'ripe'
+        'ripencc'
     ]
 
     if rir in rirs:
         if rir == 'global':
-            path = path + 'archives/'
-        delegations_file = path + rir + '-delegations.json'
+            delegations_file = path + 'archives/' + rir + '-delegations.json'
+        else:
+            delegations_file = path + rir + '-delegations.json'
     else:
         return False
 
@@ -54,6 +55,12 @@ def generate_graphs(category, rir, path, filename):
             reserved_past.append(data[pd][category]['reserved'])
 
         plt.figure(figsize=(10, 10), dpi=120)
+
+        if category == 'ipv4':
+            plt.suptitle('IPv4 Delegation Stats')
+        elif category == 'ipv6':
+            plt.suptitle('IPv6 Delegation Stats')
+
         create_graph(
             'Allocated',
             allocated,
