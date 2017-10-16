@@ -6,13 +6,13 @@ Total IP delegations for RIPE NCC. This is kept as a record for historical purpo
 
 ---
 
-## Digest for 2017-10-15
+## Digest for 2017-10-16
 ```
-2017-10-15
+2017-10-16
 ==========
-IPv4 | Allocated: 40,019 Assigned: 23,856 Available: 2,900 Reserved: 288 Hosts: 822,391,808
-IPv6 | Allocated: 13,147 Assigned: 2,571 Available: 9,778 Reserved: 43,444
-ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,376
+IPv4 | Allocated: 40,019 Assigned: 23,856 Available: 2,902 Reserved: 285 Hosts: 822,391,808
+IPv6 | Allocated: 13,147 Assigned: 2,571 Available: 9,779 Reserved: 43,443
+ASN  | Allocated: 31,876 Assigned: 0 Available: 3,951 Reserved: 549 Given: 36,376
 ```
 
 ### Detailed Report
@@ -29,8 +29,8 @@ ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,37
 | /27 | 0 | 37 | 5 | 0 |
 | /26 | 0 | 40 | 9 | 1 |
 | /25 | 1 | 70 | 24 | 0 |
-| /24 | 2,237 | 11,291 | 1,012 | 77 |
-| /23 | 1,388 | 4,521 | 614 | 16 |
+| /24 | 2,237 | 11,291 | 1,013 ▲ +1 | 75 ▼ -2 |
+| /23 | 1,388 | 4,521 | 614 | 15 ▼ -1 |
 | /22 | 15,632 | 3,202 | 336 | 151 |
 | /21 | 6,188 | 1,318 | 223 | 24 |
 | /20 | 4,437 | 665 | 117 | 12 |
@@ -46,7 +46,9 @@ ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,37
 | /10 | 10 | 0 | 0 | 0 |
 | /9 | 1 | 0 | 0 | 0 |
 | /8 | 0 | 3 | 0 | 0 |
-| **Total** | **40,019** | **23,856** | **2,900** | **288** |
+| **Total** | **40,019** | **23,856** | **2,902 ▲ +2** | **285 ▼ -3** |
+
+![ipv4-stats](ipv4-figure.png)
 
 ### IPv6
 
@@ -70,7 +72,7 @@ ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,37
 | /49 | 0 | 0 | 0 | 0 |
 | /48 | 0 | 2,503 | 3 | 2,292 |
 | /47 | 0 | 38 | 1 | 2,328 |
-| /46 | 0 | 16 | 3 | 86 |
+| /46 | 0 | 16 | 4 ▲ +1 | 85 ▼ -1 |
 | /45 | 0 | 6 | 2 | 22 |
 | /44 | 0 | 2 | 3 | 8 |
 | /43 | 0 | 1 | 3 | 3 |
@@ -93,4 +95,6 @@ ASN  | Allocated: 31,876 Assigned: 0 Available: 3,943 Reserved: 557 Given: 36,37
 | /26 | 8 | 0 | 202 | 91 |
 | /25 | 4 | 0 | 126 | 25 |
 | /24 | 5 | 0 | 125 | 17 |
-| **Total** | **13,147** | **2,571** | **9,778** | **43,444** |
+| **Total** | **13,147** | **2,571** | **9,779 ▲ +1** | **43,443 ▼ -1** |
+
+![ipv6-stats](ipv6-figure.png)
