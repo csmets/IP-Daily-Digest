@@ -4,7 +4,7 @@ import json
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from graphs.generate_graph_functions import current_dates, past_month_dates, create_graph
+from graphs.generate_graph_functions import current_dates, past_month_dates, create_graph, generate_list_of_days
 
 def generate_graphs(category, rir, path, filename):
     """ Function that will create 4 different graphs """
@@ -33,7 +33,9 @@ def generate_graphs(category, rir, path, filename):
         data = json.load(file_data)
 
         dates = current_dates()
+        days = generate_list_of_days(dates)
         past_dates = past_month_dates()
+        past_days = generate_list_of_days(past_dates)
 
         allocated = []
         allocated_past = []
@@ -67,6 +69,8 @@ def generate_graphs(category, rir, path, filename):
             'Allocated',
             allocated,
             allocated_past,
+            days,
+            past_days,
             'Number of block Allocated',
             221
         )
@@ -75,6 +79,8 @@ def generate_graphs(category, rir, path, filename):
             'Assigned',
             assigned,
             assigned_past,
+            days,
+            past_days,
             'Number of block Assigned',
             222
         )
@@ -83,6 +89,8 @@ def generate_graphs(category, rir, path, filename):
             'Available',
             available,
             available_past,
+            days,
+            past_days,
             'Number of block Available',
             223
         )
@@ -91,6 +99,8 @@ def generate_graphs(category, rir, path, filename):
             'Reserved',
             reserved,
             reserved_past,
+            days,
+            past_days,
             'Number of block Reserved',
             224
         )

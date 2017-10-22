@@ -1,6 +1,5 @@
 """ Generate graphs for digests """
 
-import json
 import datetime
 import matplotlib.pyplot as plt
 
@@ -25,6 +24,16 @@ def generate_dates(date, num_of_days):
 
     return dates_list
 
+def generate_list_of_days(date_list):
+    day_counter = 1
+    list_of_days = []
+
+    while len(list_of_days) < len(date_list):
+        list_of_days.append(day_counter)
+        day_counter = day_counter + 1
+
+    return list_of_days
+
 def past_month_dates():
     today = current_date()
     first = today.replace(day=1)
@@ -41,10 +50,10 @@ def current_dates():
     current_dates_list = generate_dates(date, num_of_days)
     return current_dates_list
 
-def create_graph(graph_title, current_data, past_data, y_label, position):
+def create_graph(graph_title, current_data, past_data, xa_data, xb_data, y_label, position):
     plt.subplot(position)
-    plt.plot(current_data, label='Current month')
-    plt.plot(past_data, label='Last month')
+    plt.plot(xa_data, current_data, label='Current month')
+    plt.plot(xb_data, past_data, label='Last month')
     plt.ylabel(y_label)
     plt.xlabel('Days in month')
     plt.legend(fancybox=True, prop={'size': 6})
