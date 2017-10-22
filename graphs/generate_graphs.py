@@ -33,8 +33,9 @@ def generate_graphs(category, rir, path, filename):
         data = json.load(file_data)
 
         dates = current_dates()
-        past_dates = past_month_dates()
         days = generate_list_of_days(dates)
+        past_dates = past_month_dates()
+        past_days = generate_list_of_days(past_dates)
 
         allocated = []
         allocated_past = []
@@ -69,6 +70,7 @@ def generate_graphs(category, rir, path, filename):
             allocated,
             allocated_past,
             days,
+            past_days,
             'Number of block Allocated',
             221
         )
@@ -78,6 +80,7 @@ def generate_graphs(category, rir, path, filename):
             assigned,
             assigned_past,
             days,
+            past_days,
             'Number of block Assigned',
             222
         )
@@ -87,6 +90,7 @@ def generate_graphs(category, rir, path, filename):
             available,
             available_past,
             days,
+            past_days,
             'Number of block Available',
             223
         )
@@ -96,6 +100,7 @@ def generate_graphs(category, rir, path, filename):
             reserved,
             reserved_past,
             days,
+            past_days,
             'Number of block Reserved',
             224
         )
