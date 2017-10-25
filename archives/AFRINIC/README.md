@@ -6,11 +6,11 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-10-24
+## Digest for 2017-10-25
 ```
-2017-10-24
+2017-10-25
 ==========
-IPv4 | Allocated: 2,050 Assigned: 1,246 Available: 33 Reserved: 170 Hosts: 121,246,720
+IPv4 | Allocated: 2,050 Assigned: 1,246 Available: 34 Reserved: 169 Hosts: 121,246,720
 IPv6 | Allocated: 518 Assigned: 193 Available: 64 Reserved: 2,129
 ASN  | Allocated: 1,535 Assigned: 0 Available: 542 Reserved: 225 Given: 2,302
 ```
@@ -35,7 +35,7 @@ ASN  | Allocated: 1,535 Assigned: 0 Available: 542 Reserved: 225 Given: 2,302
 | /21 | 269 | 23 | 2 | 14 |
 | /20 | 279 | 30 | 2 | 19 |
 | /19 | 300 | 13 | 3 | 16 |
-| /18 | 148 | 10 | 0 | 10 |
+| /18 | 148 | 10 | 1 ▲ +1 | 9 ▼ -1 |
 | /17 | 76 | 2 | 1 | 5 |
 | /16 | 149 | 66 | 1 | 4 |
 | /15 | 42 | 3 | 0 | 0 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 1,535 Assigned: 0 Available: 542 Reserved: 225 Given: 2,302
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 1 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **2,050** | **1,246** | **33** | **170** |
+| **Total** | **2,050** | **1,246** | **34 ▲ +1** | **169 ▼ -1** |
 
 ![ipv4-stats](ipv4-figure.png)
 
