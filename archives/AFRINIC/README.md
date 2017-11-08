@@ -6,13 +6,13 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-11-07
+## Digest for 2017-11-08
 ```
-2017-11-07
+2017-11-08
 ==========
-IPv4 | Allocated: 2,055 Assigned: 1,248 Available: 29 Reserved: 169 Hosts: 121,246,720
-IPv6 | Allocated: 526 Assigned: 194 Available: 61 Reserved: 2,158
-ASN  | Allocated: 1,540 Assigned: 0 Available: 536 Reserved: 226 Given: 2,302
+IPv4 | Allocated: 2,056 Assigned: 1,248 Available: 29 Reserved: 168 Hosts: 121,246,720
+IPv6 | Allocated: 527 Assigned: 194 Available: 61 Reserved: 2,161
+ASN  | Allocated: 1,541 Assigned: 0 Available: 535 Reserved: 226 Given: 2,302
 ```
 
 ### Detailed Report
@@ -31,7 +31,7 @@ ASN  | Allocated: 1,540 Assigned: 0 Available: 536 Reserved: 226 Given: 2,302
 | /25 | 0 | 0 | 0 | 0 |
 | /24 | 0 | 879 | 8 | 37 |
 | /23 | 0 | 111 | 5 | 7 |
-| /22 | 676 | 63 | 4 | 55 |
+| /22 | 677 ▲ +1 | 63 | 4 | 54 ▼ -1 |
 | /21 | 270 | 23 | 2 | 17 |
 | /20 | 279 | 30 | 2 | 19 |
 | /19 | 300 | 13 | 2 | 16 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 1,540 Assigned: 0 Available: 536 Reserved: 226 Given: 2,302
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 1 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **2,055** | **1,248** | **29** | **169** |
+| **Total** | **2,056 ▲ +1** | **1,248** | **29** | **168 ▼ -1** |
 
 ![ipv4-stats](ipv4-figure.png)
 
@@ -86,15 +86,15 @@ ASN  | Allocated: 1,540 Assigned: 0 Available: 536 Reserved: 226 Given: 2,302
 | /35 | 0 | 0 | 1 | 0 |
 | /34 | 0 | 0 | 1 | 0 |
 | /33 | 0 | 0 | 1 | 0 |
-| /32 | 512 | 0 | 1 | 510 |
-| /31 | 2 | 0 | 1 | 513 |
-| /30 | 0 | 0 | 1 | 513 |
-| /29 | 2 | 0 | 20 | 14 |
-| /28 | 4 | 0 | 1 | 0 |
+| /32 | 513 ▲ +1 | 0 | 1 | 511 ▲ +1 |
+| /31 | 2 | 0 | 1 | 514 ▲ +1 |
+| /30 | 0 | 0 | 1 | 514 ▲ +1 |
+| /29 | 2 | 0 | 21 ▲ +1 | 14 |
+| /28 | 4 | 0 | 0 ▼ -1 | 0 |
 | /27 | 2 | 0 | 0 | 2 |
 | /26 | 1 | 0 | 0 | 1 |
 | /25 | 0 | 0 | 1 | 0 |
 | /24 | 1 | 0 | 1 | 1 |
-| **Total** | **526** | **194** | **61** | **2,158** |
+| **Total** | **527 ▲ +1** | **194** | **61** | **2,161 ▲ +3** |
 
 ![ipv6-stats](ipv6-figure.png)
