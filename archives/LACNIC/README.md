@@ -6,9 +6,9 @@ Total IP delegations for LACNIC. This is kept as a record for historical purpose
 
 ---
 
-## Digest for 2017-11-14
+## Digest for 2017-11-15
 ```
-2017-11-14
+2017-11-15
 ==========
 IPv4 | Allocated: 11,585 Assigned: 2,275 Available: 14 Reserved: 349 Hosts: 190,779,648
 IPv6 | Allocated: 5,772 Assigned: 882 Available: 15,241 Reserved: 6,355
