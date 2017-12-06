@@ -6,9 +6,9 @@ Total IP delegations for LACNIC. This is kept as a record for historical purpose
 
 ---
 
-## Digest for 2017-12-05
+## Digest for 2017-12-06
 ```
-2017-12-05
+2017-12-06
 ==========
 IPv4 | Allocated: 11,645 Assigned: 2,281 Available: 12 Reserved: 356 Hosts: 190,779,648
 IPv6 | Allocated: 5,825 Assigned: 892 Available: 15,367 Reserved: 6,496
@@ -30,10 +30,10 @@ ASN  | Allocated: 7,723 Assigned: 0 Available: 178 Reserved: 151 Given: 9,983
 | /26 | 0 | 0 | 0 | 0 |
 | /25 | 0 | 0 | 0 | 0 |
 | /24 | 47 | 1,276 | 1 | 37 |
-| /23 | 48 | 289 | 4 ▼ -1 | 17 ▲ +1 |
-| /22 | 6,118 | 256 | 0 ▼ -3 | 143 ▲ +7 |
+| /23 | 48 | 289 | 4 | 17 |
+| /22 | 6,118 | 256 | 0 | 143 |
 | /21 | 1,241 | 64 | 1 | 50 |
-| /20 | 1,955 | 155 | 0 ▼ -1 | 84 |
+| /20 | 1,955 | 155 | 0 | 84 |
 | /19 | 740 | 45 | 0 | 16 |
 | /18 | 374 | 40 | 1 | 5 |
 | /17 | 297 | 8 | 1 | 3 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 7,723 Assigned: 0 Available: 178 Reserved: 151 Given: 9,983
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 0 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **11,645** | **2,281** | **12 ▼ -5** | **356 ▲ +8** |
+| **Total** | **11,645** | **2,281** | **12** | **356** |
 
 ![ipv4-stats](ipv4-figure.png)
 
