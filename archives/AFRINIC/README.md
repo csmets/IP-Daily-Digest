@@ -6,9 +6,9 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2017-12-18
+## Digest for 2017-12-19
 ```
-2017-12-18
+2017-12-19
 ==========
 IPv4 | Allocated: 2,071 Assigned: 1,251 Available: 22 Reserved: 183 Hosts: 121,246,720
 IPv6 | Allocated: 537 Assigned: 197 Available: 67 Reserved: 2,203
