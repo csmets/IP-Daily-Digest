@@ -6906,5 +6906,49 @@
             "available": 15573,
             "reserved": 6637
         }
+    },
+    "2018-01-05": {
+        "asn": {
+            "allocated": 7833,
+            "assigned": 0,
+            "available": 183,
+            "given": 9983,
+            "reserved": 151
+        },
+        "ipv4": {
+            "allocated": 11798,
+            "assigned": 2292,
+            "available": 8,
+            "hosts": 190779648,
+            "reserved": 345
+        },
+        "ipv6": {
+            "allocated": 5927,
+            "assigned": 905,
+            "available": 15573,
+            "reserved": 6637
+        }
+    },
+    "2018-01-06": {
+        "asn": {
+            "allocated": 7837,
+            "assigned": 0,
+            "available": 184,
+            "given": 9983,
+            "reserved": 151
+        },
+        "ipv4": {
+            "allocated": 11803,
+            "assigned": 2290,
+            "available": 11,
+            "hosts": 190779648,
+            "reserved": 342
+        },
+        "ipv6": {
+            "allocated": 5932,
+            "assigned": 904,
+            "available": 15577,
+            "reserved": 6650
+        }
     }
 }
