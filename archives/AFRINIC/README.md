@@ -6,13 +6,13 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2018-02-06
+## Digest for 2018-02-07
 ```
-2018-02-06
+2018-02-07
 ==========
-IPv4 | Allocated: 2,085 Assigned: 1,257 Available: 24 Reserved: 182 Hosts: 121,246,720
-IPv6 | Allocated: 540 Assigned: 203 Available: 65 Reserved: 2,234
-ASN  | Allocated: 1,569 Assigned: 0 Available: 505 Reserved: 229 Given: 2,303
+IPv4 | Allocated: 2,085 Assigned: 1,258 Available: 26 Reserved: 179 Hosts: 121,246,720
+IPv6 | Allocated: 540 Assigned: 203 Available: 65 Reserved: 2,238
+ASN  | Allocated: 1,570 Assigned: 0 Available: 503 Reserved: 229 Given: 2,302
 ```
 
 ### Detailed Report
@@ -29,9 +29,9 @@ ASN  | Allocated: 1,569 Assigned: 0 Available: 505 Reserved: 229 Given: 2,303
 | /27 | 0 | 0 | 0 | 0 |
 | /26 | 0 | 0 | 0 | 0 |
 | /25 | 0 | 0 | 0 | 0 |
-| /24 | 0 | 885 | 8 | 43 |
-| /23 | 0 | 113 | 2 | 6 |
-| /22 | 694 | 64 | 4 | 56 |
+| /24 | 0 | 885 | 9 ▲ +1 | 42 ▼ -1 |
+| /23 | 0 | 114 ▲ +1 | 2 | 5 ▼ -1 |
+| /22 | 694 | 64 | 5 ▲ +1 | 55 ▼ -1 |
 | /21 | 275 | 23 | 2 | 17 |
 | /20 | 280 | 30 | 2 | 22 |
 | /19 | 303 | 13 | 1 | 18 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 1,569 Assigned: 0 Available: 505 Reserved: 229 Given: 2,303
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 1 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **2,085** | **1,257** | **24** | **182** |
+| **Total** | **2,085** | **1,258 ▲ +1** | **26 ▲ +2** | **179 ▼ -3** |
 
 ![ipv4-stats](ipv4-figure.png)
 
@@ -70,10 +70,10 @@ ASN  | Allocated: 1,569 Assigned: 0 Available: 505 Reserved: 229 Given: 2,303
 | /51 | 0 | 0 | 0 | 0 |
 | /50 | 0 | 0 | 0 | 0 |
 | /49 | 0 | 0 | 0 | 0 |
-| /48 | 0 | 189 | 0 | 138 |
-| /47 | 0 | 1 | 0 | 158 |
-| /46 | 0 | 3 | 0 | 162 |
-| /45 | 0 | 1 | 0 | 164 |
+| /48 | 0 | 189 | 0 | 139 ▲ +1 |
+| /47 | 0 | 1 | 0 | 159 ▲ +1 |
+| /46 | 0 | 3 | 0 | 163 ▲ +1 |
+| /45 | 0 | 1 | 0 | 165 ▲ +1 |
 | /44 | 0 | 6 | 14 | 5 |
 | /43 | 0 | 0 | 1 | 0 |
 | /42 | 0 | 1 | 0 | 1 |
@@ -95,6 +95,6 @@ ASN  | Allocated: 1,569 Assigned: 0 Available: 505 Reserved: 229 Given: 2,303
 | /26 | 1 | 0 | 0 | 1 |
 | /25 | 0 | 0 | 2 | 0 |
 | /24 | 1 | 0 | 2 | 1 |
-| **Total** | **540** | **203** | **65** | **2,234** |
+| **Total** | **540** | **203** | **65** | **2,238 ▲ +4** |
 
 ![ipv6-stats](ipv6-figure.png)
