@@ -7808,5 +7808,93 @@
             "available": 47341,
             "reserved": 597
         }
+    },
+    "2018-02-15": {
+        "asn": {
+            "allocated": 8233,
+            "assigned": 0,
+            "available": 482,
+            "given": 17033,
+            "reserved": 0
+        },
+        "ipv4": {
+            "allocated": 27042,
+            "assigned": 11869,
+            "available": 14,
+            "hosts": 882856704,
+            "reserved": 1075
+        },
+        "ipv6": {
+            "allocated": 5377,
+            "assigned": 2074,
+            "available": 47370,
+            "reserved": 597
+        }
+    },
+    "2018-02-16": {
+        "asn": {
+            "allocated": 8234,
+            "assigned": 0,
+            "available": 481,
+            "given": 17033,
+            "reserved": 0
+        },
+        "ipv4": {
+            "allocated": 27055,
+            "assigned": 11870,
+            "available": 16,
+            "hosts": 882856704,
+            "reserved": 1076
+        },
+        "ipv6": {
+            "allocated": 5380,
+            "assigned": 2076,
+            "available": 47406,
+            "reserved": 598
+        }
+    },
+    "2018-02-17": {
+        "asn": {
+            "allocated": 8235,
+            "assigned": 0,
+            "available": 481,
+            "given": 17033,
+            "reserved": 0
+        },
+        "ipv4": {
+            "allocated": 27055,
+            "assigned": 11868,
+            "available": 15,
+            "hosts": 882856704,
+            "reserved": 1079
+        },
+        "ipv6": {
+            "allocated": 5381,
+            "assigned": 2076,
+            "available": 47411,
+            "reserved": 598
+        }
+    },
+    "2018-02-18": {
+        "asn": {
+            "allocated": 8235,
+            "assigned": 0,
+            "available": 481,
+            "given": 17033,
+            "reserved": 0
+        },
+        "ipv4": {
+            "allocated": 27055,
+            "assigned": 11868,
+            "available": 15,
+            "hosts": 882856704,
+            "reserved": 1079
+        },
+        "ipv6": {
+            "allocated": 5381,
+            "assigned": 2076,
+            "available": 47411,
+            "reserved": 598
+        }
     }
 }
