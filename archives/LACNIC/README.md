@@ -6,13 +6,13 @@ Total IP delegations for LACNIC. This is kept as a record for historical purpose
 
 ---
 
-## Digest for 2018-02-21
+## Digest for 2018-02-22
 ```
-2018-02-21
+2018-02-22
 ==========
-IPv4 | Allocated: 11,930 Assigned: 2,304 Available: 12 Reserved: 360 Hosts: 190,779,648
-IPv6 | Allocated: 6,075 Assigned: 918 Available: 15,848 Reserved: 6,816
-ASN  | Allocated: 7,965 Assigned: 0 Available: 187 Reserved: 151 Given: 9,983
+IPv4 | Allocated: 11,935 Assigned: 2,304 Available: 11 Reserved: 356 Hosts: 190,779,648
+IPv6 | Allocated: 6,081 Assigned: 918 Available: 15,861 Reserved: 6,820
+ASN  | Allocated: 7,970 Assigned: 0 Available: 187 Reserved: 151 Given: 9,983
 ```
 
 ### Detailed Report
@@ -31,7 +31,7 @@ ASN  | Allocated: 7,965 Assigned: 0 Available: 187 Reserved: 151 Given: 9,983
 | /25 | 0 | 0 | 0 | 0 |
 | /24 | 94 | 1,289 | 4 | 36 |
 | /23 | 77 | 295 | 1 | 20 |
-| /22 | 6,337 | 260 | 3 | 140 |
+| /22 | 6,342 ▲ +5 | 260 | 2 ▼ -1 | 136 ▼ -4 |
 | /21 | 1,240 | 64 | 0 | 52 |
 | /20 | 1,948 | 155 | 1 | 86 |
 | /19 | 738 | 45 | 1 | 17 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 7,965 Assigned: 0 Available: 187 Reserved: 151 Given: 9,983
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 0 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **11,930** | **2,304** | **12** | **360** |
+| **Total** | **11,935 ▲ +5** | **2,304** | **11 ▼ -1** | **356 ▼ -4** |
 
 ![ipv4-stats](ipv4-figure.png)
 
@@ -86,15 +86,15 @@ ASN  | Allocated: 7,965 Assigned: 0 Available: 187 Reserved: 151 Given: 9,983
 | /35 | 0 | 3 | 47 | 1 |
 | /34 | 0 | 0 | 48 | 1 |
 | /33 | 0 | 0 | 48 | 1 |
-| /32 | 6,026 | 138 | 4,856 | 1,525 |
-| /31 | 11 | 0 | 4,801 | 1,369 |
-| /30 | 13 | 0 | 164 | 1,370 |
-| /29 | 9 | 0 | 78 | 1,356 |
-| /28 | 11 | 0 | 1,237 | 7 |
+| /32 | 6,032 ▲ +6 | 138 | 4,861 ▲ +5 | 1,526 ▲ +1 |
+| /31 | 11 | 0 | 4,806 ▲ +5 | 1,370 ▲ +1 |
+| /30 | 13 | 0 | 163 ▼ -1 | 1,371 ▲ +1 |
+| /29 | 9 | 0 | 78 | 1,357 ▲ +1 |
+| /28 | 11 | 0 | 1,239 ▲ +2 | 7 |
 | /27 | 0 | 0 | 822 | 0 |
-| /26 | 0 | 0 | 12 | 0 |
-| /25 | 0 | 0 | 10 | 0 |
-| /24 | 3 | 0 | 9 | 0 |
-| **Total** | **6,075** | **918** | **15,848** | **6,816** |
+| /26 | 0 | 0 | 13 ▲ +1 | 0 |
+| /25 | 0 | 0 | 11 ▲ +1 | 0 |
+| /24 | 3 | 0 | 10 ▲ +1 | 0 |
+| **Total** | **6,081 ▲ +6** | **918** | **15,861 ▲ +13** | **6,820 ▲ +4** |
 
 ![ipv6-stats](ipv6-figure.png)
