@@ -8050,5 +8050,27 @@
             "available": 15891,
             "reserved": 6828
         }
+    },
+    "2018-02-26": {
+        "asn": {
+            "allocated": 7993,
+            "assigned": 0,
+            "available": 186,
+            "given": 9983,
+            "reserved": 151
+        },
+        "ipv4": {
+            "allocated": 11955,
+            "assigned": 2306,
+            "available": 9,
+            "hosts": 190779648,
+            "reserved": 349
+        },
+        "ipv6": {
+            "allocated": 6102,
+            "assigned": 924,
+            "available": 15904,
+            "reserved": 6828
+        }
     }
 }
