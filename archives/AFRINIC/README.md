@@ -6,13 +6,13 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2018-03-10
+## Digest for 2018-03-11
 ```
-2018-03-10
+2018-03-11
 ==========
-IPv4 | Allocated: 2,087 Assigned: 1,255 Available: 33 Reserved: 213 Hosts: 121,248,768
-IPv6 | Allocated: 538 Assigned: 205 Available: 69 Reserved: 2,246
-ASN  | Allocated: 1,557 Assigned: 0 Available: 493 Reserved: 252 Given: 2,302
+IPv4 | Allocated: 2,088 Assigned: 1,255 Available: 32 Reserved: 212 Hosts: 121,248,768
+IPv6 | Allocated: 540 Assigned: 205 Available: 68 Reserved: 2,252
+ASN  | Allocated: 1,558 Assigned: 0 Available: 492 Reserved: 252 Given: 2,302
 ```
 
 ### Detailed Report
@@ -30,11 +30,11 @@ ASN  | Allocated: 1,557 Assigned: 0 Available: 493 Reserved: 252 Given: 2,302
 | /26 | 0 | 0 | 0 | 0 |
 | /25 | 0 | 0 | 0 | 0 |
 | /24 | 0 | 884 | 16 | 52 |
-| /23 | 0 | 113 | 3 | 7 |
-| /22 | 692 | 64 | 4 | 65 |
-| /21 | 275 | 22 | 2 | 23 |
-| /20 | 280 | 30 | 1 | 24 |
-| /19 | 304 | 13 | 1 | 20 |
+| /23 | 0 | 113 | 2 ▼ -1 | 6 ▼ -1 |
+| /22 | 692 | 64 | 4 | 64 ▼ -1 |
+| /21 | 275 | 22 | 2 | 24 ▲ +1 |
+| /20 | 281 ▲ +1 | 30 | 1 | 25 ▲ +1 |
+| /19 | 304 | 13 | 1 | 19 ▼ -1 |
 | /18 | 151 | 10 | 1 | 10 |
 | /17 | 77 | 2 | 0 | 5 |
 | /16 | 149 | 66 | 1 | 5 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 1,557 Assigned: 0 Available: 493 Reserved: 252 Given: 2,302
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 1 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **2,087** | **1,255** | **33** | **213** |
+| **Total** | **2,088 ▲ +1** | **1,255** | **32 ▼ -1** | **212 ▼ -1** |
 
 ![ipv4-stats](ipv4-figure.png)
 
@@ -86,15 +86,15 @@ ASN  | Allocated: 1,557 Assigned: 0 Available: 493 Reserved: 252 Given: 2,302
 | /35 | 0 | 0 | 1 | 0 |
 | /34 | 0 | 0 | 1 | 0 |
 | /33 | 0 | 0 | 1 | 0 |
-| /32 | 524 | 0 | 1 | 522 |
-| /31 | 2 | 0 | 1 | 525 |
-| /30 | 0 | 0 | 1 | 525 |
+| /32 | 526 ▲ +2 | 0 | 1 | 524 ▲ +2 |
+| /31 | 2 | 0 | 1 | 527 ▲ +2 |
+| /30 | 0 | 0 | 1 | 527 ▲ +2 |
 | /29 | 2 | 0 | 21 | 21 |
-| /28 | 4 | 0 | 1 | 0 |
+| /28 | 4 | 0 | 0 ▼ -1 | 0 |
 | /27 | 2 | 0 | 1 | 2 |
 | /26 | 1 | 0 | 1 | 1 |
 | /25 | 0 | 0 | 1 | 0 |
 | /24 | 1 | 0 | 2 | 1 |
-| **Total** | **538** | **205** | **69** | **2,246** |
+| **Total** | **540 ▲ +2** | **205** | **68 ▼ -1** | **2,252 ▲ +6** |
 
 ![ipv6-stats](ipv6-figure.png)
