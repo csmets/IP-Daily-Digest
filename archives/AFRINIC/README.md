@@ -6,13 +6,13 @@ Total IP delegations for AFRINIC. This is kept as a record for historical purpos
 
 ---
 
-## Digest for 2018-03-15
+## Digest for 2018-03-16
 ```
-2018-03-15
+2018-03-16
 ==========
-IPv4 | Allocated: 2,089 Assigned: 1,256 Available: 32 Reserved: 211 Hosts: 121,248,768
-IPv6 | Allocated: 540 Assigned: 205 Available: 68 Reserved: 2,252
-ASN  | Allocated: 1,559 Assigned: 0 Available: 492 Reserved: 251 Given: 2,302
+IPv4 | Allocated: 2,091 Assigned: 1,257 Available: 31 Reserved: 209 Hosts: 121,248,768
+IPv6 | Allocated: 540 Assigned: 207 Available: 68 Reserved: 2,254
+ASN  | Allocated: 1,562 Assigned: 0 Available: 490 Reserved: 250 Given: 2,302
 ```
 
 ### Detailed Report
@@ -29,15 +29,15 @@ ASN  | Allocated: 1,559 Assigned: 0 Available: 492 Reserved: 251 Given: 2,302
 | /27 | 0 | 0 | 0 | 0 |
 | /26 | 0 | 0 | 0 | 0 |
 | /25 | 0 | 0 | 0 | 0 |
-| /24 | 0 | 885 ▲ +1 | 16 | 51 ▼ -1 |
+| /24 | 0 | 885 | 16 | 51 |
 | /23 | 0 | 113 | 2 | 6 |
 | /22 | 692 | 64 | 4 | 64 |
-| /21 | 275 | 22 | 2 | 24 |
-| /20 | 281 | 30 | 1 | 25 |
+| /21 | 277 ▲ +2 | 22 | 1 ▼ -1 | 23 ▼ -1 |
+| /20 | 281 | 31 ▲ +1 | 1 | 24 ▼ -1 |
 | /19 | 304 | 13 | 1 | 19 |
 | /18 | 151 | 10 | 1 | 10 |
-| /17 | 78 ▲ +1 | 2 | 0 | 6 ▲ +1 |
-| /16 | 149 | 66 | 1 | 4 ▼ -1 |
+| /17 | 78 | 2 | 0 | 6 |
+| /16 | 149 | 66 | 1 | 4 |
 | /15 | 43 | 3 | 1 | 0 |
 | /14 | 45 | 1 | 0 | 1 |
 | /13 | 32 | 0 | 1 | 0 |
@@ -46,7 +46,7 @@ ASN  | Allocated: 1,559 Assigned: 0 Available: 492 Reserved: 251 Given: 2,302
 | /10 | 0 | 0 | 0 | 0 |
 | /9 | 0 | 0 | 1 | 0 |
 | /8 | 0 | 0 | 0 | 0 |
-| **Total** | **2,089 ▲ +1** | **1,256 ▲ +1** | **32** | **211 ▼ -1** |
+| **Total** | **2,091 ▲ +2** | **1,257 ▲ +1** | **31 ▼ -1** | **209 ▼ -2** |
 
 ![ipv4-stats](ipv4-figure.png)
 
@@ -70,11 +70,11 @@ ASN  | Allocated: 1,559 Assigned: 0 Available: 492 Reserved: 251 Given: 2,302
 | /51 | 0 | 0 | 0 | 0 |
 | /50 | 0 | 0 | 0 | 0 |
 | /49 | 0 | 0 | 0 | 0 |
-| /48 | 0 | 191 | 0 | 141 |
-| /47 | 0 | 1 | 0 | 161 |
-| /46 | 0 | 3 | 0 | 165 |
-| /45 | 0 | 1 | 0 | 167 |
-| /44 | 0 | 6 | 15 | 6 |
+| /48 | 0 | 193 ▲ +2 | 0 | 142 ▲ +1 |
+| /47 | 0 | 1 | 0 | 162 ▲ +1 |
+| /46 | 0 | 3 | 0 | 166 ▲ +1 |
+| /45 | 0 | 1 | 0 | 168 ▲ +1 |
+| /44 | 0 | 6 | 15 | 4 ▼ -2 |
 | /43 | 0 | 0 | 1 | 0 |
 | /42 | 0 | 1 | 1 | 1 |
 | /41 | 0 | 0 | 1 | 1 |
@@ -95,6 +95,6 @@ ASN  | Allocated: 1,559 Assigned: 0 Available: 492 Reserved: 251 Given: 2,302
 | /26 | 1 | 0 | 1 | 1 |
 | /25 | 0 | 0 | 1 | 0 |
 | /24 | 1 | 0 | 2 | 1 |
-| **Total** | **540** | **205** | **68** | **2,252** |
+| **Total** | **540** | **207 ▲ +2** | **68** | **2,254 ▲ +2** |
 
 ![ipv6-stats](ipv6-figure.png)
