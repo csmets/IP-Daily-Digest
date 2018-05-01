@@ -3,8 +3,8 @@
 import datetime
 import matplotlib.pyplot as plt
 
-def current_date():
-    today = datetime.date.today()
+def current_date(days_back):
+    today = datetime.date.today() - datetime.timedelta(days=days_back)
     return today
 
 def generate_dates(date, num_of_days):
@@ -34,8 +34,8 @@ def generate_list_of_days(date_list):
 
     return list_of_days
 
-def past_month_dates():
-    today = current_date()
+def past_month_dates(days_back):
+    today = current_date(days_back)
     first = today.replace(day=1)
     last_month = first - datetime.timedelta(days=1)
     num_of_days = int(last_month.strftime('%d'))
@@ -43,8 +43,8 @@ def past_month_dates():
     past_dates_list = generate_dates(date, num_of_days)
     return past_dates_list
 
-def current_dates():
-    today = current_date()
+def current_dates(days_back):
+    today = current_date(days_back)
     num_of_days = int(today.strftime('%d'))
     date = today.strftime('%Y-%m-')
     current_dates_list = generate_dates(date, num_of_days)
