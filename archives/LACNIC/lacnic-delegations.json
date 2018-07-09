@@ -9480,5 +9480,1523 @@
             "available": 16436,
             "reserved": 7100
         }
+    },
+    "2018-05-02": {
+        "asn": {
+            "allocated": 8248,
+            "assigned": 0,
+            "available": 190,
+            "given": 9983,
+            "reserved": 161
+        },
+        "ipv4": {
+            "allocated": 12210,
+            "assigned": 2324,
+            "available": 17,
+            "hosts": 190781696,
+            "reserved": 363
+        },
+        "ipv6": {
+            "allocated": 6359,
+            "assigned": 945,
+            "available": 16436,
+            "reserved": 7100
+        }
+    },
+    "2018-05-03": {
+        "asn": {
+            "allocated": 8250,
+            "assigned": 0,
+            "available": 190,
+            "given": 9983,
+            "reserved": 161
+        },
+        "ipv4": {
+            "allocated": 12211,
+            "assigned": 2325,
+            "available": 16,
+            "hosts": 190781696,
+            "reserved": 362
+        },
+        "ipv6": {
+            "allocated": 6360,
+            "assigned": 946,
+            "available": 16442,
+            "reserved": 7104
+        }
+    },
+    "2018-05-04": {
+        "asn": {
+            "allocated": 8250,
+            "assigned": 0,
+            "available": 190,
+            "given": 9983,
+            "reserved": 161
+        },
+        "ipv4": {
+            "allocated": 12211,
+            "assigned": 2325,
+            "available": 16,
+            "hosts": 190781696,
+            "reserved": 362
+        },
+        "ipv6": {
+            "allocated": 6360,
+            "assigned": 946,
+            "available": 16442,
+            "reserved": 7104
+        }
+    },
+    "2018-05-05": {
+        "asn": {
+            "allocated": 8250,
+            "assigned": 0,
+            "available": 190,
+            "given": 9983,
+            "reserved": 161
+        },
+        "ipv4": {
+            "allocated": 12211,
+            "assigned": 2325,
+            "available": 16,
+            "hosts": 190781696,
+            "reserved": 362
+        },
+        "ipv6": {
+            "allocated": 6360,
+            "assigned": 946,
+            "available": 16442,
+            "reserved": 7104
+        }
+    },
+    "2018-05-06": {
+        "asn": {
+            "allocated": 8267,
+            "assigned": 0,
+            "available": 190,
+            "given": 9983,
+            "reserved": 161
+        },
+        "ipv4": {
+            "allocated": 12227,
+            "assigned": 2326,
+            "available": 17,
+            "hosts": 190781696,
+            "reserved": 347
+        },
+        "ipv6": {
+            "allocated": 6377,
+            "assigned": 947,
+            "available": 16478,
+            "reserved": 7104
+        }
+    },
+    "2018-05-07": {
+        "asn": {
+            "allocated": 8267,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12230,
+            "assigned": 2324,
+            "available": 17,
+            "hosts": 190781696,
+            "reserved": 352
+        },
+        "ipv6": {
+            "allocated": 6380,
+            "assigned": 945,
+            "available": 16478,
+            "reserved": 7118
+        }
+    },
+    "2018-05-08": {
+        "asn": {
+            "allocated": 8271,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12236,
+            "assigned": 2325,
+            "available": 18,
+            "hosts": 190781696,
+            "reserved": 350
+        },
+        "ipv6": {
+            "allocated": 6386,
+            "assigned": 946,
+            "available": 16495,
+            "reserved": 7130
+        }
+    },
+    "2018-05-09": {
+        "asn": {
+            "allocated": 8276,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12241,
+            "assigned": 2325,
+            "available": 16,
+            "hosts": 190781696,
+            "reserved": 348
+        },
+        "ipv6": {
+            "allocated": 6391,
+            "assigned": 946,
+            "available": 16504,
+            "reserved": 7130
+        }
+    },
+    "2018-05-10": {
+        "asn": {
+            "allocated": 8281,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12247,
+            "assigned": 2325,
+            "available": 13,
+            "hosts": 190781696,
+            "reserved": 347
+        },
+        "ipv6": {
+            "allocated": 6396,
+            "assigned": 946,
+            "available": 16510,
+            "reserved": 7138
+        }
+    },
+    "2018-05-11": {
+        "asn": {
+            "allocated": 8281,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12247,
+            "assigned": 2325,
+            "available": 15,
+            "hosts": 190781696,
+            "reserved": 351
+        },
+        "ipv6": {
+            "allocated": 6396,
+            "assigned": 946,
+            "available": 16510,
+            "reserved": 7138
+        }
+    },
+    "2018-05-12": {
+        "asn": {
+            "allocated": 8281,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12247,
+            "assigned": 2325,
+            "available": 15,
+            "hosts": 190781696,
+            "reserved": 351
+        },
+        "ipv6": {
+            "allocated": 6396,
+            "assigned": 946,
+            "available": 16510,
+            "reserved": 7138
+        }
+    },
+    "2018-05-13": {
+        "asn": {
+            "allocated": 8285,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12252,
+            "assigned": 2325,
+            "available": 15,
+            "hosts": 190781696,
+            "reserved": 346
+        },
+        "ipv6": {
+            "allocated": 6401,
+            "assigned": 946,
+            "available": 16521,
+            "reserved": 7138
+        }
+    },
+    "2018-05-14": {
+        "asn": {
+            "allocated": 8287,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12255,
+            "assigned": 2325,
+            "available": 19,
+            "hosts": 190781696,
+            "reserved": 343
+        },
+        "ipv6": {
+            "allocated": 6404,
+            "assigned": 946,
+            "available": 16522,
+            "reserved": 7151
+        }
+    },
+    "2018-05-15": {
+        "asn": {
+            "allocated": 8289,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12257,
+            "assigned": 2325,
+            "available": 14,
+            "hosts": 190781696,
+            "reserved": 350
+        },
+        "ipv6": {
+            "allocated": 6406,
+            "assigned": 946,
+            "available": 16525,
+            "reserved": 7155
+        }
+    },
+    "2018-05-16": {
+        "asn": {
+            "allocated": 8294,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12262,
+            "assigned": 2326,
+            "available": 17,
+            "hosts": 190781696,
+            "reserved": 348
+        },
+        "ipv6": {
+            "allocated": 6411,
+            "assigned": 947,
+            "available": 16536,
+            "reserved": 7167
+        }
+    },
+    "2018-05-17": {
+        "asn": {
+            "allocated": 8295,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12263,
+            "assigned": 2326,
+            "available": 11,
+            "hosts": 190781696,
+            "reserved": 354
+        },
+        "ipv6": {
+            "allocated": 6412,
+            "assigned": 947,
+            "available": 16540,
+            "reserved": 7167
+        }
+    },
+    "2018-05-18": {
+        "asn": {
+            "allocated": 8295,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12263,
+            "assigned": 2326,
+            "available": 11,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6412,
+            "assigned": 947,
+            "available": 16540,
+            "reserved": 7167
+        }
+    },
+    "2018-05-19": {
+        "asn": {
+            "allocated": 8295,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12263,
+            "assigned": 2326,
+            "available": 11,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6412,
+            "assigned": 947,
+            "available": 16540,
+            "reserved": 7167
+        }
+    },
+    "2018-05-20": {
+        "asn": {
+            "allocated": 8299,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 163
+        },
+        "ipv4": {
+            "allocated": 12266,
+            "assigned": 2326,
+            "available": 12,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6415,
+            "assigned": 947,
+            "available": 16543,
+            "reserved": 7171
+        }
+    },
+    "2018-05-21": {
+        "asn": {
+            "allocated": 8312,
+            "assigned": 0,
+            "available": 192,
+            "given": 9983,
+            "reserved": 162
+        },
+        "ipv4": {
+            "allocated": 12276,
+            "assigned": 2326,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 355
+        },
+        "ipv6": {
+            "allocated": 6425,
+            "assigned": 947,
+            "available": 16559,
+            "reserved": 7174
+        }
+    },
+    "2018-05-22": {
+        "asn": {
+            "allocated": 8317,
+            "assigned": 0,
+            "available": 195,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12281,
+            "assigned": 2326,
+            "available": 12,
+            "hosts": 190781696,
+            "reserved": 355
+        },
+        "ipv6": {
+            "allocated": 6430,
+            "assigned": 947,
+            "available": 16566,
+            "reserved": 7178
+        }
+    },
+    "2018-05-23": {
+        "asn": {
+            "allocated": 8323,
+            "assigned": 0,
+            "available": 195,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12287,
+            "assigned": 2326,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 364
+        },
+        "ipv6": {
+            "allocated": 6436,
+            "assigned": 947,
+            "available": 16575,
+            "reserved": 7182
+        }
+    },
+    "2018-05-24": {
+        "asn": {
+            "allocated": 8330,
+            "assigned": 0,
+            "available": 196,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12294,
+            "assigned": 2326,
+            "available": 9,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6443,
+            "assigned": 947,
+            "available": 16588,
+            "reserved": 7191
+        }
+    },
+    "2018-05-25": {
+        "asn": {
+            "allocated": 8330,
+            "assigned": 0,
+            "available": 196,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12294,
+            "assigned": 2326,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 367
+        },
+        "ipv6": {
+            "allocated": 6443,
+            "assigned": 947,
+            "available": 16588,
+            "reserved": 7191
+        }
+    },
+    "2018-05-26": {
+        "asn": {
+            "allocated": 8330,
+            "assigned": 0,
+            "available": 196,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12294,
+            "assigned": 2326,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 367
+        },
+        "ipv6": {
+            "allocated": 6443,
+            "assigned": 947,
+            "available": 16588,
+            "reserved": 7191
+        }
+    },
+    "2018-05-27": {
+        "asn": {
+            "allocated": 8332,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12298,
+            "assigned": 2326,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 363
+        },
+        "ipv6": {
+            "allocated": 6444,
+            "assigned": 947,
+            "available": 16592,
+            "reserved": 7191
+        }
+    },
+    "2018-05-28": {
+        "asn": {
+            "allocated": 8337,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 159
+        },
+        "ipv4": {
+            "allocated": 12302,
+            "assigned": 2326,
+            "available": 12,
+            "hosts": 190781696,
+            "reserved": 362
+        },
+        "ipv6": {
+            "allocated": 6448,
+            "assigned": 947,
+            "available": 16600,
+            "reserved": 7191
+        }
+    },
+    "2018-05-29": {
+        "asn": {
+            "allocated": 8341,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 158
+        },
+        "ipv4": {
+            "allocated": 12306,
+            "assigned": 2326,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 363
+        },
+        "ipv6": {
+            "allocated": 6452,
+            "assigned": 947,
+            "available": 16604,
+            "reserved": 7190
+        }
+    },
+    "2018-05-30": {
+        "asn": {
+            "allocated": 8341,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 158
+        },
+        "ipv4": {
+            "allocated": 12306,
+            "assigned": 2326,
+            "available": 11,
+            "hosts": 190781696,
+            "reserved": 367
+        },
+        "ipv6": {
+            "allocated": 6452,
+            "assigned": 947,
+            "available": 16604,
+            "reserved": 7190
+        }
+    },
+    "2018-05-31": {
+        "asn": {
+            "allocated": 8342,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 158
+        },
+        "ipv4": {
+            "allocated": 12308,
+            "assigned": 2326,
+            "available": 13,
+            "hosts": 190781696,
+            "reserved": 366
+        },
+        "ipv6": {
+            "allocated": 6453,
+            "assigned": 949,
+            "available": 16604,
+            "reserved": 7193
+        }
+    },
+    "2018-06-01": {
+        "asn": {
+            "allocated": 8342,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 158
+        },
+        "ipv4": {
+            "allocated": 12308,
+            "assigned": 2326,
+            "available": 11,
+            "hosts": 190781696,
+            "reserved": 368
+        },
+        "ipv6": {
+            "allocated": 6453,
+            "assigned": 949,
+            "available": 16604,
+            "reserved": 7193
+        }
+    },
+    "2018-06-02": {
+        "asn": {
+            "allocated": 8342,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 158
+        },
+        "ipv4": {
+            "allocated": 12308,
+            "assigned": 2326,
+            "available": 11,
+            "hosts": 190781696,
+            "reserved": 368
+        },
+        "ipv6": {
+            "allocated": 6453,
+            "assigned": 949,
+            "available": 16604,
+            "reserved": 7193
+        }
+    },
+    "2018-06-03": {
+        "asn": {
+            "allocated": 8352,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12318,
+            "assigned": 2326,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6463,
+            "assigned": 949,
+            "available": 16623,
+            "reserved": 7192
+        }
+    },
+    "2018-06-04": {
+        "asn": {
+            "allocated": 8356,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12321,
+            "assigned": 2326,
+            "available": 14,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6466,
+            "assigned": 949,
+            "available": 16627,
+            "reserved": 7193
+        }
+    },
+    "2018-06-05": {
+        "asn": {
+            "allocated": 8360,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12325,
+            "assigned": 2327,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 364
+        },
+        "ipv6": {
+            "allocated": 6470,
+            "assigned": 950,
+            "available": 16639,
+            "reserved": 7208
+        }
+    },
+    "2018-06-06": {
+        "asn": {
+            "allocated": 8364,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12329,
+            "assigned": 2327,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6474,
+            "assigned": 950,
+            "available": 16643,
+            "reserved": 7212
+        }
+    },
+    "2018-06-07": {
+        "asn": {
+            "allocated": 8368,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12332,
+            "assigned": 2328,
+            "available": 6,
+            "hosts": 190781696,
+            "reserved": 363
+        },
+        "ipv6": {
+            "allocated": 6477,
+            "assigned": 951,
+            "available": 16649,
+            "reserved": 7220
+        }
+    },
+    "2018-06-08": {
+        "asn": {
+            "allocated": 8368,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12332,
+            "assigned": 2328,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 369
+        },
+        "ipv6": {
+            "allocated": 6477,
+            "assigned": 951,
+            "available": 16649,
+            "reserved": 7220
+        }
+    },
+    "2018-06-09": {
+        "asn": {
+            "allocated": 8368,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12332,
+            "assigned": 2328,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 369
+        },
+        "ipv6": {
+            "allocated": 6477,
+            "assigned": 951,
+            "available": 16649,
+            "reserved": 7220
+        }
+    },
+    "2018-06-10": {
+        "asn": {
+            "allocated": 8373,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12337,
+            "assigned": 2328,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6482,
+            "assigned": 951,
+            "available": 16660,
+            "reserved": 7224
+        }
+    },
+    "2018-06-11": {
+        "asn": {
+            "allocated": 8377,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12344,
+            "assigned": 2328,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6489,
+            "assigned": 951,
+            "available": 16668,
+            "reserved": 7232
+        }
+    },
+    "2018-06-12": {
+        "asn": {
+            "allocated": 8385,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12351,
+            "assigned": 2330,
+            "available": 9,
+            "hosts": 190781696,
+            "reserved": 357
+        },
+        "ipv6": {
+            "allocated": 6496,
+            "assigned": 953,
+            "available": 16687,
+            "reserved": 7248
+        }
+    },
+    "2018-06-13": {
+        "asn": {
+            "allocated": 8389,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12354,
+            "assigned": 2330,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 357
+        },
+        "ipv6": {
+            "allocated": 6499,
+            "assigned": 953,
+            "available": 16691,
+            "reserved": 7248
+        }
+    },
+    "2018-06-14": {
+        "asn": {
+            "allocated": 8392,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12357,
+            "assigned": 2330,
+            "available": 6,
+            "hosts": 190781696,
+            "reserved": 355
+        },
+        "ipv6": {
+            "allocated": 6502,
+            "assigned": 953,
+            "available": 16697,
+            "reserved": 7248
+        }
+    },
+    "2018-06-15": {
+        "asn": {
+            "allocated": 8392,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12357,
+            "assigned": 2330,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6502,
+            "assigned": 953,
+            "available": 16697,
+            "reserved": 7248
+        }
+    },
+    "2018-06-16": {
+        "asn": {
+            "allocated": 8392,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12357,
+            "assigned": 2330,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6502,
+            "assigned": 953,
+            "available": 16697,
+            "reserved": 7248
+        }
+    },
+    "2018-06-17": {
+        "asn": {
+            "allocated": 8394,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12358,
+            "assigned": 2331,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6503,
+            "assigned": 954,
+            "available": 16702,
+            "reserved": 7248
+        }
+    },
+    "2018-06-18": {
+        "asn": {
+            "allocated": 8396,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12360,
+            "assigned": 2331,
+            "available": 5,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6505,
+            "assigned": 954,
+            "available": 16708,
+            "reserved": 7248
+        }
+    },
+    "2018-06-19": {
+        "asn": {
+            "allocated": 8400,
+            "assigned": 0,
+            "available": 199,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12368,
+            "assigned": 2331,
+            "available": 9,
+            "hosts": 190781696,
+            "reserved": 355
+        },
+        "ipv6": {
+            "allocated": 6510,
+            "assigned": 954,
+            "available": 16711,
+            "reserved": 7260
+        }
+    },
+    "2018-06-20": {
+        "asn": {
+            "allocated": 8403,
+            "assigned": 0,
+            "available": 201,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12371,
+            "assigned": 2331,
+            "available": 9,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6513,
+            "assigned": 954,
+            "available": 16714,
+            "reserved": 7268
+        }
+    },
+    "2018-06-21": {
+        "asn": {
+            "allocated": 8410,
+            "assigned": 0,
+            "available": 201,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12378,
+            "assigned": 2331,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 359
+        },
+        "ipv6": {
+            "allocated": 6520,
+            "assigned": 954,
+            "available": 16728,
+            "reserved": 7268
+        }
+    },
+    "2018-06-22": {
+        "asn": {
+            "allocated": 8410,
+            "assigned": 0,
+            "available": 201,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12378,
+            "assigned": 2331,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6520,
+            "assigned": 954,
+            "available": 16728,
+            "reserved": 7268
+        }
+    },
+    "2018-06-23": {
+        "asn": {
+            "allocated": 8410,
+            "assigned": 0,
+            "available": 201,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12378,
+            "assigned": 2331,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6520,
+            "assigned": 954,
+            "available": 16728,
+            "reserved": 7268
+        }
+    },
+    "2018-06-24": {
+        "asn": {
+            "allocated": 8414,
+            "assigned": 0,
+            "available": 201,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12383,
+            "assigned": 2331,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 356
+        },
+        "ipv6": {
+            "allocated": 6525,
+            "assigned": 954,
+            "available": 16735,
+            "reserved": 7272
+        }
+    },
+    "2018-06-25": {
+        "asn": {
+            "allocated": 8416,
+            "assigned": 0,
+            "available": 201,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12386,
+            "assigned": 2332,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 354
+        },
+        "ipv6": {
+            "allocated": 6528,
+            "assigned": 955,
+            "available": 16745,
+            "reserved": 7280
+        }
+    },
+    "2018-06-26": {
+        "asn": {
+            "allocated": 8417,
+            "assigned": 0,
+            "available": 202,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12388,
+            "assigned": 2334,
+            "available": 14,
+            "hosts": 190781696,
+            "reserved": 354
+        },
+        "ipv6": {
+            "allocated": 6530,
+            "assigned": 957,
+            "available": 16760,
+            "reserved": 7284
+        }
+    },
+    "2018-06-27": {
+        "asn": {
+            "allocated": 8420,
+            "assigned": 0,
+            "available": 202,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12391,
+            "assigned": 2336,
+            "available": 5,
+            "hosts": 190781696,
+            "reserved": 361
+        },
+        "ipv6": {
+            "allocated": 6533,
+            "assigned": 959,
+            "available": 16778,
+            "reserved": 7296
+        }
+    },
+    "2018-06-28": {
+        "asn": {
+            "allocated": 8423,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12395,
+            "assigned": 2336,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 360
+        },
+        "ipv6": {
+            "allocated": 6536,
+            "assigned": 959,
+            "available": 16784,
+            "reserved": 7300
+        }
+    },
+    "2018-06-29": {
+        "asn": {
+            "allocated": 8423,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12395,
+            "assigned": 2336,
+            "available": 5,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6536,
+            "assigned": 959,
+            "available": 16784,
+            "reserved": 7300
+        }
+    },
+    "2018-06-30": {
+        "asn": {
+            "allocated": 8423,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12395,
+            "assigned": 2336,
+            "available": 5,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6536,
+            "assigned": 959,
+            "available": 16784,
+            "reserved": 7300
+        }
+    },
+    "2018-07-01": {
+        "asn": {
+            "allocated": 8423,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12395,
+            "assigned": 2336,
+            "available": 5,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6536,
+            "assigned": 959,
+            "available": 16784,
+            "reserved": 7300
+        }
+    },
+    "2018-07-02": {
+        "asn": {
+            "allocated": 8426,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12398,
+            "assigned": 2336,
+            "available": 5,
+            "hosts": 190781696,
+            "reserved": 362
+        },
+        "ipv6": {
+            "allocated": 6539,
+            "assigned": 959,
+            "available": 16788,
+            "reserved": 7300
+        }
+    },
+    "2018-07-03": {
+        "asn": {
+            "allocated": 8433,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12403,
+            "assigned": 2336,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 364
+        },
+        "ipv6": {
+            "allocated": 6544,
+            "assigned": 959,
+            "available": 16795,
+            "reserved": 7304
+        }
+    },
+    "2018-07-04": {
+        "asn": {
+            "allocated": 8436,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12406,
+            "assigned": 2336,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 365
+        },
+        "ipv6": {
+            "allocated": 6547,
+            "assigned": 959,
+            "available": 16803,
+            "reserved": 7304
+        }
+    },
+    "2018-07-05": {
+        "asn": {
+            "allocated": 8439,
+            "assigned": 0,
+            "available": 203,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12410,
+            "assigned": 2336,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 360
+        },
+        "ipv6": {
+            "allocated": 6551,
+            "assigned": 959,
+            "available": 16808,
+            "reserved": 7308
+        }
+    },
+    "2018-07-06": {
+        "asn": {
+            "allocated": 8440,
+            "assigned": 0,
+            "available": 204,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12411,
+            "assigned": 2336,
+            "available": 10,
+            "hosts": 190781696,
+            "reserved": 367
+        },
+        "ipv6": {
+            "allocated": 6552,
+            "assigned": 959,
+            "available": 16808,
+            "reserved": 7312
+        }
+    },
+    "2018-07-07": {
+        "asn": {
+            "allocated": 8440,
+            "assigned": 0,
+            "available": 204,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12411,
+            "assigned": 2336,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 371
+        },
+        "ipv6": {
+            "allocated": 6552,
+            "assigned": 959,
+            "available": 16808,
+            "reserved": 7312
+        }
+    },
+    "2018-07-08": {
+        "asn": {
+            "allocated": 8440,
+            "assigned": 0,
+            "available": 204,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12411,
+            "assigned": 2336,
+            "available": 8,
+            "hosts": 190781696,
+            "reserved": 371
+        },
+        "ipv6": {
+            "allocated": 6552,
+            "assigned": 959,
+            "available": 16808,
+            "reserved": 7312
+        }
+    },
+    "2018-07-09": {
+        "asn": {
+            "allocated": 8441,
+            "assigned": 0,
+            "available": 204,
+            "given": 9983,
+            "reserved": 157
+        },
+        "ipv4": {
+            "allocated": 12412,
+            "assigned": 2336,
+            "available": 7,
+            "hosts": 190781696,
+            "reserved": 371
+        },
+        "ipv6": {
+            "allocated": 6553,
+            "assigned": 959,
+            "available": 16808,
+            "reserved": 7316
+        }
     }
 }
