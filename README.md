@@ -1,4 +1,9 @@
-# IP Daily Digest - Global
+# [Decommissioned] IP Daily Digest - Global
+
+_No further updates will be done to this project. Feel free to fork and generate
+a report. This project was to help me better understand the organisation I used
+to work for, since then I've found no use and doesn't seem to get traffic thus
+it's decommission._
 
 Total IP delegations for the Globe. This is kept as a record for historical purposes. Data is taken from [APNIC FTP](https://ftp.apnic.net/)
 
